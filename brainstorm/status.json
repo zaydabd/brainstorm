@@ -1,7 +1,12 @@
 {
   "stage": 1,
   "unit": null,
-  "state": "in_progress",
-  "blocked_reason": "",
-  "completed": { "stages": [0], "stories": [] }
+  "state": "blocked_on_human",
+  "blocked_reason": "Stage 1 step 1 (form the idea): the operator chose a product other than the brainstorm plugin as the Phase 1 subject but has not described it. Ask for the idea in 1-5 lines: what it is, who it serves, and why now.",
+  "completed": {
+    "stages": [
+      0
+    ],
+    "stories": []
+  }
 }

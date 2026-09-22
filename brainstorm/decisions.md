@@ -10,3 +10,4 @@ Format: `ID | WHO | TYPE | DATE | DECISION | Reason: ... | Affects: ...`
 - DEC-006 | AUTO  | --  | 2026-09-22 | hooks/validate-artifact keeps its American file name | Reason: the name is a path resolved by hooks.json, and CLAUDE.md exempts code identifiers | Affects: hooks/hooks.json
 - DEC-007 | AUTO  | --  | 2026-09-22 | The glossary binds artefacts under brainstorm/, not the plugin's own skill and hook files | Reason: those files are instructions and code, so "the human" stays in them | Affects: all stages
 - DEC-008 | AUTO  | --  | 2026-09-22 | Design phase and checker are defined as glossary terms though not as roles | Reason: a cold handoff reader needs both nouns defined | Affects: CLAUDE.md glossary
+- DEC-009 | HUMAN | -- | 2026-09-22 | The Phase 1 subject is a product the operator will describe, not the brainstorm plugin itself | Reason: operator answered the stage 1 "form the idea" question | Affects: proposal.md, stage 1 interview
