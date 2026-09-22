@@ -123,8 +123,12 @@ Four organisations have no vector file. Sunway Education and Sunway Group exist 
 as raster images. The smallest usable files cost 10,824 bytes and 3,899 bytes, and a
 raster image does not compress further. Impact Business Solutions Sdn Bhd publishes
 its own mark as a PNG file, and its website carries no vector version. Adam Digital
-Assets has supplied nothing. Wan Zayd chose to use each organisation's own mark
-where one exists.
+Assets has supplied nothing.
+
+Wan Zayd decided that a mark is optional. The site carries the five vector marks,
+which cost 6,267 bytes together. The four organisations with no vector file appear
+in type. I noted that a reader can see which companies carry a mark, and he accepted
+that.
 
 The site runs on GitHub, which hosts it at no cost. Everything on the site is
 public, and the traffic a personal portfolio receives places no meaningful load on
@@ -151,8 +155,8 @@ abandoned.
   as his LinkedIn profile states it.
 - I assume each case study runs to roughly 1,500 characters, which is the basis of
   the 5 to 6 kilobyte estimate above.
-- I assume each organisation carries its own mark, in whatever format exists, now
-  that 14 kilobytes is a target rather than a limit.
+- I assume the five vector marks appear at their compact size rather than as full
+  wordmarks. The compact files cost less than half as much.
 - I assume the downloadable CV is a separate file, so its size sits outside the 14
   kilobyte page budget.
 - I assume Wan Zayd writes the words and directs every design decision, and that I
@@ -160,15 +164,6 @@ abandoned.
 
 ## Open questions
 
-- The Impact Business Solutions Sdn Bhd mark: the company publishes a PNG file and
-  no vector version. Wan Zayd must send that file, because this environment cannot
-  reach the company website.
-- The Adam Digital Assets mark: no file exists yet, and the company may have no
-  vector version.
-- The raster marks: Wan Zayd first chose to set Sunway in type, because it exists
-  only as a raster image. He then chose to use each organisation's own mark. Sunway
-  and Impact Business Solutions Sdn Bhd both fall under that conflict, so he decides
-  which choice stands.
 - The page weight: I will build the page, measure it, and report the real figure
   against the 14 kilobyte target.
 - His AvePoint title: the CV states Senior Technical Lead and his LinkedIn profile
