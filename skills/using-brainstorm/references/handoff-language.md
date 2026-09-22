@@ -4,7 +4,7 @@ Phase 1 writes for a reader who cannot ask questions: the design phase, weeks la
 with no memory of the conversation. These rules keep a sentence readable in one pass.
 
 They are the ASD-STE100 subset that `check.py` enforces. For the full 53 rules,
-invoke the `simple-english` skill in pragmatic mode before delivering an artifact.
+invoke the `simple-english` skill in pragmatic mode before delivering an artefact.
 That skill is the source of truth; this file lists only what the checker gates.
 
 ## Limits by section
@@ -21,7 +21,7 @@ That skill is the source of truth; this file lists only what the checker gates.
 - **One instruction per sentence.** Two actions become two sentences.
 - **Condition first.** "If the order is unpaid, cancel it."
 - **Modals: can, will, must.** A requirement is `must`. A possibility is `can`.
-- **One item, one name.** A concept keeps the same word across every artifact.
+- **One item, one name.** A concept keeps the same word across every artefact.
 - **Active voice**, with the actor named.
 - **Complete grammar.** Keep articles and keep "that".
 - **Full words** in place of contractions, semicolons, and Latin abbreviations.

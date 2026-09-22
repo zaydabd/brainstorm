@@ -22,8 +22,8 @@ Claude runs every stage. The human answers four questions.
 Ask each direction decision (D1-D4) with the AskUserQuestion tool, log the answer,
 and hold the unit until it arrives.
 
-Run `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/check.py"` on every artifact and read its
-output. The checker decides whether an artifact passes; correct the artifact to clear
+Run `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/check.py"` on every artefact and read its
+output. The checker decides whether an artefact passes; correct the artefact to clear
 a finding.
 </HARD-GATE>
 
@@ -38,7 +38,7 @@ a finding.
 - **R5. Decide everything except D1-D4.** Log each non-obvious choice in
   `brainstorm/decisions.md` as `AUTO`. These are yours: naming, formatting, file
   layout, document structure, wording, and fixes for findings.
-- **R6. Record a change to an approved artifact in `brainstorm/changes/<name>/delta.md`.**
+- **R6. Record a change to an approved artefact in `brainstorm/changes/<name>/delta.md`.**
   Approved files keep their content.
 - **R7. Update `brainstorm/status.json` last**, after the exit checks pass.
 
@@ -57,7 +57,7 @@ An unstated behaviour is a D2. Ask it.
 
 | # | Stage | Skill |
 |---|-------|-------|
-| 0 | Setup | `brainstorm:initializing-project` |
+| 0 | Setup | `brainstorm:initialising-project` |
 | 1 | Proposal | `brainstorm:writing-proposals` |
 | 2 | Behaviour spec | `brainstorm:specifying-stories` |
 | 3 | Handoff | `brainstorm:packaging-handoff` |
@@ -74,7 +74,7 @@ absent, follow the fallback in the stage skill and continue.
 | Any interview, stage 1 or 2 | `grilling` |
 | Stage 1 drafting | `write-spec` |
 | The idea is not yet formed | `product-brainstorming` |
-| Every artifact, before delivery | `simple-english` (pragmatic mode) |
+| Every artefact, before delivery | `simple-english` (pragmatic mode) |
 
 ## Routing
 
@@ -87,9 +87,9 @@ absent, follow the fallback in the stage skill and continue.
 6. When a check fails, correct it and run the checks again. After three attempts, set
    `blocked_on_human` with the reason and stop.
 
-A project with no `brainstorm/status.json` starts at `brainstorm:initializing-project`.
+A project with no `brainstorm/status.json` starts at `brainstorm:initialising-project`.
 
 ## Reference
 
 - **IDs, files, decisions log, deltas**: `references/conventions.md`
-- **Language rules for every artifact**: `references/handoff-language.md`
+- **Language rules for every artefact**: `references/handoff-language.md`

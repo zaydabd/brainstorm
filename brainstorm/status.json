@@ -1,0 +1,7 @@
+{
+  "stage": 1,
+  "unit": null,
+  "state": "in_progress",
+  "blocked_reason": "",
+  "completed": { "stages": [0], "stories": [] }
+}

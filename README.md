@@ -58,15 +58,15 @@ fallback.
 | `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills) | Every interview |
 | `write-spec` | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Proposal depth |
 | `product-brainstorming` | anthropics/knowledge-work-plugins | An idea not yet formed |
-| `simple-english` | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Language pass on every artifact |
+| `simple-english` | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Language pass on every artefact |
 
 ## Where the determinism comes from
 
 Instructions steer Claude. `scripts/check.py` gates it, and the PostToolUse hook runs
-it after every write to an artifact.
+it after every write to an artefact.
 
 **Structure**
-- Required sections in every artifact
+- Required sections in every artefact
 - IDs unique across the project, never renumbered
 - Goals carry a number, threshold or time bound
 - Every goal is served by a story, and every story cites a goal
@@ -102,7 +102,7 @@ Exit 1 means at least one error.
 commands/next.md    the router: one unit, then stop
 hooks/
   session-start     injects using-brainstorm into every session
-  validate-artifact PostToolUse: validates an artifact after every write
+  validate-artifact PostToolUse: validates an artefact after every write
 agents/
   spec-tester.md    adversarial spec review in fresh context
 scripts/
@@ -115,4 +115,4 @@ skills/             the meta-skill and the four stage skills
 
 Add a stage by creating `skills/<gerund-name>/SKILL.md`, adding its row to the stage
 map in `skills/using-brainstorm/SKILL.md` and to `commands/next.md`, then adding the
-new artifact's rules to `scripts/check.py`. A stage with no checker has no gate.
+new artefact's rules to `scripts/check.py`. A stage with no checker has no gate.

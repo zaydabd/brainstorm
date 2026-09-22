@@ -9,7 +9,7 @@
 
 ## File layout
 
-Phase 1 artifacts live under `brainstorm/` in the project root.
+Phase 1 artefacts live under `brainstorm/` in the project root.
 
 ```
 CLAUDE.md                  domain vocabulary and document conventions
@@ -19,7 +19,7 @@ brainstorm/
   proposal.md              stage 1
   specs/US-###.md          stage 2, one file per story
   HANDOFF.md               stage 3, the package the design phase consumes
-  changes/<name>/delta.md  changes to approved artifacts
+  changes/<name>/delta.md  changes to approved artefacts
   archive/                 merged change folders
 ```
 
@@ -81,7 +81,7 @@ a reviewer could question.
 
 ## Change deltas
 
-An approved artifact keeps its content. A change goes in
+An approved artefact keeps its content. A change goes in
 `brainstorm/changes/<short-name>/delta.md`:
 
 ```markdown
@@ -109,5 +109,5 @@ Then:
 
 1. A change to behaviour or scope is D2 or D3. Ask first.
 2. Re-run the stages the traceability chain links to the changed IDs.
-3. At handoff, merge the delta into the artifacts and move the folder to
+3. At handoff, merge the delta into the artefacts and move the folder to
    `brainstorm/archive/`.

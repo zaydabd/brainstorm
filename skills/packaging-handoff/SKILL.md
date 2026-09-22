@@ -9,7 +9,7 @@ Stage 3. Phase 1 ends here. The approved documents become one package a designer
 opens cold, weeks later, and works from without asking a question.
 
 <HARD-GATE>
-Package only approved artifacts. A story whose spec has not passed stage 2 stays out
+Package only approved artefacts. A story whose spec has not passed stage 2 stays out
 of the package, and its absence is listed.
 
 Present the package and ask D4 before marking Phase 1 done.
@@ -43,7 +43,7 @@ Stage 3 progress:
 
 ### 1. Merge pending deltas
 
-Merge each approved delta in `brainstorm/changes/` into its artifact, then move the
+Merge each approved delta in `brainstorm/changes/` into its artefact, then move the
 folder to `brainstorm/archive/`. List any delta that remains unapproved in the package
 as an open item.
 
@@ -89,7 +89,7 @@ sentence. The brainstorm subset lives in
 python3 "${CLAUDE_PLUGIN_ROOT}/scripts/check.py"
 ```
 
-This runs across every artifact and reports cross-file gaps. Correct each error and
+This runs across every artefact and reports cross-file gaps. Correct each error and
 run it again until it passes.
 
 ### 7. D4 gate
@@ -102,7 +102,7 @@ On approval, set `state` to `done` in `brainstorm/status.json`.
 
 ## Exit checks
 
-- `check.py` passes across every artifact
+- `check.py` passes across every artefact
 - Every goal traces to at least one scenario
 - Every story in the proposal carries an approved spec, or appears in Out of scope
 - Every screen-state requirement cites the scenario that demands it

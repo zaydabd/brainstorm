@@ -1,5 +1,5 @@
 {
-  "description": "brainstorm: loads the workflow rules at session start and validates workflow artifacts after every write.",
+  "description": "brainstorm: loads the workflow rules at session start and validates workflow artefacts after every write.",
   "hooks": {
     "SessionStart": [
       {

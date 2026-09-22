@@ -11,7 +11,7 @@ Run one unit of work, then stop.
 1. **Load the rules.** Invoke the `brainstorm:using-brainstorm` skill.
 
 2. **Read `brainstorm/status.json`.** When the file is absent, invoke
-   `brainstorm:initializing-project` and stop.
+   `brainstorm:initialising-project` and stop.
 
 3. **When `state` is `blocked_on_human`**, ask the question recorded in
    `blocked_reason` with AskUserQuestion. Log the answer in
@@ -23,13 +23,13 @@ Run one unit of work, then stop.
 
    | stage | skill |
    |-------|-------|
-   | 0 | `brainstorm:initializing-project` |
+   | 0 | `brainstorm:initialising-project` |
    | 1 | `brainstorm:writing-proposals` |
    | 2 | `brainstorm:specifying-stories` |
    | 3 | `brainstorm:packaging-handoff` |
 
 6. **Run the exit checks** the skill declares, including
-   `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/check.py"` on every artifact written.
+   `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/check.py"` on every artefact written.
 
 7. **On a pass**, update `brainstorm/status.json` to the next unit or stage, then stop
    and tell the human to `/clear` and run `/brainstorm:next` again.

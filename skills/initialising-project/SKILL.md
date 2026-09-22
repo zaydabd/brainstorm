@@ -1,5 +1,5 @@
 ---
-name: initializing-project
+name: initialising-project
 description: This skill should be used when the user asks to "set up brainstorm", "initialise the workflow", "start a brainstorm project", "add brainstorm to this project", or when a brainstorm stage is requested in a project that holds no brainstorm/status.json. It captures the domain vocabulary and document conventions, then creates the Phase 1 scaffolding.
 ---
 
@@ -78,8 +78,8 @@ End the file with:
 ## brainstorm
 
 This project runs Phase 1 of the brainstorm workflow: idea to approved documents.
-Follow the `brainstorm:using-brainstorm` skill. Artifacts live in `brainstorm/`.
-A change to an approved artifact goes in `brainstorm/changes/<name>/delta.md`.
+Follow the `brainstorm:using-brainstorm` skill. Artefacts live in `brainstorm/`.
+A change to an approved artefact goes in `brainstorm/changes/<name>/delta.md`.
 Design and UI happen in a separate phase that consumes `brainstorm/HANDOFF.md`.
 ```
 

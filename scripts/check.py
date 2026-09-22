@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Validate brainstorm artifacts.
+"""Validate brainstorm artefacts.
 
 Usage:
     python3 check.py <path>...     validate the named files
-    python3 check.py               validate every artifact under ./brainstorm
+    python3 check.py               validate every artefact under ./brainstorm
 
 Exit codes:
     0  all checks passed (warnings may still be printed)
@@ -443,7 +443,7 @@ def main(argv):
         elif re.match(r"^US-\d{3}\.md$", base) or "/specs/" in path.replace("\\", "/"):
             per_file_scenarios[path] = check_spec(path, text, rep)
         else:
-            rep.warn(path, "not a recognised brainstorm artifact; skipped")
+            rep.warn(path, "not a recognised brainstorm artefact; skipped")
 
     if len(per_file_scenarios) > 1:
         cross_check(None, per_file_scenarios, rep)
