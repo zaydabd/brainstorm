@@ -1,36 +1,36 @@
 # Developer portfolio proposal
 
-A single-page site, under 14 kilobytes compressed, where the written work proves the
-engineering and the site itself proves the taste.
+A single-page site, under 14 kilobytes compressed, where the written work proves
+the engineering and the site itself proves the taste.
 
 ## Summary
 
-Wan Zayd Abdullah is a Senior Technical Lead with five years of OutSystems
-experience. This proposal describes a single-page website that presents his work to
-hiring managers, to other technical leads, and to people who notice design. The site
-carries three projects, an account of how he works, and his career history. Wan Zayd
-aims to keep it under 14 kilobytes compressed, so it loads quickly on a 3G
-connection. Once the site exists, Wan Zayd owns a document that describes him in his
-own voice.
+Wan Zayd Abdullah is an OutSystems Technical Lead with five years of experience.
+This proposal describes a single-page website that presents his work to hiring
+managers, to other technical leads, and to people who notice design. The site
+carries three projects, an account of how he works, and his career history. Wan
+Zayd aims to keep it under 14 kilobytes compressed, so it loads quickly on a 3G
+connection. Once the site exists, Wan Zayd owns a document that describes him in
+his own voice.
 
 ## The problem
 
 Wan Zayd owns no document of his own that shows his work. The document that
-represents him today belongs to AvePoint, his employer. AvePoint sends it to clients
-as a staffing profile, and it describes his responsibilities in the third person. It
-has no place for taste, voice or craft. He wants to be known for front-end work and
-design judgment, and that document can show neither.
+represents him today belongs to AvePoint, his employer. AvePoint sends it to
+clients as a staffing profile, and it describes his responsibilities in the
+third person. It has no place for taste, voice or craft. He wants to be known
+for front-end work and design judgment, and that document can show neither.
 
 A reader outside the low-code world cannot calibrate his experience. The word
 "OutSystems" carries little meaning to that reader. They see five years and the
-title Senior Technical Lead, and they cannot judge the distance between those two
-facts. The AvePoint document gives them nothing else to work from.
+title OutSystems Technical Lead, and they cannot judge the distance between
+those two facts. The AvePoint document gives them nothing else to work from.
 
 ## What this would do
 
-The site makes one argument in two parts. The written work proves the engineering.
-The site itself proves the taste, because Wan Zayd builds it and no image stands in
-for it.
+The site makes one argument in two parts. The written work proves the
+engineering. The site itself proves the taste, because Wan Zayd builds it and no
+image stands in for it.
 
 - A reader can follow how Wan Zayd designs a system, through three projects that
   each explain the problem, his decision and the trade-off.
@@ -49,27 +49,28 @@ for it.
 - A reader on a slow connection receives a page small enough to load without
   waiting.
 
-The three main projects are Digital Form, MyInsights and the iZone rebuild. Each one
-gets a semi-detailed explanation rather than a formal case study. Digital Form has
-run through five MVP cycles. It connects four systems, which are GSAM, HRIS, MStatus
-and MPowered, and it handles dynamic forms and SLA tracking. MyInsights pushes
-millions of records through audit rules for Petronas. The iZone rebuild remakes a
-legacy student portal at Sunway University. Wan Zayd owns the architecture there,
-which covers headless services, integration libraries, single sign-on and a private
-gateway. The database schema comes from the legacy application, and he designed the
-concurrency model for simultaneous student enrollment. He leads three developers
-inside a project team of ten or more.
+The three main projects are Digital Form, MyInsights and the iZone rebuild. Each
+one gets a semi-detailed explanation rather than a formal case study. Digital
+Form has run through five MVP cycles. It connects four systems, which are GSAM,
+HRIS, MStatus and MPowered, and it handles dynamic forms and SLA tracking.
+MyInsights pushes millions of records through audit rules for Petronas. The
+iZone rebuild remakes a legacy student portal at Sunway University, where he
+holds the title Senior Technical Lead. Wan Zayd owns the architecture there,
+which covers headless services, integration libraries, single sign-on and a
+private gateway. The database schema comes from the legacy application, and he
+designed the concurrency model for simultaneous student enrollment. He leads
+three developers inside a project team of ten or more.
 
-The short index names CAB-Q, Audit Log, Tokenizer, MPowered, RPSST, VIP Dashboard,
-QR Asset Management and the Adam Digital Assets work. Each one gets its name and one
-line. CAB-Q cut a daily approval process from 6 hours to 30 minutes, and that line
-records it. The Adam Digital Assets line records an Islamic mosque signage
-application, built in Flutter with a matching website.
+The short index names CAB-Q, Audit Log, Tokenizer, MPowered, RPSST, VIP
+Dashboard, QR Asset Management and the Adam Digital Assets work. Each one gets
+its name and one line. CAB-Q cut a daily approval process from 6 hours to 30
+minutes, and that line records it. The Adam Digital Assets line records an
+Islamic mosque signage application, built in Flutter with a matching website.
 
-The site names the technologies Wan Zayd will defend under questioning. These are
-OutSystems in both O11 and ODC, SQL and Aurora PostgreSQL, REST APIs and integration
-work, and architecture practice. Architecture practice covers C4 diagrams, technical
-design documents and system design.
+The site names the technologies Wan Zayd will defend under questioning. These
+are OutSystems in both O11 and ODC, SQL and Aurora PostgreSQL, REST APIs and
+integration work, and architecture practice. Architecture practice covers C4
+diagrams, technical design documents and system design.
 
 ## What it leaves out
 
@@ -98,16 +99,17 @@ design documents and system design.
 
 ## Constraints and risks
 
-No date drives this work. Wan Zayd treats it as a continuing personal project, so
-the build can run in stages.
+No date drives this work. Wan Zayd treats it as a continuing personal project,
+so the build can run in stages.
 
 The site must fit on one page. Wan Zayd aims to keep the whole page under 14
-kilobytes compressed, and he treats that figure as a target rather than a limit. The
-prose, the markup and the stylesheet together come to about 5 to 6 kilobytes
-compressed, on my estimate. I have not validated that estimate against a built page.
+kilobytes compressed, and he treats that figure as a target rather than a limit.
+The prose, the markup and the stylesheet together come to about 5 to 6 kilobytes
+compressed, on my estimate. I have not validated that estimate against a built
+page.
 
-Wan Zayd wants a mark for each organisation in his record. I measured the files he
-sent, compressed with gzip.
+Wan Zayd wants a mark for each organisation in his record. I measured the files
+he sent, compressed with gzip.
 
 | Organisation | Compact mark | Full wordmark |
 | --- | --- | --- |
@@ -122,26 +124,28 @@ sent, compressed with gzip.
 | Adam Digital Assets | nothing supplied | nothing supplied |
 
 Five compact marks together cost 6,267 bytes. A raster image does not compress
-further. Wan Zayd decided that a mark is optional. The site carries the five vector
-marks, and the four organisations with no vector file appear in type. I noted that a
-reader can see which companies carry a mark, and he accepted that.
+further. Wan Zayd decided that a mark is optional. The site carries the five
+vector marks, and the four organisations with no vector file appear in type. I
+noted that a reader can see which companies carry a mark, and he accepted that.
 
 The site runs on GitHub, which hosts it at no cost. Everything on the site is
-public, and the traffic a personal portfolio receives places no meaningful load on
-that hosting. If GitHub is slow or unavailable, the site is unreachable and no
-fallback exists. Wan Zayd accepts that, because the alternative costs money and the
-site carries nothing urgent. The site uses JavaScript only where CSS cannot do the
-work. A reader whose connection drops during loading still sees readable content.
+public, and the traffic a personal portfolio receives places no meaningful load
+on that hosting. If GitHub is slow or unavailable, the site is unreachable and
+no fallback exists. Wan Zayd accepts that, because the alternative costs money
+and the site carries nothing urgent. The site uses JavaScript only where CSS
+cannot do the work. A reader whose connection drops during loading still sees
+readable content.
 
-Wan Zayd decided to publish client detail from Maybank, Petronas, Sunway University
-and Sarawak without restriction. I advised against this and he overruled me, so it
-is recorded here as his decision. A separate point stands unresolved. Showing a
-client logo is a trademark question rather than a confidentiality one, and a
-displayed mark can imply that the client endorses him.
+Wan Zayd decided to publish client detail from Maybank, Petronas, Sunway
+University and Sarawak without restriction. I advised against this and he
+overruled me, so it is recorded here as his decision. A separate point stands
+unresolved. Showing a client logo is a trademark question rather than a
+confidentiality one, and a displayed mark can imply that the client endorses
+him.
 
-The site carries no dated content, which removes the main risk for a project with no
-maintenance commitment. A reader cannot tell how old the site is, so it cannot look
-abandoned.
+The site carries no dated content, which removes the main risk for a project
+with no maintenance commitment. A reader cannot tell how old the site is, so it
+cannot look abandoned.
 
 ## Assumptions
 
@@ -160,9 +164,6 @@ abandoned.
 
 - What MyInsights actually was. Wan Zayd marked the decentralisation claim as wrong,
   so that sentence is removed. Only he can describe what the work really involved.
-- How the site titles his AvePoint role. His LinkedIn states Full Stack Developer
-  and Technical Lead, and the summary above calls him Senior Technical Lead. He
-  decides which one stands.
 - The page weight: I will build the page, measure it, and report the real figure
   against the 14 kilobyte target.
 - Flutter: he has under one year of experience and does not call himself
