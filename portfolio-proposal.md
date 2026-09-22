@@ -5,10 +5,10 @@
 Wan Zayd Abdullah is a Senior Technical Lead with five years of OutSystems
 experience. This proposal describes a single-page website that presents his work to
 hiring managers, to other technical leads, and to people who notice design. The site
-carries three case studies, an account of how he works, and his career history. It
-must stay under 14 kilobytes compressed. At that size a reader on a 3G connection
-receives the whole page in one network round trip. Once the site exists, Wan Zayd
-owns a document that describes him in his own voice.
+carries three case studies, an account of how he works, and his career history. Wan
+Zayd aims to keep it under 14 kilobytes compressed, so it loads quickly on a 3G
+connection. Once the site exists, Wan Zayd owns a document that describes him in his
+own voice.
 
 ## The problem
 
@@ -56,8 +56,8 @@ for it.
   wrote himself.
 - A reader judges his front-end taste from the page in front of them, because the
   site carries no photograph and no screenshot.
-- A reader on a slow connection receives the complete site in one network round
-  trip.
+- A reader on a slow connection receives a page small enough to load without
+  waiting.
 
 The three case studies are Digital Form, MyInsights and the iZone rebuild. Digital
 Form has run through five MVP cycles. It connects four systems, which are GSAM,
@@ -97,8 +97,8 @@ design documents and system design.
   design judgment, and he chose to leave it out.
 - Claims about React, AWS and .NET/C#: these appear on his LinkedIn profile, and he
   will not defend them in an interview.
-- Web fonts and photographs: one font file or one photograph alone exceeds the whole
-  14 kilobyte budget.
+- Web fonts and photographs: each one costs more than the page can afford. Wan Zayd
+  keeps them out as a discipline, so the typography carries the design.
 - CAB-Q as a full case study: he chose three case studies, so CAB-Q appears in the
   short index instead.
 - Dated content of any kind: undated content cannot look abandoned.
@@ -108,15 +108,22 @@ design documents and system design.
 No date drives this work. Wan Zayd treats it as a continuing personal project, so
 the build can run in stages.
 
-The whole site must fit in 14 kilobytes after compression, and it must fit on one
-page. That budget is the hardest constraint in the project, and it decides most of
-what follows. The prose, the markup and the stylesheet together come to about 5 to 6
-kilobytes compressed, on my estimate. That leaves about 8 to 9 kilobytes for
-everything else. Wan Zayd wants a logo for each company. An official corporate SVG
-file commonly runs from 5 to 20 kilobytes on its own. Five of those files can
-exceed the whole budget several times over. The same marks redrawn as flat single-colour paths
-run about 1 to 2 kilobytes each and fit. He will send the files and I will measure
-them before this is settled.
+The site must fit on one page. Wan Zayd aims to keep the whole page under 14
+kilobytes compressed, and he treats that figure as a target rather than a limit. The
+prose, the markup and the stylesheet together come to about 5 to 6 kilobytes
+compressed, on my estimate. I have not validated that estimate against a built page.
+
+Wan Zayd wants a mark for each organisation in his record. I measured the files he
+sent, compressed with gzip. The compact marks are small. Petronas costs 474 bytes,
+OutSystems 791 bytes, FPT Software 1,142 bytes, AvePoint 1,923 bytes and Maybank
+1,937 bytes. Five compact marks together cost 6,267 bytes. Full wordmark versions
+cost more. Maybank rises to 3,416 bytes and Petronas to 1,530 bytes.
+
+Two organisations have no vector file. Sunway Education and Sunway Group exist only
+as raster images. The smallest usable files cost 10,824 bytes and 3,899 bytes, and a
+raster image does not compress further. Impact Business Solutions has no file yet,
+and Adam Digital Assets has none either. Wan Zayd chose to use each organisation's
+own mark where one exists.
 
 The site runs on GitHub, which hosts it at no cost. Everything on the site is
 public, and the traffic a personal portfolio receives places no meaningful load on
@@ -143,6 +150,8 @@ abandoned.
   as his LinkedIn profile states it.
 - I assume each case study runs to roughly 1,500 characters, which is the basis of
   the 5 to 6 kilobyte estimate above.
+- I assume each organisation carries its own mark, in whatever format exists, now
+  that 14 kilobytes is a target rather than a limit.
 - I assume the downloadable CV is a separate file, so its size sits outside the 14
   kilobyte page budget.
 - I assume Wan Zayd writes the words and directs every design decision, and that I
@@ -150,10 +159,15 @@ abandoned.
 
 ## Open questions
 
-- The company SVG files: he sends them, I measure them, and he then chooses between
-  the official artwork and the 14 kilobyte claim.
-- The number of logos: five companies employed him, and PETRONAS Digital is a sixth
-  organisation named in his record. He decides whether it carries a mark.
+- The Impact Business Solutions mark: Wan Zayd named the company and gave its
+  website. This environment cannot reach that site, so he must send the file.
+- The Adam Digital Assets mark: no file exists yet, and the company may have no
+  vector version.
+- The Sunway marks: Wan Zayd first chose to set Sunway in type, because it exists
+  only as a raster image. He then chose to use each organisation's own mark. He
+  decides which choice stands.
+- The page weight: I will build the page, measure it, and report the real figure
+  against the 14 kilobyte target.
 - His AvePoint title: the CV states Senior Technical Lead and his LinkedIn profile
   states Full Stack Developer and Technical Lead. He decides which the site uses.
 - Flutter: he has under one year of experience and does not call himself
