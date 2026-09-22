@@ -119,11 +119,12 @@ OutSystems 791 bytes, FPT Software 1,142 bytes, AvePoint 1,923 bytes and Maybank
 1,937 bytes. Five compact marks together cost 6,267 bytes. Full wordmark versions
 cost more. Maybank rises to 3,416 bytes and Petronas to 1,530 bytes.
 
-Two organisations have no vector file. Sunway Education and Sunway Group exist only
+Four organisations have no vector file. Sunway Education and Sunway Group exist only
 as raster images. The smallest usable files cost 10,824 bytes and 3,899 bytes, and a
-raster image does not compress further. Impact Business Solutions has no file yet,
-and Adam Digital Assets has none either. Wan Zayd chose to use each organisation's
-own mark where one exists.
+raster image does not compress further. Impact Business Solutions Sdn Bhd publishes
+its own mark as a PNG file, and its website carries no vector version. Adam Digital
+Assets has supplied nothing. Wan Zayd chose to use each organisation's own mark
+where one exists.
 
 The site runs on GitHub, which hosts it at no cost. Everything on the site is
 public, and the traffic a personal portfolio receives places no meaningful load on
@@ -159,13 +160,15 @@ abandoned.
 
 ## Open questions
 
-- The Impact Business Solutions mark: Wan Zayd named the company and gave its
-  website. This environment cannot reach that site, so he must send the file.
+- The Impact Business Solutions Sdn Bhd mark: the company publishes a PNG file and
+  no vector version. Wan Zayd must send that file, because this environment cannot
+  reach the company website.
 - The Adam Digital Assets mark: no file exists yet, and the company may have no
   vector version.
-- The Sunway marks: Wan Zayd first chose to set Sunway in type, because it exists
-  only as a raster image. He then chose to use each organisation's own mark. He
-  decides which choice stands.
+- The raster marks: Wan Zayd first chose to set Sunway in type, because it exists
+  only as a raster image. He then chose to use each organisation's own mark. Sunway
+  and Impact Business Solutions Sdn Bhd both fall under that conflict, so he decides
+  which choice stands.
 - The page weight: I will build the page, measure it, and report the real figure
   against the 14 kilobyte target.
 - His AvePoint title: the CV states Senior Technical Lead and his LinkedIn profile
