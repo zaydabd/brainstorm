@@ -1,39 +1,30 @@
-# Developer portfolio
+# Developer portfolio proposal
+
+A single-page site, under 14 kilobytes compressed, where the written work proves the
+engineering and the site itself proves the taste.
 
 ## Summary
 
 Wan Zayd Abdullah is a Senior Technical Lead with five years of OutSystems
 experience. This proposal describes a single-page website that presents his work to
 hiring managers, to other technical leads, and to people who notice design. The site
-carries three case studies, an account of how he works, and his career history. Wan
-Zayd aims to keep it under 14 kilobytes compressed, so it loads quickly on a 3G
+carries three projects, an account of how he works, and his career history. Wan Zayd
+aims to keep it under 14 kilobytes compressed, so it loads quickly on a 3G
 connection. Once the site exists, Wan Zayd owns a document that describes him in his
 own voice.
 
 ## The problem
 
-Wan Zayd passes CV screens and gets interviews. The document that represents him
-belongs to AvePoint, his employer. AvePoint sends it to clients as a staffing
-profile. It names four technologies, lists four employers, and describes his
-responsibilities in the third person. It has no place for taste, voice or craft. He
-wants to be known for front-end work and design judgment, and that document can show
-neither.
+Wan Zayd owns no document of his own that shows his work. The document that
+represents him today belongs to AvePoint, his employer. AvePoint sends it to clients
+as a staffing profile, and it describes his responsibilities in the third person. It
+has no place for taste, voice or craft. He wants to be known for front-end work and
+design judgment, and that document can show neither.
 
 A reader outside the low-code world cannot calibrate his experience. The word
 "OutSystems" carries little meaning to that reader. They see five years and the
 title Senior Technical Lead, and they cannot judge the distance between those two
 facts. The AvePoint document gives them nothing else to work from.
-
-The AvePoint document is also inaccurate in places. It compresses his employment
-into year ranges, which makes his record look as though it has gaps. It names his
-Maybank title differently from his LinkedIn profile. It omits an employer, Adam
-Digital Assets, where he designed and built a Flutter application.
-
-His public presence is thin. His LinkedIn profile holds 297 connections and 308
-followers, and he has published no posts. In the seven days before this proposal,
-LinkedIn recorded 40 profile views and 11 search appearances. His GitHub account
-holds two repositories and no profile page. He wants a reputation as a developer,
-and he owns no artifact that builds one.
 
 ## What this would do
 
@@ -41,15 +32,14 @@ The site makes one argument in two parts. The written work proves the engineerin
 The site itself proves the taste, because Wan Zayd builds it and no image stands in
 for it.
 
-- A reader can follow how Wan Zayd designs a system, through three case studies that
-  each state the problem, his decision and the trade-off.
+- A reader can follow how Wan Zayd designs a system, through three projects that
+  each explain the problem, his decision and the trade-off.
 - A reader who does not know OutSystems can judge his engineering from the decisions
   described, rather than from the platform name.
 - A reader can learn how he makes architecture calls and how he runs a team.
 - A reader can see the range of his work, through a short index of eight further
   projects.
-- A reader can follow his career across five years and five employers, with no
-  unexplained period.
+- A reader can follow his career across five years and five employers.
 - A reader can check his qualifications against three named certifications and two
   named degrees.
 - A reader can reach him by email or on LinkedIn, and can download a CV that he
@@ -59,15 +49,16 @@ for it.
 - A reader on a slow connection receives a page small enough to load without
   waiting.
 
-The three case studies are Digital Form, MyInsights and the iZone rebuild. Digital
-Form has run through five MVP cycles. It connects four systems, which are GSAM,
-HRIS, MStatus and MPowered, and it handles dynamic forms and SLA tracking. MyInsights
-pushes millions of records through audit rules for Petronas. Wan Zayd refactored it
-from one module into a decentralised system. The iZone rebuild is current work at
-Sunway University. He owns the architecture there, which covers headless services,
-integration libraries, single sign-on and a private gateway. He also designed the
-database schema and the concurrency model for simultaneous student enrollment. He
-leads three developers inside a project team of ten or more.
+The three main projects are Digital Form, MyInsights and the iZone rebuild. Each one
+gets a semi-detailed explanation rather than a formal case study. Digital Form has
+run through five MVP cycles. It connects four systems, which are GSAM, HRIS, MStatus
+and MPowered, and it handles dynamic forms and SLA tracking. MyInsights pushes
+millions of records through audit rules for Petronas. The iZone rebuild remakes a
+legacy student portal at Sunway University. Wan Zayd owns the architecture there,
+which covers headless services, integration libraries, single sign-on and a private
+gateway. The database schema comes from the legacy application, and he designed the
+concurrency model for simultaneous student enrollment. He leads three developers
+inside a project team of ten or more.
 
 The short index names CAB-Q, Audit Log, Tokenizer, MPowered, RPSST, VIP Dashboard,
 QR Asset Management and the Adam Digital Assets work. Each one gets its name and one
@@ -85,8 +76,10 @@ design documents and system design.
 - Artistic direction: Wan Zayd will run a separate design session for it, and he
   plans to build a skill for that purpose. No colour, type or layout decision belongs
   in this document.
-- Written pieces or a blog: writing is a continuing commitment rather than a build.
-  He can add it later without rebuilding anything.
+- Audience building and social reach: Wan Zayd wants a portfolio, not a presence on
+  social media. The site does not exist to grow a following.
+- Written pieces or a blog: he does not want one. Writing is a continuing commitment
+  rather than a build, and he can add it later without rebuilding anything.
 - A custom domain: GitHub hosting costs nothing, and he chose to spend nothing.
   Without a domain his name is harder to find in a search engine.
 - Any server, form or database: an email address and a LinkedIn link do the same
@@ -99,8 +92,8 @@ design documents and system design.
   will not defend them in an interview.
 - Web fonts and photographs: each one costs more than the page can afford. Wan Zayd
   keeps them out as a discipline, so the typography carries the design.
-- CAB-Q as a full case study: he chose three case studies, so CAB-Q appears in the
-  short index instead.
+- CAB-Q as a main project: he chose three, so CAB-Q appears in the short index
+  instead.
 - Dated content of any kind: undated content cannot look abandoned.
 
 ## Constraints and risks
@@ -114,21 +107,24 @@ prose, the markup and the stylesheet together come to about 5 to 6 kilobytes
 compressed, on my estimate. I have not validated that estimate against a built page.
 
 Wan Zayd wants a mark for each organisation in his record. I measured the files he
-sent, compressed with gzip. The compact marks are small. Petronas costs 474 bytes,
-OutSystems 791 bytes, FPT Software 1,142 bytes, AvePoint 1,923 bytes and Maybank
-1,937 bytes. Five compact marks together cost 6,267 bytes. Full wordmark versions
-cost more. Maybank rises to 3,416 bytes and Petronas to 1,530 bytes.
+sent, compressed with gzip.
 
-Four organisations have no vector file. Sunway Education and Sunway Group exist only
-as raster images. The smallest usable files cost 10,824 bytes and 3,899 bytes, and a
-raster image does not compress further. Impact Business Solutions Sdn Bhd publishes
-its own mark as a PNG file, and its website carries no vector version. Adam Digital
-Assets has supplied nothing.
+| Organisation | Compact mark | Full wordmark |
+| --- | --- | --- |
+| Petronas | 474 B | 1,530 B |
+| OutSystems | 791 B | 3,107 B |
+| FPT Software | 1,142 B | not supplied |
+| AvePoint | 1,923 B | not supplied |
+| Maybank | 1,937 B | 3,416 B |
+| Sunway Education | no vector file | 10,824 B raster |
+| Sunway Group | no vector file | 3,899 B raster |
+| Impact Business Solutions Sdn Bhd | no vector file | PNG only |
+| Adam Digital Assets | nothing supplied | nothing supplied |
 
-Wan Zayd decided that a mark is optional. The site carries the five vector marks,
-which cost 6,267 bytes together. The four organisations with no vector file appear
-in type. I noted that a reader can see which companies carry a mark, and he accepted
-that.
+Five compact marks together cost 6,267 bytes. A raster image does not compress
+further. Wan Zayd decided that a mark is optional. The site carries the five vector
+marks, and the four organisations with no vector file appear in type. I noted that a
+reader can see which companies carry a mark, and he accepted that.
 
 The site runs on GitHub, which hosts it at no cost. Everything on the site is
 public, and the traffic a personal portfolio receives places no meaningful load on
@@ -149,12 +145,10 @@ abandoned.
 
 ## Assumptions
 
-- I treat the LinkedIn profile as the accurate record where it contradicts the
-  AvePoint CV. It carries exact months, and Wan Zayd confirmed its detail.
 - I assume the career break from April 2022 to August 2022 appears on the timeline
   as his LinkedIn profile states it.
-- I assume each case study runs to roughly 1,500 characters, which is the basis of
-  the 5 to 6 kilobyte estimate above.
+- I assume each project explanation runs to roughly 1,500 characters, which is the
+  basis of the 5 to 6 kilobyte estimate above.
 - I assume the five vector marks appear at their compact size rather than as full
   wordmarks. The compact files cost less than half as much.
 - I assume the downloadable CV is a separate file, so its size sits outside the 14
@@ -164,13 +158,14 @@ abandoned.
 
 ## Open questions
 
+- What MyInsights actually was. Wan Zayd marked the decentralisation claim as wrong,
+  so that sentence is removed. Only he can describe what the work really involved.
+- How the site titles his AvePoint role. His LinkedIn states Full Stack Developer
+  and Technical Lead, and the summary above calls him Senior Technical Lead. He
+  decides which one stands.
 - The page weight: I will build the page, measure it, and report the real figure
   against the 14 kilobyte target.
-- His AvePoint title: the CV states Senior Technical Lead and his LinkedIn profile
-  states Full Stack Developer and Technical Lead. He decides which the site uses.
 - Flutter: he has under one year of experience and does not call himself
   knowledgeable. He decides whether it appears with that qualifier or not at all.
-- What each case study contains beyond problem, decision and trade-off. This belongs
-  to the next round of work.
-- Whether he will publish a LinkedIn post for each case study. He named this as half
-  his plan for reach, and he has published no post so far.
+- What each project explanation contains beyond problem, decision and trade-off.
+  This belongs to the next round of work.
