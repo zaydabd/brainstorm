@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "brainstorm",
+  "displayName": "brainstorm",
+  "version": "0.1.0",
+  "description": "Phase 1 of delivery: an idea becomes approved documents. Four stages, four human decisions, a structural and language gate on every artifact.",
+  "author": {
+    "name": "zaydabd",
+    "url": "https://github.com/zaydabd"
+  },
+  "repository": "https://github.com/zaydabd/brainstorm",
+  "keywords": ["brainstorm", "proposal", "specification", "requirements", "handoff", "workflow"],
+  "commands": "./commands/",
+  "agents": "./agents/",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

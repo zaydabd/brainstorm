@@ -1,0 +1,16 @@
+{
+  "name": "brainstorm-dev",
+  "owner": {
+    "name": "zaydabd",
+    "url": "https://github.com/zaydabd"
+  },
+  "plugins": [
+    {
+      "name": "brainstorm",
+      "source": "./",
+      "description": "Phase 1 of delivery: an idea becomes approved documents. Four stages, four human decisions, a structural and language gate on every artifact.",
+      "version": "0.1.0",
+      "author": { "name": "zaydabd" }
+    }
+  ]
+}
