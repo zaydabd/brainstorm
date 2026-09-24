@@ -7,7 +7,6 @@ from make_book import PAPER, INK, SL, RULE, CLAY, DIDONE, BOOK, B, TAGLINE, LI_U
 mb.LOGO['Maybank'] = ('/_blob/3220e10666d87a2823f6de4bd8b5c52d', 44)  # tiger icon, not the full wordmark
 mb.HELMET = mb.HELMET.replace('</style>', '''.cv{transition:transform .45s cubic-bezier(.2,.7,.2,1),box-shadow .45s ease}.cv:hover{transform:translateY(-6px);box-shadow:0 22px 44px rgba(38,32,50,0.14)}
 .cv.on{transform:translateY(-12px);box-shadow:0 26px 52px rgba(38,32,50,0.16)}
-.duo{background:linear-gradient(135deg,#E3D3D0 0%,#EAF2F8 55%,#C9D3DE 100%)}.duo img{filter:grayscale(1) contrast(1.08) brightness(1.04);mix-blend-mode:multiply;transition:filter .8s ease}.duo:hover img{filter:none}
 .tile{transition:border-color .3s ease}.tile:hover{border-top-color:#8E5A4F}
 .post{transform:rotate(-2deg);transition:transform .35s ease}.post.b{transform:rotate(1.6deg)}.post:hover{transform:rotate(0)}
 .seg:hover .nm{text-decoration:underline;text-decoration-color:#8E5A4F}
@@ -103,10 +102,30 @@ def slatband(w=7, gap=6):
     img = f'{core}, {sl}, {fade}'
     return f'-webkit-mask-image:{img};mask-image:{img};-webkit-mask-composite:source-over, source-in;mask-composite:add, intersect'
 
-FEATHER = slats('left')
+def _ramp(t0, t1, n=9):
+    out = []
+    for i in range(n + 1):
+        t = i / n
+        a = t * t * (3 - 2 * t)
+        out.append(f'rgba(0,0,0,{a:.3f}) {t0 + (t1 - t0) * t:.1f}%')
+    return ', '.join(out)
+
+EDGE = {'left': '90deg', 'right': '270deg', 'top': '180deg', 'bottom': '0deg'}
+def soft(**edges):
+    """Intersect of eased fades, one per named edge; value = fade length in %."""
+    layers = [f'linear-gradient({EDGE[e]}, {_ramp(0, L)})' for e, L in edges.items()]
+    img = ', '.join(layers)
+    return f'-webkit-mask-image:{img};mask-image:{img};-webkit-mask-composite:source-in;mask-composite:intersect'
+
+def vignette(w=74, h=74, inner=38):
+    stops = ', '.join(f'rgba(0,0,0,{1 - (i / 9) ** 2 * (3 - 2 * i / 9):.3f}) {inner + (100 - inner) * i / 9:.1f}%' for i in range(10))
+    img = f'radial-gradient(ellipse {w}% {h}% at 50% 50%, {stops})'
+    return f'-webkit-mask-image:{img};mask-image:{img}'
+
+FEATHER = vignette()
 def blend(key, style, mask=FEATHER, pos='50% 50%'):
-    return (f'<figure class="duo" aria-hidden="true" style="margin:0;overflow:hidden;{mask};{style}">'
-            f'<img src="{B[key]}" alt="" style="display:block;width:100%;height:100%;object-fit:cover;object-position:{pos}"></figure>')
+    return (f'<figure aria-hidden="true" style="margin:0;overflow:hidden;{mask};{style}">'
+            f'<img src="{B[key]}" alt="" style="display:block;width:100%;height:100%;object-fit:cover;object-position:{pos};mix-blend-mode:multiply;filter:saturate(.9)"></figure>')
 
 def vblend(style, mask, btn):
     return (f'<div style="{style};{mask}">'
@@ -118,7 +137,7 @@ def vblend(style, mask, btn):
 PICDIR = {'orchid': 'down', 'shadows': 'right', 'plants': 'left'}
 def pic(key, place, h):
     return (f'<li aria-hidden="true" style="{place};min-height:{h}px;display:flex">'
-            + blend(key, 'flex:1;min-height:100%', slats(PICDIR[key], solid=58, start=0, w=6, gap=5)) + '</li>')
+            + blend(key, 'flex:1;min-height:100%', vignette()) + '</li>')
     
 
 def postit(place, h, b=False):
@@ -147,7 +166,7 @@ def desktop():
               + '</ul></nav></header>')
     hero = (f'<section aria-labelledby="g-hero" style="position:relative;{G};min-height:820px;align-items:center;margin-bottom:40px">'
             + vblend('position:absolute;top:0;right:0;width:940px;height:820px',
-                     slats('left', solid=50, start=2, w=10, gap=7, extra=f'linear-gradient(0deg, {Z} 0%, #000 20%)'), 'right:28px;top:28px')
+                     soft(left=52, bottom=26, top=6), 'right:28px;top:28px')
             + f'<div style="grid-column:1 / span 6;position:relative;display:flex;flex-direction:column;padding:88px 0 96px">'
             f'<h1 id="g-hero" style="margin:0 0 28px;font-family:{DIDONE};font-weight:400;font-size:66px;line-height:1.04;letter-spacing:-0.01em">{TAGLINE}</h1>'
             f'<p class="onum" style="margin:0 0 6px;{sc(12)}">5 years · since Apr 2021</p>'
@@ -166,7 +185,7 @@ def desktop():
                 f'<div style="{G};padding-bottom:140px"><section id="notes" aria-labelledby="izone-h" style="grid-column:3 / span 8">{notes(True)}</section></div>')
     how = (f'<div style="{G};padding-bottom:80px;align-items:center"><section aria-labelledby="g-how" style="grid-column:2 / span 5">{h2("How I work", 13, "g-how")}'
            f'<p style="margin:0;font-style:italic;font-size:22px;line-height:1.55;color:{SL}">[PLACEHOLDER: one short paragraph, in your words]</p></section>'
-           + blend('harp', 'grid-column:8 / span 5;height:600px', slats('left', solid=46, start=0, w=8, gap=6)) + '</div>')
+           + blend('harp', 'grid-column:8 / span 5;height:600px', soft(left=40, right=14, top=22, bottom=22)) + '</div>')
     SEG = [('Jan 2026 – present', '9 mos', 9, 'AvePoint', 'Full-stack developer', '↳ Sunway University'),
            ('Sep 2024 – Jan 2026', '1 yr 5 mos', 17, 'Maybank', 'Senior OutSystems Engineer', ''),
            ('Sep 2022 – Sep 2024', '2 yrs 1 mo', 25, 'FPT Software Malaysia', 'Software Consultant', '↳ PETRONAS Digital'),
@@ -183,7 +202,7 @@ def desktop():
                  f'<span class="onum" style="{sc(10, CLAY if on else SL, "0.1em")}">{per} · {dur}</span>'
                  f'<span class="nm" style="display:flex;align-items:center;gap:8px;font-size:20px">{mark(name, 16)}{name}</span>'
                  f'<span style="font-style:italic;font-size:15px;color:{SL}">{role}</span>{cl}</a>{extra}</li>')
-    hist = (blend('street', 'height:440px;margin-bottom:-70px', slatband(), '50% 38%')
+    hist = (blend('street', 'height:440px;margin-bottom:-70px', soft(top=42, bottom=42, left=8, right=8), '50% 38%')
             + f'<section id="history" aria-labelledby="g-hist" style="position:relative;padding:0 80px 48px">{h2("History", 13, "g-hist", mb_=24)}'
             f'<ol style="display:flex;gap:10px;list-style:none;margin:0;padding:0;align-items:flex-start">{segs}</ol></section>'
             f'<div style="{G};padding-bottom:140px"><div id="h-panel" style="grid-column:3 / span 8;display:flex;flex-direction:column;gap:8px">'
@@ -201,7 +220,7 @@ def desktop():
     minor = (f'<section aria-labelledby="g-minor" style="padding:0 80px 120px">{h2("Minor Projects", 13, "g-minor", "8", mb_=24)}'
              f'<ul style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:minmax(200px,auto);column-gap:24px;row-gap:40px">{bento}</ul></section>')
     contact = (f'<footer id="contact" aria-labelledby="g-contact" style="flex-grow:1;position:relative;{G};align-content:start;align-items:center;padding-top:40px;padding-bottom:120px">'
-               + blend('orchid', 'position:absolute;right:0;top:0;width:800px;height:780px', slats('left', solid=52, start=6, w=10, gap=7), '50% 60%')
+               + blend('orchid', 'position:absolute;right:0;top:0;width:800px;height:780px', soft(left=55, top=14, bottom=24), '50% 60%')
                + f'<div style="grid-column:1 / span 6;position:relative;padding-top:120px">{h2("Contact", 13, "g-contact")}'
                f'<p style="margin:0 0 32px;font-family:{DIDONE};font-size:56px;line-height:1.04">Happy to talk about any of this.</p>{contact_links(20)}</div></footer>')
     body = header + '<main style="display:flex;flex-direction:column">' + hero + worked + aq + projects + how + hist + minor + marquee(150) + '</main>' + contact
@@ -215,7 +234,7 @@ def phone():
               f'<nav aria-label="Sections"><ul style="list-style:none;margin:0;padding:0;display:flex;gap:18px">'
               + ''.join(f'<li><a class="nv" href="#{t}" style="display:flex;align-items:center;min-height:44px;font-style:italic;font-size:17px;color:{SL}">{t}</a></li>' for t in ('work', 'history', 'contact'))
               + '</ul></nav></header>')
-    hero = (f'<section aria-labelledby="g-hero">' + vblend('position:relative;height:420px', slats('down', solid=62, start=2, w=6, gap=5), 'right:12px;top:12px') +
+    hero = (f'<section aria-labelledby="g-hero">' + vblend('position:relative;height:420px', soft(bottom=45), 'right:12px;top:12px') +
             f'<div style="position:relative;margin-top:-72px;padding:0 {P}px 64px"><h1 id="g-hero" style="margin:0 0 16px;font-family:{DIDONE};font-weight:400;font-size:30px;line-height:1.08">{TAGLINE}</h1>'
             f'<p class="onum" style="margin:0 0 4px;{sc(11)}">5 years · since Apr 2021</p>'
             f'<p style="margin:0 0 28px;font-style:italic;font-size:20px;color:{SL}">OutSystems Technical Lead</p>'
@@ -232,12 +251,12 @@ def phone():
                 f'<section id="notes" aria-labelledby="izone-h" style="padding:0 {P}px 80px">{notes(False)}</section>')
     how = (f'<section aria-labelledby="g-how" style="padding:0 {P}px 0">{h2("How I work", 12, "g-how", mb_=10)}'
            f'<p style="margin:0;font-style:italic;font-size:18px;line-height:1.55;color:{SL}">[PLACEHOLDER: one short paragraph, in your words]</p></section>'
-           + blend('harp', 'height:320px;margin:8px 0 24px', slats('up', solid=40, start=0, w=6, gap=5)))
+           + blend('harp', 'height:320px;margin:8px 0 24px', soft(top=30, bottom=30)))
     def band(h):
         lis = ''.join(f'<li style="display:flex;flex-direction:column;justify-content:center;gap:4px;height:96px;padding:0 26px;white-space:nowrap">'
                       f'<span class="onum" style="{sc(10)}">{per}</span><span style="display:flex;align-items:center;gap:6px;font-size:18px">{mark(n, 16) if mk else ""}{n}</span></li>' for per, n, mk in mb.TL)
         return f'<ol{AH if h else ""} style="display:flex;margin:0;padding:0;list-style:none">{lis}</ol>'
-    hist = (blend('street', 'height:260px;margin-bottom:-30px', slatband(5, 4), '50% 38%')
+    hist = (blend('street', 'height:260px;margin-bottom:-30px', soft(top=40, bottom=40), '50% 38%')
             + f'<section id="history" aria-labelledby="g-hist" style="position:relative;margin:0 0 72px;border-top:1px solid {RULE};border-bottom:1px solid {RULE}">'
             f'<div style="display:flex;justify-content:space-between;align-items:center;padding:0 {P}px">{h2("History", 12, "g-hist", mb_=0)}{pause("History")}</div>'
             + mb.strip(band, 96, 'ltr') + '</section>')
@@ -249,7 +268,7 @@ def phone():
     minor = (f'<section aria-labelledby="g-minor" style="padding:0 {P}px 72px">{h2("Minor Projects", 12, "g-minor", "8", mb_=16)}'
              f'<ul style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:14px;row-gap:28px">{bento}</ul></section>')
     contact = (f'<footer id="contact" aria-labelledby="g-contact" style="flex-grow:1">'
-               + blend('orchid', 'height:340px', slatband(5, 4), '60% 60%')
+               + blend('orchid', 'height:340px', soft(top=38, bottom=34), '60% 60%')
                + f'<div style="padding:0 {P}px 72px">{h2("Contact", 12, "g-contact", mb_=10)}'
                f'<p style="margin:0 0 22px;font-family:{DIDONE};font-size:32px;line-height:1.06">Happy to talk about any of this.</p>{contact_links(15)}</div></footer>')
     body = header + '<main style="display:flex;flex-direction:column">' + hero + worked + about + qual + projects + how + hist + minor + marquee(72) + '</main>' + contact
