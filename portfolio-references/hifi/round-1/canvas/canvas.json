@@ -1,65 +1,161 @@
 {
- "v": 3,
- "createdOnFiles": {
-  "v": 1,
-  "at": "2026-09-24T11:29:30Z"
- },
- "title": "Portfolio hi-fi",
- "launch": {
-  "view": "canvas"
- },
- "pages": [],
- "boards": {
-  "Main.dc.html": {
-   "x": 0,
-   "y": 0,
-   "w": 320,
-   "h": 6700,
-   "title": "Phone 320"
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "B-Desktop.dc.html": {
+      "h": 7000,
+      "title": "B \u00b7 Desktop 1440",
+      "w": 1440,
+      "x": 2560,
+      "y": 0,
+      "page": "round1"
+    },
+    "B-Phone.dc.html": {
+      "h": 7400,
+      "title": "B \u00b7 Phone 320",
+      "w": 320,
+      "x": 2160,
+      "y": 0,
+      "page": "round1"
+    },
+    "Desktop.dc.html": {
+      "h": 6000,
+      "title": "Desktop 1440",
+      "w": 1440,
+      "x": 400,
+      "y": 0,
+      "page": "round1"
+    },
+    "Main.dc.html": {
+      "h": 6700,
+      "title": "Phone 320",
+      "w": 320,
+      "x": 0,
+      "y": 0,
+      "page": "round1"
+    },
+    "C-Phone.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 9000,
+      "title": "C \u00b7 Engineering manual \u00b7 Phone 320",
+      "page": "radical"
+    },
+    "C-Desktop.dc.html": {
+      "x": 400,
+      "y": 0,
+      "w": 1440,
+      "h": 7600,
+      "title": "C \u00b7 Engineering manual \u00b7 Desktop 1440",
+      "page": "radical"
+    },
+    "D-Phone.dc.html": {
+      "x": 2160,
+      "y": 0,
+      "w": 320,
+      "h": 11400,
+      "title": "D \u00b7 Title sequence \u00b7 Phone 320",
+      "page": "radical"
+    },
+    "D-Desktop.dc.html": {
+      "x": 2560,
+      "y": 0,
+      "w": 1440,
+      "h": 12000,
+      "title": "D \u00b7 Title sequence \u00b7 Desktop 1440",
+      "page": "radical"
+    },
+    "E-Phone.dc.html": {
+      "x": 4320,
+      "y": 0,
+      "w": 320,
+      "h": 9500,
+      "title": "E \u00b7 The book \u00b7 Phone 320",
+      "page": "radical"
+    },
+    "E-Desktop.dc.html": {
+      "x": 4720,
+      "y": 0,
+      "w": 1440,
+      "h": 7400,
+      "title": "E \u00b7 The book \u00b7 Desktop 1440",
+      "page": "radical"
+    }
   },
-  "Desktop.dc.html": {
-   "x": 400,
-   "y": 0,
-   "w": 1440,
-   "h": 6000,
-   "title": "Desktop 1440"
+  "createdOnFiles": {
+    "at": "2026-09-24T11:29:30Z",
+    "v": 1
   },
-  "B-Phone.dc.html": {
-   "x": 2160,
-   "y": 0,
-   "w": 320,
-   "h": 7400,
-   "title": "B \u00b7 Phone 320"
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
   },
-  "B-Desktop.dc.html": {
-   "x": 2560,
-   "y": 0,
-   "w": 1440,
-   "h": 7000,
-   "title": "B \u00b7 Desktop 1440"
-  }
- },
- "order": [
-  "Main.dc.html",
-  "Desktop.dc.html",
-  "B-Phone.dc.html",
-  "B-Desktop.dc.html"
- ],
- "notes": {
-  "t1": {
-   "x": 0,
-   "y": -300,
-   "text": "A \u00b7 Night light (palette v5)",
-   "kind": "title1",
-   "maxW": 1840
+  "notes": {
+    "t1": {
+      "kind": "title1",
+      "maxW": 1840,
+      "text": "A \u00b7 Night light (palette v5)",
+      "w": 240,
+      "x": 0,
+      "y": -300,
+      "page": "round1"
+    },
+    "t2": {
+      "kind": "title1",
+      "maxW": 1840,
+      "text": "B \u00b7 Day, no containers (palette v4)",
+      "w": 240,
+      "x": 2160,
+      "y": -300,
+      "page": "round1"
+    },
+    "tC": {
+      "x": 0,
+      "y": -300,
+      "text": "C \u00b7 Engineering manual (grey, black, one orange)",
+      "kind": "title1",
+      "maxW": 1840,
+      "page": "radical"
+    },
+    "tD": {
+      "x": 2160,
+      "y": -300,
+      "text": "D \u00b7 Title sequence (black, one red)",
+      "kind": "title1",
+      "maxW": 1840,
+      "page": "radical"
+    },
+    "tE": {
+      "x": 4320,
+      "y": -300,
+      "text": "E \u00b7 The book (rose-stone paper, serif)",
+      "kind": "title1",
+      "maxW": 1840,
+      "page": "radical"
+    }
   },
-  "t2": {
-   "x": 2160,
-   "y": -300,
-   "text": "B \u00b7 Day, no containers (palette v4)",
-   "kind": "title1",
-   "maxW": 1840
-  }
- },
- "designSystems": []
+  "order": [
+    "Main.dc.html",
+    "Desktop.dc.html",
+    "B-Phone.dc.html",
+    "B-Desktop.dc.html",
+    "C-Phone.dc.html",
+    "C-Desktop.dc.html",
+    "D-Phone.dc.html",
+    "D-Desktop.dc.html",
+    "E-Phone.dc.html",
+    "E-Desktop.dc.html"
+  ],
+  "pages": [
+    {
+      "id": "round1",
+      "name": "A and B"
+    },
+    {
+      "id": "radical",
+      "name": "Radical: C, D, E"
+    }
+  ],
+  "title": "Portfolio hi-fi"
 }
