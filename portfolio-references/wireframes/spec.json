@@ -1,0 +1,2700 @@
+{
+ "title": "Portfolio block-out",
+ "fold": {
+  "320": 568,
+  "1440": 765
+ },
+ "blocks": {
+  "H1": {
+   "name": "Header · skip link, identity, nav",
+   "html": "<a href=\"#main\" style=\"font-size:13px;color:#555555\">Skip to content (shows on focus)</a><div style=\"display:flex;flex-wrap:wrap;align-items:center;gap:4px 16px;margin-top:4px\"><a href=\"#top\" style=\"font-weight:700;font-size:18px;display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0\">Wan Zayd Abdullah</a><nav aria-label=\"Sections\" style=\"display:flex;flex-wrap:wrap;gap:4px\"><a href=\"#work\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px\">work</a><a href=\"#history\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px\">history</a><a href=\"#contact\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px\">contact</a></nav></div>",
+   "rules": [
+    "CONV-01",
+    "INT-16",
+    "CONV-04",
+    "A11Y-02",
+    "Asked Q4"
+   ],
+   "doc": "\"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)"
+  },
+  "H2": {
+   "name": "Home · decision first",
+   "html": "<h1 style=\"font-size:32px;line-height:1.15;margin:0\">Row locking under enrolment load</h1><p style=\"margin:8px 0 0;font-size:18px\">Load-tested at 40,000 enrolments over a sustained 20-minute window.</p>",
+   "rules": [
+    "SCAN-03",
+    "HIER-01",
+    "SCAN-01",
+    "PRIO-01"
+   ],
+   "doc": "\"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)"
+  },
+  "H3": {
+   "name": "Home · title",
+   "html": "<p style=\"margin:0;font-size:20px;font-weight:600\">OutSystems Technical Lead</p>",
+   "rules": [
+    "SCAN-01",
+    "PRIO-02",
+    "GRP-02"
+   ],
+   "doc": "\"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)"
+  },
+  "H4": {
+   "name": "Home · About",
+   "html": "<h2 style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">About</h2><p style=\"margin:4px 0 0\"><span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: About text, written by Wan Zayd; a decision comes before the platform name]</span></p>",
+   "rules": [
+    "SCAN-03",
+    "PRIO-01"
+   ],
+   "doc": "\"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)"
+  },
+  "H5": {
+   "name": "Home · Qualifications (detail on tap)",
+   "html": "<h2 style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Qualifications (5)</h2><details open style=\"border-top:1px solid #cccccc\"><summary style=\"padding:11px 0;font-size:15px\">OutSystems Associate Developer Specialist (O11)</summary><p style=\"margin:0 0 10px 16px;font-size:14px;color:#444444\">Issuer: OutSystems · Year: <span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: year]</span></p></details><details style=\"border-top:1px solid #cccccc\"><summary style=\"padding:11px 0;font-size:15px\">OutSystems Associate Technical Lead (O11)</summary><p style=\"margin:0 0 10px 16px;font-size:14px;color:#444444\">Issuer: OutSystems · Year: <span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: year]</span></p></details><details style=\"border-top:1px solid #cccccc\"><summary style=\"padding:11px 0;font-size:15px\">Professional Scrum Developer</summary><p style=\"margin:0 0 10px 16px;font-size:14px;color:#444444\">Issuer: <span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: issuer]</span> · Year: <span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: year]</span></p></details><details style=\"border-top:1px solid #cccccc\"><summary style=\"padding:11px 0;font-size:15px\">Bachelor of Information System, Intelligent Systems Engineering</summary><p style=\"margin:0 0 10px 16px;font-size:14px;color:#444444\">Universiti Teknologi MARA · 2019 – 2021</p></details><details style=\"border-top:1px solid #cccccc\"><summary style=\"padding:11px 0;font-size:15px\">Diploma in Computer Science</summary><p style=\"margin:0 0 10px 16px;font-size:14px;color:#444444\">Universiti Teknologi MARA · 2015 – 2019</p></details>",
+   "rules": [
+    "PRIO-04",
+    "A11Y-01",
+    "GRP-02",
+    "Asked Q4"
+   ],
+   "doc": "\"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)"
+  },
+  "P0": {
+   "name": "Project case study · section heading",
+   "html": "<h2 id=\"work\" style=\"margin:0 0 8px;font-size:22px;line-height:1.2;font-size:26px\">Projects <span style=\"color:#555555\">(3)</span></h2>",
+   "rules": [
+    "HIER-02",
+    "SCAN-05"
+   ],
+   "doc": "\"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)"
+  },
+  "P1": {
+   "name": "Project case study · iZone rebuild",
+   "html": "<h3 id=\"izone\" style=\"margin:0;font-size:22px;line-height:1.2\">iZone rebuild</h3><p style=\"margin:4px 0 12px;font-size:14px;color:#444444\">Sunway University · via <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · AvePoint</span>AvePoint</p><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">Row locking with SELECT FOR UPDATE on Aurora PostgreSQL for enrolment. He kept the legacy database structure as a local replica.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">The legacy portal did not scale and crashed at every enrolment peak. The interface was old, and the client wanted it modernised. The old system counted submissions before commit, which fails under concurrency.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">The replica was not well optimised. With a thin team, he developed as well as led, and he was stretched hard.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">Senior Technical Lead and architecture owner, of three developers, himself included.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Deployed to live, not yet in use. Load-tested at 40,000 enrolments over a sustained 20-minute window.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems ODC · Aurora PostgreSQL · Microsoft single sign-on · private gateway</dd></div></dl>",
+   "rules": [
+    "SCAN-10",
+    "SCAN-03",
+    "HIER-02",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q5"
+   ],
+   "doc": "\"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order"
+  },
+  "P2": {
+   "name": "Project case study · Digital Form",
+   "html": "<h3 id=\"digital-form\" style=\"margin:0;font-size:22px;line-height:1.2\">Digital Form</h3><p style=\"margin:4px 0 12px;font-size:14px;color:#444444\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank</p><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">Extensible question types, so each MVP cycle added types and features and stabilised the platform.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">No internal form platform existed. A vendor built forms, but no confidential item was allowed in them.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">Each new question type added complexity.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">Technical Lead, Product Owner and sole developer.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Used across Maybank. Over 80 forms by the fifth MVP, with thousands of submissions and users.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</dd></div></dl>",
+   "rules": [
+    "SCAN-10",
+    "SCAN-03",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q5"
+   ],
+   "doc": "\"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order"
+  },
+  "P3": {
+   "name": "Project case study · MyInsights",
+   "html": "<h3 id=\"myinsights\" style=\"margin:0;font-size:22px;line-height:1.2\">MyInsights</h3><p style=\"margin:4px 0 12px;font-size:14px;color:#444444\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · PETRONAS</span>PETRONAS · via <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · FPT Software</span>FPT Software</p><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">A fixed set of roles, each tied to its business rules.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">Auditors checked exceptions manually, on files and paper.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">Low cost, in his account.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">OutSystems developer in a team of four; not the lead. Built user management, permissions, front-end screens, part of the audit rule logic and part of the data sync.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Auditors centralised audit exceptions and processed them in the system, not on files and paper.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</dd></div></dl>",
+   "rules": [
+    "SCAN-10",
+    "SCAN-03",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q5"
+   ],
+   "doc": "\"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order"
+  },
+  "X1": {
+   "name": "About/Experience · How I work",
+   "html": "<h2 style=\"margin:0 0 8px;font-size:22px;line-height:1.2\">How I work</h2><p style=\"margin:0\"><span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: one short paragraph, in his words, on architecture calls and running a team]</span></p>",
+   "rules": [
+    "PRIO-01",
+    "SCAN-05"
+   ],
+   "doc": "\"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)"
+  },
+  "X2": {
+   "name": "About/Experience · Timeline",
+   "html": "<h2 id=\"history\" style=\"margin:0 0 8px;font-size:22px;line-height:1.2\">History</h2><ol style=\"list-style:none;padding:0;margin:0;display:grid;gap:10px\"><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Jan 2026 – present</p><p style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · AvePoint</span><b>AvePoint</b> · Full-stack developer · full-time</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems ODC, Aurora PostgreSQL, Microsoft single sign-on, private gateway</p><ol style=\"list-style:none;margin:6px 0 0 20px;padding:0\"><li style=\"font-size:14px;color:#444444\">↳ Apr 2026 – present · Sunway University · Senior Technical Lead</li></ol></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Sep 2024 – Jan 2026</p><p style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span><b>Maybank</b> · Senior OS Engineer · full-time</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</p></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">May 2024 – Jul 2024</p><p style=\"margin:2px 0 0\"><b>Adam Digital Assets</b> · Flutter Developer · part-time</p></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Sep 2022 – Sep 2024</p><p style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · FPT Software</span><b>FPT Software Malaysia</b> · Software Consultant · contract</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</p><ol style=\"list-style:none;margin:6px 0 0 20px;padding:0\"><li style=\"font-size:14px;color:#444444\">↳ Sep 2022 – Sep 2024 · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · PETRONAS</span>PETRONAS Digital · OutSystems Developer</li></ol></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Apr 2022 – Aug 2022</p><p style=\"margin:2px 0 0\"><b>Career break</b> · Personal goal pursuit</p></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Apr 2021 – May 2022</p><p style=\"margin:2px 0 0\"><b>Impact Business Solutions</b> · Software Consultant · contract</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: Power BI, QGIS, Firebase</p></li></ol>",
+   "rules": [
+    "SCAN-10",
+    "GRP-05",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q2",
+    "Asked Q6"
+   ],
+   "doc": "\"The timeline covers five years across five employers, newest first, with clients nested under their employer. Periods show month and year only\" (proposal)"
+  },
+  "M1": {
+   "name": "Projects list · Minor Projects (less highlighted)",
+   "html": "<h2 style=\"margin:0 0 8px;font-size:22px;line-height:1.2;font-size:18px\">Minor Projects <span style=\"color:#555555\">(8)</span></h2><ul style=\"list-style:none;margin:0;padding:0;columns:240px;column-gap:24px\"><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>CAB-Q</b> — Deployment approval tool. Cut a daily process from 6 hours to 30 minutes.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>Audit Log</b> — Standardised audit logging, adopted across every OutSystems application.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>Tokenizer</b> — Tokenisation for public display strings, with an encrypted database.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>MPowered</b> — Internal agile project management platform. Stability and defect work.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>RPSST</b> — Prototype to modernise legacy RBS transaction processes.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>VIP Dashboard</b> — Visualisations of Sarawak data for a VIP presentation.<br><span style=\"color:#555555\">Impact Business Solutions · Power BI, QGIS</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>QR Asset Management</b> — QR-based asset tracking.<br><span style=\"color:#555555\">Impact Business Solutions · Flutter, Firebase</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>Adam Digital Assets</b> — Islamic mosque signage app, plus a website twin. Two developers shared requirements, design and build.<br><span style=\"color:#555555\">Adam Digital Assets · Flutter</span></li></ul>",
+   "rules": [
+    "PRIO-01",
+    "SCAN-04",
+    "CPLX-04",
+    "GRP-02",
+    "TYPE-03",
+    "Asked Q6"
+   ],
+   "doc": "\"Eight Minor Projects sit in a less highlighted list. Each has a name, one line, its employer and its tools.\" (proposal)"
+  },
+  "C1": {
+   "name": "Contact · email and LinkedIn (no form, no CV)",
+   "html": "<h2 id=\"contact\" style=\"margin:0 0 8px;font-size:22px;line-height:1.2\">Contact</h2><p style=\"margin:0;display:flex;flex-wrap:wrap;gap:12px\"><a href=\"mailto:\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0 12px;border:1px solid #666666;overflow-wrap:anywhere\">Email · <span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: email address]</span></a><a href=\"https://www.linkedin.com/in/wan-zayd-abdullah-690033230/\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0 12px;border:1px solid #666666;overflow-wrap:anywhere\">LinkedIn · linkedin.com/in/wan-zayd-abdullah-690033230</a></p>",
+   "rules": [
+    "CONV-05",
+    "INT-11",
+    "A11Y-05",
+    "Asked Q4"
+   ],
+   "doc": "\"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "CH0": {
+   "name": "About/Experience · History heading (chapters)",
+   "html": "<h2 id=\"history\" style=\"margin:0 0 8px;font-size:22px;line-height:1.2\">History</h2><p style=\"margin:0;font-size:14px;color:#444444\">Newest first · each employer holds its projects</p>",
+   "rules": [
+    "HIER-02",
+    "SCAN-10"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH1s": {
+   "name": "History · chapter 1 spine (period, employer, mark)",
+   "html": "<p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Jan 2026 – present</p><p style=\"margin:2px 0 0;font-weight:700\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · AvePoint</span>AvePoint</p>",
+   "rules": [
+    "GRP-05",
+    "SCAN-10",
+    "GRID-01",
+    "A11Y-04"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH1c": {
+   "name": "History · chapter 1 role, clients, projects",
+   "html": "<div style=\"margin:0\">Full-stack developer · full-time<ol style=\"list-style:none;margin:6px 0 0 20px;padding:0\"><li style=\"font-size:14px;color:#444444\">↳ Apr 2026 – present · Sunway University · Senior Technical Lead</li></ol><p style=\"margin:8px 0 0\">Main Project: <a href=\"#izone\">iZone rebuild ↑</a></p><p style=\"margin:4px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems ODC, Aurora PostgreSQL, Microsoft single sign-on, private gateway</p></div>",
+   "rules": [
+    "GRP-05",
+    "GRP-02",
+    "PRIO-01",
+    "Asked Q2",
+    "Asked Q6"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH2s": {
+   "name": "History · chapter 2 spine (period, employer, mark)",
+   "html": "<p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Sep 2024 – Jan 2026</p><p style=\"margin:2px 0 0;font-weight:700\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank</p>",
+   "rules": [
+    "GRP-05",
+    "SCAN-10",
+    "GRID-01",
+    "A11Y-04"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH2c": {
+   "name": "History · chapter 2 role, clients, projects",
+   "html": "<div style=\"margin:0\">Senior OS Engineer · full-time<p style=\"margin:8px 0 0\">Main Project: <a href=\"#digital-form\">Digital Form ↑</a></p><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0;margin-top:8px\">Minor Projects</p><ul style=\"list-style:none;margin:0;padding:0\"><li style=\"padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>CAB-Q</b> — Deployment approval tool. Cut a daily process from 6 hours to 30 minutes.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>Audit Log</b> — Standardised audit logging, adopted across every OutSystems application.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>Tokenizer</b> — Tokenisation for public display strings, with an encrypted database.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>MPowered</b> — Internal agile project management platform. Stability and defect work.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>RPSST</b> — Prototype to modernise legacy RBS transaction processes.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li></ul><p style=\"margin:8px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</p></div>",
+   "rules": [
+    "GRP-05",
+    "GRP-02",
+    "PRIO-01",
+    "Asked Q2",
+    "Asked Q6"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH3s": {
+   "name": "History · chapter 3 spine (period, employer, mark)",
+   "html": "<p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">May 2024 – Jul 2024</p><p style=\"margin:2px 0 0;font-weight:700\">Adam Digital Assets</p>",
+   "rules": [
+    "GRP-05",
+    "SCAN-10",
+    "GRID-01",
+    "A11Y-04"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH3c": {
+   "name": "History · chapter 3 role, clients, projects",
+   "html": "<div style=\"margin:0\">Flutter Developer · part-time<p style=\"font-size:13px;color:#555555;font-weight:600;margin:0;margin-top:8px\">Minor Projects</p><ul style=\"list-style:none;margin:0;padding:0\"><li style=\"padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>Adam Digital Assets</b> — Islamic mosque signage app, plus a website twin. Two developers shared requirements, design and build.<br><span style=\"color:#555555\">Flutter</span></li></ul></div>",
+   "rules": [
+    "GRP-05",
+    "GRP-02",
+    "PRIO-01",
+    "Asked Q2",
+    "Asked Q6"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH4s": {
+   "name": "History · chapter 4 spine (period, employer, mark)",
+   "html": "<p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Sep 2022 – Sep 2024</p><p style=\"margin:2px 0 0;font-weight:700\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · FPT Software</span>FPT Software Malaysia</p>",
+   "rules": [
+    "GRP-05",
+    "SCAN-10",
+    "GRID-01",
+    "A11Y-04"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH4c": {
+   "name": "History · chapter 4 role, clients, projects",
+   "html": "<div style=\"margin:0\">Software Consultant · contract<ol style=\"list-style:none;margin:6px 0 0 20px;padding:0\"><li style=\"font-size:14px;color:#444444\">↳ Sep 2022 – Sep 2024 · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · PETRONAS</span>PETRONAS Digital · OutSystems Developer</li></ol><p style=\"margin:8px 0 0\">Main Project: <a href=\"#myinsights\">MyInsights ↑</a></p><p style=\"margin:4px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</p></div>",
+   "rules": [
+    "GRP-05",
+    "GRP-02",
+    "PRIO-01",
+    "Asked Q2",
+    "Asked Q6"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH5s": {
+   "name": "History · chapter 5 spine (period, employer, mark)",
+   "html": "<p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Apr 2022 – Aug 2022</p><p style=\"margin:2px 0 0;font-weight:700\">Career break</p>",
+   "rules": [
+    "GRP-05",
+    "SCAN-10",
+    "GRID-01",
+    "A11Y-04"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH5c": {
+   "name": "History · chapter 5 role, clients, projects",
+   "html": "<div style=\"margin:0\">Personal goal pursuit</div>",
+   "rules": [
+    "GRP-05",
+    "GRP-02",
+    "PRIO-01",
+    "Asked Q2",
+    "Asked Q6"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH6s": {
+   "name": "History · chapter 6 spine (period, employer, mark)",
+   "html": "<p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Apr 2021 – May 2022</p><p style=\"margin:2px 0 0;font-weight:700\">Impact Business Solutions</p>",
+   "rules": [
+    "GRP-05",
+    "SCAN-10",
+    "GRID-01",
+    "A11Y-04"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  },
+  "CH6c": {
+   "name": "History · chapter 6 role, clients, projects",
+   "html": "<div style=\"margin:0\">Software Consultant · contract<p style=\"font-size:13px;color:#555555;font-weight:600;margin:0;margin-top:8px\">Minor Projects</p><ul style=\"list-style:none;margin:0;padding:0\"><li style=\"padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>VIP Dashboard</b> — Visualisations of Sarawak data for a VIP presentation.<br><span style=\"color:#555555\">Power BI, QGIS</span></li><li style=\"padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>QR Asset Management</b> — QR-based asset tracking.<br><span style=\"color:#555555\">Flutter, Firebase</span></li></ul></div>",
+   "rules": [
+    "GRP-05",
+    "GRP-02",
+    "PRIO-01",
+    "Asked Q2",
+    "Asked Q6"
+   ],
+   "doc": "\"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)"
+  }
+ },
+ "options": [
+  {
+   "id": "A",
+   "name": "One reading column",
+   "axis": "TYPE-03: one column is read faster · moodboard Paco / Shu Ding",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption A: every section in one capped column (cols 3–8 at 1440, TYPE-01 measure); header full width; Minor Projects flow into 2 text columns (Paco index).\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "M1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar, identity leading, nav after it",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P0",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "X2",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "M1",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "TYPE-03",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "C1",
+            "where": "footer, cols 3–8",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "TYPE-03"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Two-thirds + a third for minor items",
+   "axis": "GRID-02 over TYPE-03 · the third holds Qualifications and Minor Projects",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption B: primary content leads in cols 1–8; the trailing third holds only the minor items the docs call minor: Qualifications beside About, Minor Projects beside the timeline (SCAN-08: nothing essential in the rail). Page capped at 1020 px (GRID-01, GOV.UK max width) so the two-thirds keeps the TYPE-01 measure.\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "M1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 210,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 8,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "leading two-thirds",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "GRID-02",
+             "HIER-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "leading two-thirds",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "GRID-02",
+             "HIER-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "leading two-thirds",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "GRID-02",
+             "HIER-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "H5",
+            "where": "trailing third, beside About",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "GRID-02",
+             "SCAN-07"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 8,
+          "blocks": [
+           {
+            "id": "P0",
+            "where": "leading two-thirds",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "GRID-02",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "leading two-thirds",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "GRID-02",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "leading two-thirds",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "GRID-02",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "leading two-thirds",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "GRID-02",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 8,
+          "blocks": [
+           {
+            "id": "X1",
+            "where": "leading two-thirds",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "GRID-02"
+            ]
+           },
+           {
+            "id": "X2",
+            "where": "leading two-thirds",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "GRID-02"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "M1",
+            "where": "trailing third, beside the timeline",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "GRID-02",
+             "SCAN-08"
+            ]
+           }
+          ],
+          "sticky": true
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 8,
+          "blocks": [
+           {
+            "id": "C1",
+            "where": "footer, leading two-thirds",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "GRID-02"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Employer chapters",
+   "axis": "GRP-05 nesting: Minor Projects sit inside their employer in the timeline (moodboard \"Page as timeline\")",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption C: content in cols 4–9 (TYPE-01). Main Projects stay first (Q5); the timeline becomes chapters, newest first, each holding its Minor Projects and a link back to its Main Project. A leading spine column carries periods (moodboard scroll-ruler idea). Flutter now shows only on Minor Projects (rule 3).\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH0",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-10",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH1s",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "SCAN-10",
+             "GRID-01",
+             "A11Y-04",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH1c",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "GRP-02",
+             "PRIO-01",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH2s",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "SCAN-10",
+             "GRID-01",
+             "A11Y-04",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH2c",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "GRP-02",
+             "PRIO-01",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH3s",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "SCAN-10",
+             "GRID-01",
+             "A11Y-04",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH3c",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "GRP-02",
+             "PRIO-01",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH4s",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "SCAN-10",
+             "GRID-01",
+             "A11Y-04",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH4c",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "GRP-02",
+             "PRIO-01",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH5s",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "SCAN-10",
+             "GRID-01",
+             "A11Y-04",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH5c",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "GRP-02",
+             "PRIO-01",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH6s",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "SCAN-10",
+             "GRID-01",
+             "A11Y-04",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "CH6c",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-05",
+             "GRP-02",
+             "PRIO-01",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 3,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "content column, cols 4–9",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "GRID-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "content column, cols 4–9",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "GRID-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "content column, cols 4–9",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "GRID-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "content column, cols 4–9",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "GRID-01",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "P0",
+            "where": "spine column, beside the projects",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "GRID-01",
+             "GRP-02"
+            ]
+           }
+          ],
+          "sticky": true
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "P1",
+            "where": "content column",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "GRID-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "content column",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "GRID-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "content column",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "GRID-01",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "X1",
+            "where": "content column",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "GRID-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "CH0",
+            "where": "spine column heading",
+            "rules": [
+             "HIER-02",
+             "SCAN-10",
+             "GRID-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 9,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "CH1s",
+            "where": "spine: period, employer, mark"
+           }
+          ],
+          "sticky": true
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "CH1c",
+            "where": "chapter body beside its spine"
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "CH2s",
+            "where": "spine: period, employer, mark"
+           }
+          ],
+          "sticky": true
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "CH2c",
+            "where": "chapter body beside its spine"
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "CH3s",
+            "where": "spine: period, employer, mark"
+           }
+          ],
+          "sticky": true
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "CH3c",
+            "where": "chapter body beside its spine"
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "CH4s",
+            "where": "spine: period, employer, mark"
+           }
+          ],
+          "sticky": true
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "CH4c",
+            "where": "chapter body beside its spine"
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "CH5s",
+            "where": "spine: period, employer, mark"
+           }
+          ],
+          "sticky": true
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "CH5c",
+            "where": "chapter body beside its spine"
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "CH6s",
+            "where": "spine: period, employer, mark"
+           }
+          ],
+          "sticky": true
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "CH6c",
+            "where": "chapter body beside its spine"
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 3,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "C1",
+            "where": "footer, content column",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "GRID-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Pinned rail",
+   "axis": "CONV-04: leading rail instead of a top bar · moodboard \"Pinned name beside a scrolling list\"",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption D: at 1440 the header (name + nav) pins in a leading rail, cols 1–3, while one capped column scrolls in cols 4–9. The rail never carries the title, so the decision still comes before the platform name. At 320 it is a top bar (RESP-02, INT-16).\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "M1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      [
+       {
+        "span": 3,
+        "blocks": [
+         {
+          "id": "H1",
+          "where": "leading rail, pinned",
+          "rules": [
+           "CONV-04",
+           "CONV-01",
+           "INT-16",
+           "A11Y-02",
+           "A11Y-03",
+           "Asked Q4"
+          ]
+         }
+        ],
+        "sticky": true,
+        "landmark": "header"
+       },
+       {
+        "span": 6,
+        "blocks": [
+         {
+          "id": "H2",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "SCAN-03",
+           "HIER-01",
+           "SCAN-01",
+           "PRIO-01",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         },
+         {
+          "id": "H3",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "SCAN-01",
+           "PRIO-02",
+           "GRP-02",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         },
+         {
+          "id": "H4",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "SCAN-03",
+           "PRIO-01",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         },
+         {
+          "id": "H5",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "PRIO-04",
+           "A11Y-01",
+           "GRP-02",
+           "Asked Q4",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         },
+         {
+          "id": "P0",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "HIER-02",
+           "SCAN-05",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         },
+         {
+          "id": "P1",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "SCAN-10",
+           "SCAN-03",
+           "HIER-02",
+           "GRP-02",
+           "A11Y-04",
+           "Asked Q5",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         },
+         {
+          "id": "P2",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "SCAN-10",
+           "SCAN-03",
+           "GRP-02",
+           "A11Y-04",
+           "Asked Q5",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         },
+         {
+          "id": "P3",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "SCAN-10",
+           "SCAN-03",
+           "GRP-02",
+           "A11Y-04",
+           "Asked Q5",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         },
+         {
+          "id": "X1",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "PRIO-01",
+           "SCAN-05",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         },
+         {
+          "id": "X2",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "SCAN-10",
+           "GRP-05",
+           "GRP-02",
+           "A11Y-04",
+           "Asked Q2",
+           "Asked Q6",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         },
+         {
+          "id": "M1",
+          "where": "scrolling column, cols 4–9",
+          "rules": [
+           "PRIO-01",
+           "SCAN-04",
+           "CPLX-04",
+           "GRP-02",
+           "TYPE-03",
+           "Asked Q6",
+           "TYPE-01",
+           "TYPE-03"
+          ]
+         }
+        ],
+        "landmark": "main"
+       },
+       {
+        "span": 3,
+        "blocks": []
+       }
+      ],
+      [
+       {
+        "span": 3,
+        "blocks": []
+       },
+       {
+        "span": 6,
+        "blocks": [
+         {
+          "id": "C1",
+          "where": "footer, under the column",
+          "rules": [
+           "CONV-05",
+           "INT-11",
+           "A11Y-05",
+           "Asked Q4",
+           "TYPE-03"
+          ]
+         }
+        ],
+        "landmark": "footer"
+       },
+       {
+        "span": 3,
+        "blocks": []
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Side-by-side tiles",
+   "axis": "PRIO-C1 \"show everything\" side by side vs TYPE-03 one column (multi-column is preferred, not faster)",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption E: at 1440 sections sit side by side: Home in two columns, the three Main Projects as three columns (all three Main Projects start in viewport 1), How I work beside the timeline, Minor Projects as a 5-column index. Reads column by column (A11Y-01). For the expert reader (tech lead), PRIO-C1 favours the dense combined view.\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "M1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "left half",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "A11Y-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "left half",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "A11Y-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "H4",
+            "where": "right half, read after the left",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "A11Y-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "right half, read after the left",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "A11Y-01"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "P0",
+            "where": "full width heading",
+            "rules": [
+             "HIER-02",
+             "SCAN-05"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "P1",
+            "where": "column 1 of 3",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "PRIO-01",
+             "CPLX-03",
+             "A11Y-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "P2",
+            "where": "column 2 of 3",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "CPLX-03",
+             "A11Y-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "P3",
+            "where": "column 3 of 3",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "CPLX-03",
+             "A11Y-01"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "X1",
+            "where": "left half",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "A11Y-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "X2",
+            "where": "right half, read after How I work",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "A11Y-01"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "M1",
+            "where": "full width, multi-column index",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "TYPE-03"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1",
+            "where": "footer, full width",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "failures": {
+  "A-320": [
+   "SCAN-01 / PRIO-02: at 320 only the decision headline and title fit above the fold (568). About starts at 602, the first Main Project decision at 1392 (viewport 3).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 2101 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  ],
+  "B-320": [
+   "SCAN-01 / PRIO-02: at 320 only the decision headline and title fit above the fold (568). About starts at 602, the first Main Project decision at 1392 (viewport 3).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 2101 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  ],
+  "C-320": [
+   "SCAN-01 / PRIO-02: at 320 only the decision headline and title fit above the fold (568). About starts at 602, the first Main Project decision at 1392 (viewport 3).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 2101 px). Details forbid a separate stack list, so this is an open question, not a placement fix.",
+   "Asked Q6 met per chapter only: Minor Projects sit inside the timeline chapters, so a reader checking tenure passes 8 Minor rows."
+  ],
+  "D-320": [
+   "SCAN-01 / PRIO-02: at 320 only the decision headline and title fit above the fold (568). About starts at 602, the first Main Project decision at 1392 (viewport 3).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 2101 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  ],
+  "E-320": [
+   "SCAN-01 / PRIO-02: at 320 only the decision headline and title fit above the fold (568). About starts at 602, the first Main Project decision at 1392 (viewport 3).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 2101 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  ],
+  "A-1440": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1056 px, in viewport 2 (fold 765). Qualifications sit above it because the spec puts them \"near the About text\".",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 1477 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  ],
+  "B-1440": [
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 1167 px). Details forbid a separate stack list, so this is an open question, not a placement fix.",
+   "GRID-03: the trailing third is empty beside the Main Projects and dense beside the timeline."
+  ],
+  "C-1440": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 962 px, in viewport 2 (fold 765).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 1384 px). Details forbid a separate stack list, so this is an open question, not a placement fix.",
+   "Asked Q6 met per chapter only: Minor Projects sit inside the timeline chapters, so a reader checking tenure passes 8 Minor rows."
+  ],
+  "D-1440": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 930 px, in viewport 2 (fold 765).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 1351 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  ],
+  "E-1440": [
+   "TYPE-01: the three project columns measure about 42 characters per line, under the ~55 cpl comprehension figure.",
+   "CPLX-01: 9 blocks start in viewport 1, the most of any option.",
+   "SCAN-01: the three Main Projects start in viewport 1, but their Decision fields start at 782 px, just under the fold (765).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 1324 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  ]
+ }
+}

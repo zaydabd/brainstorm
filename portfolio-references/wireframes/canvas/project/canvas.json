@@ -1,0 +1,404 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-09-24T08:33:59Z"
+ },
+ "title": "Portfolio block-out",
+ "launch": {
+  "view": "canvas"
+ },
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 260,
+   "w": 320,
+   "h": 5980,
+   "title": "A · One reading column · 320"
+  },
+  "A-1440.dc.html": {
+   "x": 1080,
+   "y": 260,
+   "w": 1440,
+   "h": 4184,
+   "title": "A · One reading column · 1440"
+  },
+  "B-320.dc.html": {
+   "x": 0,
+   "y": 6600,
+   "w": 320,
+   "h": 5980,
+   "title": "B · Two-thirds + a third for minor items · 320"
+  },
+  "B-1440.dc.html": {
+   "x": 1080,
+   "y": 6600,
+   "w": 1440,
+   "h": 3486,
+   "title": "B · Two-thirds + a third for minor items · 1440"
+  },
+  "C-320.dc.html": {
+   "x": 0,
+   "y": 12940,
+   "w": 320,
+   "h": 6496,
+   "title": "C · Employer chapters · 320"
+  },
+  "C-1440.dc.html": {
+   "x": 1080,
+   "y": 12940,
+   "w": 1440,
+   "h": 4334,
+   "title": "C · Employer chapters · 1440"
+  },
+  "D-320.dc.html": {
+   "x": 0,
+   "y": 19796,
+   "w": 320,
+   "h": 5980,
+   "title": "D · Pinned rail · 320"
+  },
+  "D-1440.dc.html": {
+   "x": 1080,
+   "y": 19796,
+   "w": 1440,
+   "h": 4058,
+   "title": "D · Pinned rail · 1440"
+  },
+  "E-320.dc.html": {
+   "x": 0,
+   "y": 26136,
+   "w": 320,
+   "h": 5980,
+   "title": "E · Side-by-side tiles · 320"
+  },
+  "E-1440.dc.html": {
+   "x": 1080,
+   "y": 26136,
+   "w": 1440,
+   "h": 2593,
+   "title": "E · Side-by-side tiles · 1440"
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "A-1440.dc.html",
+  "B-320.dc.html",
+  "B-1440.dc.html",
+  "C-320.dc.html",
+  "C-1440.dc.html",
+  "D-320.dc.html",
+  "D-1440.dc.html",
+  "E-320.dc.html",
+  "E-1440.dc.html"
+ ],
+ "notes": {
+  "Atitle": {
+   "x": 0,
+   "y": 20,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option A · One reading column (TYPE-03: one column is read faster · moodboard Paco / Shu Ding)"
+  },
+  "A-320-task": {
+   "x": 400,
+   "y": 260,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption A: every section in one capped column (cols 3–8 at 1440, TYPE-01 measure); header full width; Minor Projects flow into 2 text columns (Paco index).\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor."
+  },
+  "A-320-ledger": {
+   "x": 400,
+   "y": 900,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · single column, master order · SCAN-01, PRIO-02, GRP-02, RESP-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0 Project case study · section heading · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)\nP1 Project case study · iZone rebuild · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2 About/Experience · Timeline · single column, master order · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, RESP-01 · \"The timeline covers five years across five employers, newest first, with clients nested under their employer. Periods show month and year only\" (proposal)\nM1 Projects list · Minor Projects (less highlighted) · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Eight Minor Projects sit in a less highlighted list. Each has a name, one line, its employer and its tools.\" (proposal)\nC1 Contact · email and LinkedIn (no form, no CV) · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, RESP-02 · \"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "A-320-fail": {
+   "x": 400,
+   "y": 2540,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: at 320 only the decision headline and title fit above the fold (568). About starts at 602, the first Main Project decision at 1392 (viewport 3).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 2101 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  },
+  "A-1440-task": {
+   "x": 2600,
+   "y": 260,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption A: every section in one capped column (cols 3–8 at 1440, TYPE-01 measure); header full width; Minor Projects flow into 2 text columns (Paco index).\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor."
+  },
+  "A-1440-ledger": {
+   "x": 2600,
+   "y": 900,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar, identity leading, nav after it · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · one column, cols 3–8 · SCAN-03, HIER-01, SCAN-01, PRIO-01, TYPE-03, TYPE-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · one column, cols 3–8 · SCAN-01, PRIO-02, GRP-02, TYPE-03, TYPE-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · one column, cols 3–8 · SCAN-03, PRIO-01, TYPE-03, TYPE-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · one column, cols 3–8 · PRIO-04, A11Y-01, GRP-02, Asked Q4, TYPE-03, TYPE-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0 Project case study · section heading · one column, cols 3–8 · HIER-02, SCAN-05, TYPE-03, TYPE-01 · \"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)\nP1 Project case study · iZone rebuild · one column, cols 3–8 · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, TYPE-03, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · one column, cols 3–8 · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-03, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · one column, cols 3–8 · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-03, TYPE-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · one column, cols 3–8 · PRIO-01, SCAN-05, TYPE-03, TYPE-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2 About/Experience · Timeline · one column, cols 3–8 · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, TYPE-03, TYPE-01 · \"The timeline covers five years across five employers, newest first, with clients nested under their employer. Periods show month and year only\" (proposal)\nM1 Projects list · Minor Projects (less highlighted) · one column, cols 3–8 · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, TYPE-03, TYPE-01 · \"Eight Minor Projects sit in a less highlighted list. Each has a name, one line, its employer and its tools.\" (proposal)\nC1 Contact · email and LinkedIn (no form, no CV) · footer, cols 3–8 · CONV-05, INT-11, A11Y-05, Asked Q4, TYPE-03 · \"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "A-1440-fail": {
+   "x": 2600,
+   "y": 2540,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1056 px, in viewport 2 (fold 765). Qualifications sit above it because the spec puts them \"near the About text\".\n• Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 1477 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  },
+  "Btitle": {
+   "x": 0,
+   "y": 6360,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option B · Two-thirds + a third for minor items (GRID-02 over TYPE-03 · the third holds Qualifications and Minor Projects)"
+  },
+  "B-320-task": {
+   "x": 400,
+   "y": 6600,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption B: primary content leads in cols 1–8; the trailing third holds only the minor items the docs call minor: Qualifications beside About, Minor Projects beside the timeline (SCAN-08: nothing essential in the rail). Page capped at 1020 px (GRID-01, GOV.UK max width) so the two-thirds keeps the TYPE-01 measure.\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor."
+  },
+  "B-320-ledger": {
+   "x": 400,
+   "y": 7240,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · single column, master order · SCAN-01, PRIO-02, GRP-02, RESP-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0 Project case study · section heading · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)\nP1 Project case study · iZone rebuild · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2 About/Experience · Timeline · single column, master order · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, RESP-01 · \"The timeline covers five years across five employers, newest first, with clients nested under their employer. Periods show month and year only\" (proposal)\nM1 Projects list · Minor Projects (less highlighted) · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Eight Minor Projects sit in a less highlighted list. Each has a name, one line, its employer and its tools.\" (proposal)\nC1 Contact · email and LinkedIn (no form, no CV) · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, RESP-02 · \"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "B-320-fail": {
+   "x": 400,
+   "y": 8880,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: at 320 only the decision headline and title fit above the fold (568). About starts at 602, the first Main Project decision at 1392 (viewport 3).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 2101 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  },
+  "B-1440-task": {
+   "x": 2600,
+   "y": 6600,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption B: primary content leads in cols 1–8; the trailing third holds only the minor items the docs call minor: Qualifications beside About, Minor Projects beside the timeline (SCAN-08: nothing essential in the rail). Page capped at 1020 px (GRID-01, GOV.UK max width) so the two-thirds keeps the TYPE-01 measure.\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor."
+  },
+  "B-1440-ledger": {
+   "x": 2600,
+   "y": 7240,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · leading two-thirds · SCAN-03, HIER-01, SCAN-01, PRIO-01, GRID-02, HIER-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · leading two-thirds · SCAN-01, PRIO-02, GRP-02, GRID-02, HIER-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · leading two-thirds · SCAN-03, PRIO-01, GRID-02, HIER-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · trailing third, beside About · PRIO-04, A11Y-01, GRP-02, Asked Q4, GRID-02, SCAN-07 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0 Project case study · section heading · leading two-thirds · HIER-02, SCAN-05, GRID-02, TYPE-01 · \"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)\nP1 Project case study · iZone rebuild · leading two-thirds · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, GRID-02, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · leading two-thirds · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, GRID-02, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · leading two-thirds · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, GRID-02, TYPE-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · leading two-thirds · PRIO-01, SCAN-05, GRID-02 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2 About/Experience · Timeline · leading two-thirds · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, GRID-02 · \"The timeline covers five years across five employers, newest first, with clients nested under their employer. Periods show month and year only\" (proposal)\nM1 Projects list · Minor Projects (less highlighted) · trailing third, beside the timeline · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, GRID-02, SCAN-08 · \"Eight Minor Projects sit in a less highlighted list. Each has a name, one line, its employer and its tools.\" (proposal)\nC1 Contact · email and LinkedIn (no form, no CV) · footer, leading two-thirds · CONV-05, INT-11, A11Y-05, Asked Q4, GRID-02 · \"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "B-1440-fail": {
+   "x": 2600,
+   "y": 8880,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 1167 px). Details forbid a separate stack list, so this is an open question, not a placement fix.\n• GRID-03: the trailing third is empty beside the Main Projects and dense beside the timeline."
+  },
+  "Ctitle": {
+   "x": 0,
+   "y": 12700,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option C · Employer chapters (GRP-05 nesting: Minor Projects sit inside their employer in the timeline (moodboard \"Page as timeline\"))"
+  },
+  "C-320-task": {
+   "x": 400,
+   "y": 12940,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption C: content in cols 4–9 (TYPE-01). Main Projects stay first (Q5); the timeline becomes chapters, newest first, each holding its Minor Projects and a link back to its Main Project. A leading spine column carries periods (moodboard scroll-ruler idea). Flutter now shows only on Minor Projects (rule 3).\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor."
+  },
+  "C-320-ledger": {
+   "x": 400,
+   "y": 13580,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · single column, master order · SCAN-01, PRIO-02, GRP-02, RESP-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0 Project case study · section heading · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)\nP1 Project case study · iZone rebuild · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nCH0 About/Experience · History heading (chapters) · single column, master order · HIER-02, SCAN-10, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH1s History · chapter 1 spine (period, employer, mark) · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH1c History · chapter 1 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH2s History · chapter 2 spine (period, employer, mark) · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH2c History · chapter 2 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH3s History · chapter 3 spine (period, employer, mark) · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH3c History · chapter 3 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH4s History · chapter 4 spine (period, employer, mark) · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH4c History · chapter 4 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH5s History · chapter 5 spine (period, employer, mark) · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH5c History · chapter 5 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH6s History · chapter 6 spine (period, employer, mark) · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH6c History · chapter 6 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nC1 Contact · email and LinkedIn (no form, no CV) · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, RESP-02 · \"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "C-320-fail": {
+   "x": 400,
+   "y": 15220,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: at 320 only the decision headline and title fit above the fold (568). About starts at 602, the first Main Project decision at 1392 (viewport 3).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 2101 px). Details forbid a separate stack list, so this is an open question, not a placement fix.\n• Asked Q6 met per chapter only: Minor Projects sit inside the timeline chapters, so a reader checking tenure passes 8 Minor rows."
+  },
+  "C-1440-task": {
+   "x": 2600,
+   "y": 12940,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption C: content in cols 4–9 (TYPE-01). Main Projects stay first (Q5); the timeline becomes chapters, newest first, each holding its Minor Projects and a link back to its Main Project. A leading spine column carries periods (moodboard scroll-ruler idea). Flutter now shows only on Minor Projects (rule 3).\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor."
+  },
+  "C-1440-ledger": {
+   "x": 2600,
+   "y": 13580,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · content column, cols 4–9 · SCAN-03, HIER-01, SCAN-01, PRIO-01, GRID-01, TYPE-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · content column, cols 4–9 · SCAN-01, PRIO-02, GRP-02, GRID-01, TYPE-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · content column, cols 4–9 · SCAN-03, PRIO-01, GRID-01, TYPE-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · content column, cols 4–9 · PRIO-04, A11Y-01, GRP-02, Asked Q4, GRID-01, TYPE-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0 Project case study · section heading · spine column, beside the projects · HIER-02, SCAN-05, GRID-01, GRP-02 · \"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)\nP1 Project case study · iZone rebuild · content column · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, GRID-01, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · content column · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, GRID-01, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · content column · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, GRID-01, TYPE-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · content column · PRIO-01, SCAN-05, GRID-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nCH0 About/Experience · History heading (chapters) · spine column heading · HIER-02, SCAN-10, GRID-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH1s History · chapter 1 spine (period, employer, mark) · spine: period, employer, mark · GRP-05, SCAN-10, GRID-01, A11Y-04 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH1c History · chapter 1 role, clients, projects · chapter body beside its spine · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH2s History · chapter 2 spine (period, employer, mark) · spine: period, employer, mark · GRP-05, SCAN-10, GRID-01, A11Y-04 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH2c History · chapter 2 role, clients, projects · chapter body beside its spine · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH3s History · chapter 3 spine (period, employer, mark) · spine: period, employer, mark · GRP-05, SCAN-10, GRID-01, A11Y-04 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH3c History · chapter 3 role, clients, projects · chapter body beside its spine · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH4s History · chapter 4 spine (period, employer, mark) · spine: period, employer, mark · GRP-05, SCAN-10, GRID-01, A11Y-04 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH4c History · chapter 4 role, clients, projects · chapter body beside its spine · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH5s History · chapter 5 spine (period, employer, mark) · spine: period, employer, mark · GRP-05, SCAN-10, GRID-01, A11Y-04 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH5c History · chapter 5 role, clients, projects · chapter body beside its spine · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH6s History · chapter 6 spine (period, employer, mark) · spine: period, employer, mark · GRP-05, SCAN-10, GRID-01, A11Y-04 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nCH6c History · chapter 6 role, clients, projects · chapter body beside its spine · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nC1 Contact · email and LinkedIn (no form, no CV) · footer, content column · CONV-05, INT-11, A11Y-05, Asked Q4, GRID-01 · \"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "C-1440-fail": {
+   "x": 2600,
+   "y": 15220,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 962 px, in viewport 2 (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 1384 px). Details forbid a separate stack list, so this is an open question, not a placement fix.\n• Asked Q6 met per chapter only: Minor Projects sit inside the timeline chapters, so a reader checking tenure passes 8 Minor rows."
+  },
+  "Dtitle": {
+   "x": 0,
+   "y": 19556,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option D · Pinned rail (CONV-04: leading rail instead of a top bar · moodboard \"Pinned name beside a scrolling list\")"
+  },
+  "D-320-task": {
+   "x": 400,
+   "y": 19796,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption D: at 1440 the header (name + nav) pins in a leading rail, cols 1–3, while one capped column scrolls in cols 4–9. The rail never carries the title, so the decision still comes before the platform name. At 320 it is a top bar (RESP-02, INT-16).\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor."
+  },
+  "D-320-ledger": {
+   "x": 400,
+   "y": 20436,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · single column, master order · SCAN-01, PRIO-02, GRP-02, RESP-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0 Project case study · section heading · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)\nP1 Project case study · iZone rebuild · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2 About/Experience · Timeline · single column, master order · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, RESP-01 · \"The timeline covers five years across five employers, newest first, with clients nested under their employer. Periods show month and year only\" (proposal)\nM1 Projects list · Minor Projects (less highlighted) · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Eight Minor Projects sit in a less highlighted list. Each has a name, one line, its employer and its tools.\" (proposal)\nC1 Contact · email and LinkedIn (no form, no CV) · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, RESP-02 · \"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "D-320-fail": {
+   "x": 400,
+   "y": 22076,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: at 320 only the decision headline and title fit above the fold (568). About starts at 602, the first Main Project decision at 1392 (viewport 3).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 2101 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  },
+  "D-1440-task": {
+   "x": 2600,
+   "y": 19796,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption D: at 1440 the header (name + nav) pins in a leading rail, cols 1–3, while one capped column scrolls in cols 4–9. The rail never carries the title, so the decision still comes before the platform name. At 320 it is a top bar (RESP-02, INT-16).\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor."
+  },
+  "D-1440-ledger": {
+   "x": 2600,
+   "y": 20436,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · leading rail, pinned · CONV-04, CONV-01, INT-16, A11Y-02, A11Y-03, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · scrolling column, cols 4–9 · SCAN-03, HIER-01, SCAN-01, PRIO-01, TYPE-01, TYPE-03 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · scrolling column, cols 4–9 · SCAN-01, PRIO-02, GRP-02, TYPE-01, TYPE-03 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · scrolling column, cols 4–9 · SCAN-03, PRIO-01, TYPE-01, TYPE-03 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · scrolling column, cols 4–9 · PRIO-04, A11Y-01, GRP-02, Asked Q4, TYPE-01, TYPE-03 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0 Project case study · section heading · scrolling column, cols 4–9 · HIER-02, SCAN-05, TYPE-01, TYPE-03 · \"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)\nP1 Project case study · iZone rebuild · scrolling column, cols 4–9 · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, TYPE-01, TYPE-03 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · scrolling column, cols 4–9 · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-01, TYPE-03 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · scrolling column, cols 4–9 · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-01, TYPE-03 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · scrolling column, cols 4–9 · PRIO-01, SCAN-05, TYPE-01, TYPE-03 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2 About/Experience · Timeline · scrolling column, cols 4–9 · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, TYPE-01, TYPE-03 · \"The timeline covers five years across five employers, newest first, with clients nested under their employer. Periods show month and year only\" (proposal)\nM1 Projects list · Minor Projects (less highlighted) · scrolling column, cols 4–9 · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, TYPE-01, TYPE-03 · \"Eight Minor Projects sit in a less highlighted list. Each has a name, one line, its employer and its tools.\" (proposal)\nC1 Contact · email and LinkedIn (no form, no CV) · footer, under the column · CONV-05, INT-11, A11Y-05, Asked Q4, TYPE-03 · \"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "D-1440-fail": {
+   "x": 2600,
+   "y": 22076,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 930 px, in viewport 2 (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 1351 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  },
+  "Etitle": {
+   "x": 0,
+   "y": 25896,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option E · Side-by-side tiles (PRIO-C1 \"show everything\" side by side vs TYPE-03 one column (multi-column is preferred, not faster))"
+  },
+  "E-320-task": {
+   "x": 400,
+   "y": 26136,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption E: at 1440 sections sit side by side: Home in two columns, the three Main Projects as three columns (all three Main Projects start in viewport 1), How I work beside the timeline, Minor Projects as a 5-column index. Reads column by column (A11Y-01). For the expert reader (tech lead), PRIO-C1 favours the dense combined view.\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor."
+  },
+  "E-320-ledger": {
+   "x": 400,
+   "y": 26776,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · single column, master order · SCAN-01, PRIO-02, GRP-02, RESP-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0 Project case study · section heading · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)\nP1 Project case study · iZone rebuild · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2 About/Experience · Timeline · single column, master order · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, RESP-01 · \"The timeline covers five years across five employers, newest first, with clients nested under their employer. Periods show month and year only\" (proposal)\nM1 Projects list · Minor Projects (less highlighted) · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Eight Minor Projects sit in a less highlighted list. Each has a name, one line, its employer and its tools.\" (proposal)\nC1 Contact · email and LinkedIn (no form, no CV) · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, RESP-02 · \"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "E-320-fail": {
+   "x": 400,
+   "y": 28416,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: at 320 only the decision headline and title fit above the fold (568). About starts at 602, the first Main Project decision at 1392 (viewport 3).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 2101 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  },
+  "E-1440-task": {
+   "x": 2600,
+   "y": 26136,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nYour 5 pages → sections: Home = H2–H5 · Project case study = P0–P3 · About/Experience = X1–X2 · Projects list = M1 · Contact = C1.\nOption E: at 1440 sections sit side by side: Home in two columns, the three Main Projects as three columns (all three Main Projects start in viewport 1), How I work beside the timeline, Minor Projects as a 5-column index. Reads column by column (A11Y-01). For the expert reader (tech lead), PRIO-C1 favours the dense combined view.\nAnswered: Q1 one page, your 5 pages = sections, 5 options · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor."
+  },
+  "E-1440-ledger": {
+   "x": 2600,
+   "y": 26776,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · left half · SCAN-03, HIER-01, SCAN-01, PRIO-01, A11Y-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · left half · SCAN-01, PRIO-02, GRP-02, A11Y-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · right half, read after the left · SCAN-03, PRIO-01, A11Y-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · right half, read after the left · PRIO-04, A11Y-01, GRP-02, Asked Q4, A11Y-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0 Project case study · section heading · full width heading · HIER-02, SCAN-05 · \"Counter beside the heading · Projects (3)\" (moodboard, Patterns); \"Three projects carry the engineering argument.\" (proposal)\nP1 Project case study · iZone rebuild · column 1 of 3 · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, PRIO-01, CPLX-03, A11Y-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · column 2 of 3 · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, CPLX-03, A11Y-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · column 3 of 3 · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, CPLX-03, A11Y-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · left half · PRIO-01, SCAN-05, A11Y-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2 About/Experience · Timeline · right half, read after How I work · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, A11Y-01 · \"The timeline covers five years across five employers, newest first, with clients nested under their employer. Periods show month and year only\" (proposal)\nM1 Projects list · Minor Projects (less highlighted) · full width, multi-column index · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, TYPE-03 · \"Eight Minor Projects sit in a less highlighted list. Each has a name, one line, its employer and its tools.\" (proposal)\nC1 Contact · email and LinkedIn (no form, no CV) · footer, full width · CONV-05, INT-11, A11Y-05, Asked Q4 · \"Contact: email and LinkedIn. No CV download.\" (proposal)"
+  },
+  "E-1440-fail": {
+   "x": 2600,
+   "y": 28416,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• TYPE-01: the three project columns measure about 42 characters per line, under the ~55 cpl comprehension figure.\n• CPLX-01: 9 blocks start in viewport 1, the most of any option.\n• SCAN-01: the three Main Projects start in viewport 1, but their Decision fields start at 782 px, just under the fold (765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": the title is in viewport 1, the first Tools field is not (P1 Tools at 1324 px). Details forbid a separate stack list, so this is an open question, not a placement fix."
+  }
+ },
+ "designSystems": []
+}
