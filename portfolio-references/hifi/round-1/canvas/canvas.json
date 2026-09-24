@@ -1,0 +1,42 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-09-24T11:29:30Z"
+ },
+ "title": "Portfolio hi-fi",
+ "launch": {
+  "view": "canvas"
+ },
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 320,
+   "h": 6700,
+   "title": "Phone 320"
+  },
+  "Desktop.dc.html": {
+   "x": 400,
+   "y": 0,
+   "w": 1440,
+   "h": 6000,
+   "title": "Desktop 1440"
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "Desktop.dc.html"
+ ],
+ "notes": {
+  "t1": {
+   "x": 0,
+   "y": -300,
+   "text": "Hi-fi, Night light (palette v5)",
+   "kind": "title1",
+   "maxW": 1840
+  }
+ },
+ "designSystems": []
+}
