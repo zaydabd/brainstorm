@@ -1,0 +1,50 @@
+{
+ "Q-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1730 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 3393 px.",
+  "Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+ ],
+ "Q-1440": [
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1726 px.",
+  "Spec \"shows the three Main Projects, each with all its fields\": at 1440 one write-up shows at a time.",
+  "Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+ ],
+ "R-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 2350 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2551 px.",
+  "At 320 each project appears twice: its card, then its full write-up (a long page, 11,000+ px).",
+  "PRIO-01: the Worked with strip moves employer names (journey stage 4) above About; kept on your request.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large marks raise that risk (his call).",
+  "Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+ ],
+ "R-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1420 px (fold 765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1549 px.",
+  "Spec \"shows the three Main Projects, each with all its fields\": at 1440 one write-up shows at a time.",
+  "PRIO-01: the Worked with strip moves employer names (journey stage 4) above About; kept on your request.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large marks raise that risk (his call).",
+  "Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+ ],
+ "S-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1930 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2951 px.",
+  "Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+ ],
+ "S-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1008 px (fold 765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1898 px.",
+  "Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+ ],
+ "T-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1930 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2951 px.",
+  "Asked Q6 met per chapter only: Minor Projects sit inside the timeline chapters.",
+  "Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+ ],
+ "T-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1292 px (fold 765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2158 px.",
+  "Asked Q6 met per chapter only: Minor Projects sit inside the timeline chapters.",
+  "Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+ ]
+}

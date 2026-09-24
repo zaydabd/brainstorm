@@ -1,0 +1,327 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-09-24T09:24:52Z"
+ },
+ "title": "Portfolio block-out · round 4",
+ "launch": {
+  "view": "canvas"
+ },
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 260,
+   "w": 320,
+   "h": 9377,
+   "title": "Q · Reader, lighter · 320"
+  },
+  "Q-1440.dc.html": {
+   "x": 1080,
+   "y": 260,
+   "w": 1440,
+   "h": 3866,
+   "title": "Q · Reader, lighter · 1440"
+  },
+  "R-320.dc.html": {
+   "x": 0,
+   "y": 9997,
+   "w": 320,
+   "h": 11169,
+   "title": "R · Credits hero + cards · 320"
+  },
+  "R-1440.dc.html": {
+   "x": 1080,
+   "y": 9997,
+   "w": 1440,
+   "h": 4953,
+   "title": "R · Credits hero + cards · 1440"
+  },
+  "S-320.dc.html": {
+   "x": 0,
+   "y": 21526,
+   "w": 320,
+   "h": 7456,
+   "title": "S · Two-thirds + ambient third · 320"
+  },
+  "S-1440.dc.html": {
+   "x": 1080,
+   "y": 21526,
+   "w": 1440,
+   "h": 5136,
+   "title": "S · Two-thirds + ambient third · 1440"
+  },
+  "T-320.dc.html": {
+   "x": 0,
+   "y": 29342,
+   "w": 320,
+   "h": 8450,
+   "title": "T · Chapters + ambient · 320"
+  },
+  "T-1440.dc.html": {
+   "x": 1080,
+   "y": 29342,
+   "w": 1440,
+   "h": 6259,
+   "title": "T · Chapters + ambient · 1440"
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "Q-1440.dc.html",
+  "R-320.dc.html",
+  "R-1440.dc.html",
+  "S-320.dc.html",
+  "S-1440.dc.html",
+  "T-320.dc.html",
+  "T-1440.dc.html"
+ ],
+ "notes": {
+  "Qtitle": {
+   "x": 0,
+   "y": 20,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option Q · Reader, lighter (RESP-06 list + detail (from round 2/3 I) · list holds the 3 Main Projects only; Minor Projects move to a bento after the timeline (fixes Q6))"
+  },
+  "Q-320-task": {
+   "x": 400,
+   "y": 260,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone.\nOption Q: the reader you liked. The list now holds just the three Main Projects with a captioned thumb each; the pane beside it swaps when you choose one. History is the five years as one bar, then the timeline with marks on the trailing edge. Minor Projects close as bento tiles.\nAnswered: Q1 one page, 5 sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 4 feedback: add years at a glance; keep B/C white space for animated backgrounds; E less dense; keep I; keep K hero and Worked with; visuals need context; history more artistic; Minor Projects as bento."
+  },
+  "Q-320-ledger": {
+   "x": 400,
+   "y": 900,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3y Home · years, then title · single column, master order · SCAN-01, PRIO-02, GRP-02, SCAN-04, RESP-01 · \"They see five years and the title OutSystems Technical Lead\" (proposal); \"add 5 yrs … at a single glance\" (your feedback)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nGL Home · At a glance: years, employers, projects, qualifications · single column, master order · SCAN-01, PRIO-02, CPLX-03, GRP-02, SCAN-04, RESP-01 · \"5 years, no gaps, dates clear.\" (journey, Recruiter stage 3); \"add 5 yrs … at a single glance\" (your feedback)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nILl Projects list · the three Main Projects only, with a captioned thumb each · single column, master order · RESP-06, SCAN-10, SCAN-12, CPLX-01, Asked Q4, Asked Q5, RESP-01 · \"The projects list could be less dense somehow\" (your feedback, round 3 I)\nIPF1 Project case study · iZone rebuild detail pane, figure after its decision · single column, master order · RESP-06, INT-10, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Designing architecture (headless services, integration libs, SSO, private gateway). C4 diagrams\" (LinkedIn); \"make sure the place holder have some context\" (your feedback)\nIPF2 Project case study · Digital Form detail pane, figure after its decision · single column, master order · RESP-06, INT-10, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"connecting with GSAM, HRIS, MStatus, and MPowered\" (CV); \"make sure the place holder have some context\" (your feedback)\nIPF3 Project case study · MyInsights detail pane, figure after its decision · single column, master order · RESP-06, INT-10, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Auditors centralised audit exceptions and processed them in the system, not on files and paper.\" (details); \"add some context\" (your feedback)\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nTBh History · heading, then the five years as one bar (captioned visual) · single column, master order · HIER-02, SCAN-10, GRP-03, HIER-03, Asked Q2, RESP-01 · \"The history seciton could be somewhat more artistic\" (your feedback, round 3 I)\nLX2n History · timeline entries with marks trailing (under the bar) · single column, master order · SCAN-12, HIER-02, SCAN-10, GRP-05, Asked Q2, Asked Q6, RESP-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nMB Projects list · Minor Projects as bento tiles · single column, master order · GRP-01, GRID-01, CPLX-04, SCAN-04, Asked Q6, RESP-01 · \"the minor projects sections with the bentos is creative\" (your feedback, round 3 M)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "Q-320-fail": {
+   "x": 400,
+   "y": 2540,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1730 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 3393 px.\n• Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+  },
+  "Q-1440-task": {
+   "x": 2600,
+   "y": 260,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone.\nOption Q: the reader you liked. The list now holds just the three Main Projects with a captioned thumb each; the pane beside it swaps when you choose one. History is the five years as one bar, then the timeline with marks on the trailing edge. Minor Projects close as bento tiles.\nAnswered: Q1 one page, 5 sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 4 feedback: add years at a glance; keep B/C white space for animated backgrounds; E less dense; keep I; keep K hero and Worked with; visuals need context; history more artistic; Minor Projects as bento."
+  },
+  "Q-1440-ledger": {
+   "x": 2600,
+   "y": 900,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · left half: decision, years, title · SCAN-03, HIER-01, SCAN-01, PRIO-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3y Home · years, then title · left half: decision, years, title · SCAN-01, PRIO-02, GRP-02, SCAN-04 · \"They see five years and the title OutSystems Technical Lead\" (proposal); \"add 5 yrs … at a single glance\" (your feedback)\nH4 Home · About · middle: About, then At a glance · SCAN-03, PRIO-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nGL Home · At a glance: years, employers, projects, qualifications · middle: About, then At a glance · SCAN-01, PRIO-02, CPLX-03, GRP-02, SCAN-04 · \"5 years, no gaps, dates clear.\" (journey, Recruiter stage 3); \"add 5 yrs … at a single glance\" (your feedback)\nH5 Home · Qualifications (detail on tap) · right · PRIO-04, A11Y-01, GRP-02, Asked Q4 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nILl Projects list · the three Main Projects only, with a captioned thumb each · list pane, pinned · RESP-06, SCAN-10, SCAN-12, CPLX-01, Asked Q4, Asked Q5 · \"The projects list could be less dense somehow\" (your feedback, round 3 I)\nIPF1 Project case study · iZone rebuild detail pane, figure after its decision · detail pane · RESP-06, INT-10, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5 · \"Designing architecture (headless services, integration libs, SSO, private gateway). C4 diagrams\" (LinkedIn); \"make sure the place holder have some context\" (your feedback)\nIPX Project case study · where Digital Form and MyInsights appear at 1440 · detail pane · RESP-06, PRIO-04 · \"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)\nX1 About/Experience · How I work · left half · PRIO-01, SCAN-05 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nTBh History · heading, then the five years as one bar (captioned visual) · History heading, then the full-width bar · HIER-02, SCAN-10, GRP-03, HIER-03, Asked Q2 · \"The history seciton could be somewhat more artistic\" (your feedback, round 3 I)\nLX2n History · timeline entries with marks trailing (under the bar) · timeline, marks trailing, cols 3–9 · SCAN-12, HIER-02, SCAN-10, GRP-05, Asked Q2, Asked Q6, TYPE-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nMB Projects list · Minor Projects as bento tiles · full-width bento · GRP-01, GRID-01, CPLX-04, SCAN-04, Asked Q6 · \"the minor projects sections with the bentos is creative\" (your feedback, round 3 M)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "Q-1440-fail": {
+   "x": 2600,
+   "y": 2540,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1726 px.\n• Spec \"shows the three Main Projects, each with all its fields\": at 1440 one write-up shows at a time.\n• Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+  },
+  "Rtitle": {
+   "x": 0,
+   "y": 9757,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option R · Credits hero + cards (Keeps round-2 K hero and Worked with · below it, three light cards side by side (round-1 E, less dense) with the full write-up opening under them)"
+  },
+  "R-320-task": {
+   "x": 400,
+   "y": 9997,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone.\nOption R: the hero and the Worked with strip stay as you liked them, with At a glance beside the hero. Below, three light cards (decision, outcome, tools, a captioned visual); \"Read the full write-up\" opens the chosen project under the cards. History is the employer wall; Minor Projects are bento tiles.\nAnswered: Q1 one page, 5 sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 4 feedback: add years at a glance; keep B/C white space for animated backgrounds; E less dense; keep I; keep K hero and Worked with; visuals need context; history more artistic; Minor Projects as bento."
+  },
+  "R-320-ledger": {
+   "x": 400,
+   "y": 10637,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nF0ry Home · title card with rays, years before the title · single column, master order · HIER-01, HIER-04, SCAN-03, PRIO-02, PRIO-01, RESP-01 · \"They see five years and the title OutSystems Technical Lead\" (proposal); \"add 5 yrs … at a single glance\" (your feedback)\nGL Home · At a glance: years, employers, projects, qualifications · single column, master order · SCAN-01, PRIO-02, CPLX-03, GRP-02, SCAN-04, RESP-01 · \"5 years, no gaps, dates clear.\" (journey, Recruiter stage 3); \"add 5 yrs … at a single glance\" (your feedback)\nKCf Home · credits strip, marks grey until touched · single column, master order · HIER-03, SCAN-12, SCAN-02, CPLX-01, SCAN-10, RESP-01 · \"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nRC1 Project case study · iZone rebuild card (decision, outcome, tools, captioned visual) · single column, master order · SCAN-10, CPLX-03, HIER-02, PRIO-04, Asked Q4, Asked Q5, RESP-01 · \"E - is great because it was different but it is just too dense.\" (your feedback, round 1)\nRC2 Project case study · Digital Form card (decision, outcome, tools, captioned visual) · single column, master order · SCAN-10, CPLX-03, HIER-02, PRIO-04, Asked Q4, Asked Q5, RESP-01 · \"E - is great because it was different but it is just too dense.\" (your feedback, round 1)\nRC3 Project case study · MyInsights card (decision, outcome, tools, captioned visual) · single column, master order · SCAN-10, CPLX-03, HIER-02, PRIO-04, Asked Q4, Asked Q5, RESP-01 · \"E - is great because it was different but it is just too dense.\" (your feedback, round 1)\nIPF1 Project case study · iZone rebuild detail pane, figure after its decision · single column, master order · RESP-06, INT-10, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Designing architecture (headless services, integration libs, SSO, private gateway). C4 diagrams\" (LinkedIn); \"make sure the place holder have some context\" (your feedback)\nIPF2 Project case study · Digital Form detail pane, figure after its decision · single column, master order · RESP-06, INT-10, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"connecting with GSAM, HRIS, MStatus, and MPowered\" (CV); \"make sure the place holder have some context\" (your feedback)\nIPF3 Project case study · MyInsights detail pane, figure after its decision · single column, master order · RESP-06, INT-10, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Auditors centralised audit exceptions and processed them in the system, not on files and paper.\" (details); \"add some context\" (your feedback)\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nMT0f About/Experience · wall heading, marks grey until touched · single column, master order · HIER-02, SCAN-10, RESP-01 · \"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)\nMT1 History · employer tile 1 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT2 History · employer tile 2 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT3 History · employer tile 3 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT4 History · employer tile 4 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT5 History · employer tile 5 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT6 History · employer tile 6 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMB Projects list · Minor Projects as bento tiles · single column, master order · GRP-01, GRID-01, CPLX-04, SCAN-04, Asked Q6, RESP-01 · \"the minor projects sections with the bentos is creative\" (your feedback, round 3 M)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · single column, master order · HIER-03, SCAN-01, CONV-05, RESP-01 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "R-320-fail": {
+   "x": 400,
+   "y": 12277,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 2350 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2551 px.\n• At 320 each project appears twice: its card, then its full write-up (a long page, 11,000+ px).\n• PRIO-01: the Worked with strip moves employer names (journey stage 4) above About; kept on your request.\n• Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large marks raise that risk (his call).\n• Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+  },
+  "R-1440-task": {
+   "x": 2600,
+   "y": 9997,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone.\nOption R: the hero and the Worked with strip stay as you liked them, with At a glance beside the hero. Below, three light cards (decision, outcome, tools, a captioned visual); \"Read the full write-up\" opens the chosen project under the cards. History is the employer wall; Minor Projects are bento tiles.\nAnswered: Q1 one page, 5 sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 4 feedback: add years at a glance; keep B/C white space for animated backgrounds; E less dense; keep I; keep K hero and Worked with; visuals need context; history more artistic; Minor Projects as bento."
+  },
+  "R-1440-ledger": {
+   "x": 2600,
+   "y": 10637,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nF0ry Home · title card with rays, years before the title · hero, 8 columns · HIER-01, HIER-04, SCAN-03, PRIO-02, PRIO-01, HIER-01 · \"They see five years and the title OutSystems Technical Lead\" (proposal); \"add 5 yrs … at a single glance\" (your feedback)\nGL Home · At a glance: years, employers, projects, qualifications · beside the hero, after it in reading order · SCAN-01, PRIO-02, CPLX-03, GRP-02, SCAN-04 · \"5 years, no gaps, dates clear.\" (journey, Recruiter stage 3); \"add 5 yrs … at a single glance\" (your feedback)\nKCf Home · credits strip, marks grey until touched · Worked with strip, full width · HIER-03, SCAN-12, SCAN-02, CPLX-01, SCAN-10 · \"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)\nH4 Home · About · left half · SCAN-03, PRIO-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · right half · PRIO-04, A11Y-01, GRP-02, Asked Q4 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · full-width heading · HIER-02, SCAN-05 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nRC1 Project case study · iZone rebuild card (decision, outcome, tools, captioned visual) · card 1 of 3 · SCAN-10, CPLX-03, HIER-02, PRIO-04, Asked Q4, Asked Q5 · \"E - is great because it was different but it is just too dense.\" (your feedback, round 1)\nRC2 Project case study · Digital Form card (decision, outcome, tools, captioned visual) · card 2 of 3 · SCAN-10, CPLX-03, HIER-02, PRIO-04, Asked Q4, Asked Q5 · \"E - is great because it was different but it is just too dense.\" (your feedback, round 1)\nRC3 Project case study · MyInsights card (decision, outcome, tools, captioned visual) · card 3 of 3 · SCAN-10, CPLX-03, HIER-02, PRIO-04, Asked Q4, Asked Q5 · \"E - is great because it was different but it is just too dense.\" (your feedback, round 1)\nIPF1 Project case study · iZone rebuild detail pane, figure after its decision · the chosen write-up, under the cards · RESP-06, INT-10, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5 · \"Designing architecture (headless services, integration libs, SSO, private gateway). C4 diagrams\" (LinkedIn); \"make sure the place holder have some context\" (your feedback)\nIPX Project case study · where Digital Form and MyInsights appear at 1440 · the chosen write-up, under the cards · RESP-06, PRIO-04 · \"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)\nX1 About/Experience · How I work · cols 3–10 · PRIO-01, SCAN-05 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nMT0f About/Experience · wall heading, marks grey until touched · wall heading · HIER-02, SCAN-10 · \"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)\nMT1 History · employer tile 1 · wall row 1 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT2 History · employer tile 2 · wall row 1 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT3 History · employer tile 3 · wall row 1 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT4 History · employer tile 4 · wall row 2 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT5 History · employer tile 5 · wall row 2 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT6 History · employer tile 6 · wall row 2 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMB Projects list · Minor Projects as bento tiles · full-width bento · GRP-01, GRID-01, CPLX-04, SCAN-04, Asked Q6 · \"the minor projects sections with the bentos is creative\" (your feedback, round 3 M)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · closing band · HIER-03, SCAN-01, CONV-05 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer, cols 3–10 · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "R-1440-fail": {
+   "x": 2600,
+   "y": 12277,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1420 px (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1549 px.\n• Spec \"shows the three Main Projects, each with all its fields\": at 1440 one write-up shows at a time.\n• PRIO-01: the Worked with strip moves employer names (journey stage 4) above About; kept on your request.\n• Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large marks raise that risk (his call).\n• Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+  },
+  "Stitle": {
+   "x": 0,
+   "y": 21286,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option S · Two-thirds + ambient third (GRID-02 (round-1 B) · the empty third beside the projects now holds ambient animated art (GRID-03: evens the density))"
+  },
+  "S-320-task": {
+   "x": 400,
+   "y": 21526,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone.\nOption S: round-1 B kept simple. Beside each Main Project, the trailing third is an ambient slot for an animated background or artistic detail, content-free, so nothing essential sits in the rail (SCAN-08). Each project carries a captioned figure right after its decision. Ambient slots are dropped at 320: decoration only, nothing lost (RESP-C2).\nAnswered: Q1 one page, 5 sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 4 feedback: add years at a glance; keep B/C white space for animated backgrounds; E less dense; keep I; keep K hero and Worked with; visuals need context; history more artistic; Minor Projects as bento."
+  },
+  "S-320-ledger": {
+   "x": 400,
+   "y": 22166,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3y Home · years, then title · single column, master order · SCAN-01, PRIO-02, GRP-02, SCAN-04, RESP-01 · \"They see five years and the title OutSystems Technical Lead\" (proposal); \"add 5 yrs … at a single glance\" (your feedback)\nGL Home · At a glance: years, employers, projects, qualifications · single column, master order · SCAN-01, PRIO-02, CPLX-03, GRP-02, SCAN-04, RESP-01 · \"5 years, no gaps, dates clear.\" (journey, Recruiter stage 3); \"add 5 yrs … at a single glance\" (your feedback)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nPF1 Project case study · iZone rebuild, figure right after its decision · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Designing architecture (headless services, integration libs, SSO, private gateway). C4 diagrams\" (LinkedIn); \"make sure the place holder have some context\" (your feedback)\nPF2 Project case study · Digital Form, figure right after its decision · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"connecting with GSAM, HRIS, MStatus, and MPowered\" (CV); \"make sure the place holder have some context\" (your feedback)\nPF3 Project case study · MyInsights, figure right after its decision · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Auditors centralised audit exceptions and processed them in the system, not on files and paper.\" (details); \"add some context\" (your feedback)\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2f About/Experience · timeline, full-row hover · single column, master order · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nM1f Projects list · Minor Projects, full-row hover · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "S-320-fail": {
+   "x": 400,
+   "y": 23806,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1930 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2951 px.\n• Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+  },
+  "S-1440-task": {
+   "x": 2600,
+   "y": 21526,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone.\nOption S: round-1 B kept simple. Beside each Main Project, the trailing third is an ambient slot for an animated background or artistic detail, content-free, so nothing essential sits in the rail (SCAN-08). Each project carries a captioned figure right after its decision. Ambient slots are dropped at 320: decoration only, nothing lost (RESP-C2).\nAnswered: Q1 one page, 5 sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 4 feedback: add years at a glance; keep B/C white space for animated backgrounds; E less dense; keep I; keep K hero and Worked with; visuals need context; history more artistic; Minor Projects as bento."
+  },
+  "S-1440-ledger": {
+   "x": 2600,
+   "y": 22166,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · leading two-thirds · SCAN-03, HIER-01, SCAN-01, PRIO-01, GRID-02 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3y Home · years, then title · leading two-thirds · SCAN-01, PRIO-02, GRP-02, SCAN-04, GRID-02 · \"They see five years and the title OutSystems Technical Lead\" (proposal); \"add 5 yrs … at a single glance\" (your feedback)\nGL Home · At a glance: years, employers, projects, qualifications · leading two-thirds · SCAN-01, PRIO-02, CPLX-03, GRP-02, SCAN-04, GRID-02 · \"5 years, no gaps, dates clear.\" (journey, Recruiter stage 3); \"add 5 yrs … at a single glance\" (your feedback)\nH4 Home · About · leading two-thirds · SCAN-03, PRIO-01, GRID-02 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · trailing third, beside About · PRIO-04, A11Y-01, GRP-02, Asked Q4, GRID-02 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · leading two-thirds · HIER-02, SCAN-05 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nPF1 Project case study · iZone rebuild, figure right after its decision · leading two-thirds · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, GRID-02 · \"Designing architecture (headless services, integration libs, SSO, private gateway). C4 diagrams\" (LinkedIn); \"make sure the place holder have some context\" (your feedback)\nAMB1 Ambient · animated background in the white space beside iZone · trailing third, ambient · GRID-03, HIER-03, HIER-04, GRID-02, SCAN-08 · \"allows me to add more animated backgrounds to fill the white space\" (your feedback, round 1 B); \"All three are pure CSS: two gradients, a blur and a mask, roughly 0.6 KB.\" (moodboard, Night light)\nPF2 Project case study · Digital Form, figure right after its decision · leading two-thirds · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, GRID-02 · \"connecting with GSAM, HRIS, MStatus, and MPowered\" (CV); \"make sure the place holder have some context\" (your feedback)\nAMB2 Ambient · animated background in the white space beside Digital Form · trailing third, ambient · GRID-03, HIER-03, HIER-04, GRID-02, SCAN-08 · \"allows me to add more animated backgrounds to fill the white space\" (your feedback, round 1 B); \"All three are pure CSS: two gradients, a blur and a mask, roughly 0.6 KB.\" (moodboard, Night light)\nPF3 Project case study · MyInsights, figure right after its decision · leading two-thirds · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, GRID-02 · \"Auditors centralised audit exceptions and processed them in the system, not on files and paper.\" (details); \"add some context\" (your feedback)\nAMB3 Ambient · animated background in the white space beside MyInsights · trailing third, ambient · GRID-03, HIER-03, HIER-04, GRID-02, SCAN-08 · \"allows me to add more animated backgrounds to fill the white space\" (your feedback, round 1 B); \"All three are pure CSS: two gradients, a blur and a mask, roughly 0.6 KB.\" (moodboard, Night light)\nX1 About/Experience · How I work · leading two-thirds · PRIO-01, SCAN-05, GRID-02 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2f About/Experience · timeline, full-row hover · leading two-thirds · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, GRID-02 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nM1f Projects list · Minor Projects, full-row hover · trailing third, beside the timeline · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, GRID-02, SCAN-08 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer, leading two-thirds · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "S-1440-fail": {
+   "x": 2600,
+   "y": 23806,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1008 px (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1898 px.\n• Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+  },
+  "Ttitle": {
+   "x": 0,
+   "y": 29102,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option T · Chapters + ambient (GRP-05 employer chapters (round-1 C), structured · marks move into the spine; white space on the trailing side holds ambient art)"
+  },
+  "T-320-task": {
+   "x": 400,
+   "y": 29342,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone.\nOption T: round-1 C, structured. A leading spine carries section labels and, in History, each employer's mark and period; the trailing white space holds ambient slots. Projects carry captioned figures; History opens with the five years as one bar. Ambient slots are dropped at 320.\nAnswered: Q1 one page, 5 sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 4 feedback: add years at a glance; keep B/C white space for animated backgrounds; E less dense; keep I; keep K hero and Worked with; visuals need context; history more artistic; Minor Projects as bento."
+  },
+  "T-320-ledger": {
+   "x": 400,
+   "y": 29982,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3y Home · years, then title · single column, master order · SCAN-01, PRIO-02, GRP-02, SCAN-04, RESP-01 · \"They see five years and the title OutSystems Technical Lead\" (proposal); \"add 5 yrs … at a single glance\" (your feedback)\nGL Home · At a glance: years, employers, projects, qualifications · single column, master order · SCAN-01, PRIO-02, CPLX-03, GRP-02, SCAN-04, RESP-01 · \"5 years, no gaps, dates clear.\" (journey, Recruiter stage 3); \"add 5 yrs … at a single glance\" (your feedback)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nPF1 Project case study · iZone rebuild, figure right after its decision · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Designing architecture (headless services, integration libs, SSO, private gateway). C4 diagrams\" (LinkedIn); \"make sure the place holder have some context\" (your feedback)\nPF2 Project case study · Digital Form, figure right after its decision · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"connecting with GSAM, HRIS, MStatus, and MPowered\" (CV); \"make sure the place holder have some context\" (your feedback)\nPF3 Project case study · MyInsights, figure right after its decision · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Auditors centralised audit exceptions and processed them in the system, not on files and paper.\" (details); \"add some context\" (your feedback)\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nCH0 About/Experience · History heading (chapters) · single column, master order · HIER-02, SCAN-10, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nTB History · the five years as one bar (captioned visual) · single column, master order · SCAN-10, GRP-03, HIER-03, Asked Q2, RESP-01 · \"The history seciton could be somewhat more artistic\" (your feedback, round 3 I)\nTS1 History · chapter 1 spine with its mark · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12, RESP-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH1c History · chapter 1 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nTS2 History · chapter 2 spine with its mark · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12, RESP-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH2c History · chapter 2 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nTS3 History · chapter 3 spine with its mark · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12, RESP-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH3c History · chapter 3 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nTS4 History · chapter 4 spine with its mark · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12, RESP-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH4c History · chapter 4 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nTS5 History · chapter 5 spine with its mark · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12, RESP-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH5c History · chapter 5 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nTS6 History · chapter 6 spine with its mark · single column, master order · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12, RESP-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH6c History · chapter 6 role, clients, projects · single column, master order · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6, RESP-01 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "T-320-fail": {
+   "x": 400,
+   "y": 31622,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1930 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2951 px.\n• Asked Q6 met per chapter only: Minor Projects sit inside the timeline chapters.\n• Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+  },
+  "T-1440-task": {
+   "x": 2600,
+   "y": 29342,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone.\nOption T: round-1 C, structured. A leading spine carries section labels and, in History, each employer's mark and period; the trailing white space holds ambient slots. Projects carry captioned figures; History opens with the five years as one bar. Ambient slots are dropped at 320.\nAnswered: Q1 one page, 5 sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 4 feedback: add years at a glance; keep B/C white space for animated backgrounds; E less dense; keep I; keep K hero and Worked with; visuals need context; history more artistic; Minor Projects as bento."
+  },
+  "T-1440-ledger": {
+   "x": 2600,
+   "y": 29982,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · content column, cols 4–9 · SCAN-03, HIER-01, SCAN-01, PRIO-01, GRID-01, TYPE-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3y Home · years, then title · content column, cols 4–9 · SCAN-01, PRIO-02, GRP-02, SCAN-04, GRID-01, TYPE-01 · \"They see five years and the title OutSystems Technical Lead\" (proposal); \"add 5 yrs … at a single glance\" (your feedback)\nGL Home · At a glance: years, employers, projects, qualifications · content column, cols 4–9 · SCAN-01, PRIO-02, CPLX-03, GRP-02, SCAN-04, GRID-01, TYPE-01 · \"5 years, no gaps, dates clear.\" (journey, Recruiter stage 3); \"add 5 yrs … at a single glance\" (your feedback)\nH4 Home · About · content column, cols 4–9 · SCAN-03, PRIO-01, GRID-01, TYPE-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · content column, cols 4–9 · PRIO-04, A11Y-01, GRP-02, Asked Q4, GRID-01, TYPE-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nAMB0 Ambient · animated background in the white space beside the opening · trailing white space, ambient · GRID-03, HIER-03, HIER-04 · \"allows me to add more animated backgrounds to fill the white space\" (your feedback, round 1 B); \"All three are pure CSS: two gradients, a blur and a mask, roughly 0.6 KB.\" (moodboard, Night light)\nP0f Project case study · heading, projects rise in as they enter view · spine, beside the projects · HIER-02, SCAN-05, GRID-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nPF1 Project case study · iZone rebuild, figure right after its decision · content column · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, GRID-01 · \"Designing architecture (headless services, integration libs, SSO, private gateway). C4 diagrams\" (LinkedIn); \"make sure the place holder have some context\" (your feedback)\nAMB1 Ambient · animated background in the white space beside iZone · ambient · GRID-03, HIER-03, HIER-04 · \"allows me to add more animated backgrounds to fill the white space\" (your feedback, round 1 B); \"All three are pure CSS: two gradients, a blur and a mask, roughly 0.6 KB.\" (moodboard, Night light)\nPF2 Project case study · Digital Form, figure right after its decision · content column · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, GRID-01 · \"connecting with GSAM, HRIS, MStatus, and MPowered\" (CV); \"make sure the place holder have some context\" (your feedback)\nAMB2 Ambient · animated background in the white space beside Digital Form · ambient · GRID-03, HIER-03, HIER-04 · \"allows me to add more animated backgrounds to fill the white space\" (your feedback, round 1 B); \"All three are pure CSS: two gradients, a blur and a mask, roughly 0.6 KB.\" (moodboard, Night light)\nPF3 Project case study · MyInsights, figure right after its decision · content column · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, TYPE-01, Asked Q5, GRID-01 · \"Auditors centralised audit exceptions and processed them in the system, not on files and paper.\" (details); \"add some context\" (your feedback)\nAMB3 Ambient · animated background in the white space beside MyInsights · ambient · GRID-03, HIER-03, HIER-04 · \"allows me to add more animated backgrounds to fill the white space\" (your feedback, round 1 B); \"All three are pure CSS: two gradients, a blur and a mask, roughly 0.6 KB.\" (moodboard, Night light)\nX1 About/Experience · How I work · content column · PRIO-01, SCAN-05 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nCH0 About/Experience · History heading (chapters) · spine heading · HIER-02, SCAN-10 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nTB History · the five years as one bar (captioned visual) · the five years as one bar · SCAN-10, GRP-03, HIER-03, Asked Q2 · \"The history seciton could be somewhat more artistic\" (your feedback, round 3 I)\nTS1 History · chapter 1 spine with its mark · spine: mark, period, employer · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH1c History · chapter 1 role, clients, projects · chapter body · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nTS2 History · chapter 2 spine with its mark · spine: mark, period, employer · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH2c History · chapter 2 role, clients, projects · chapter body · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nAMB4 Ambient · animated background in the white space beside the Maybank chapter · ambient beside the chapter · GRID-03, HIER-03, HIER-04 · \"allows me to add more animated backgrounds to fill the white space\" (your feedback, round 1 B); \"All three are pure CSS: two gradients, a blur and a mask, roughly 0.6 KB.\" (moodboard, Night light)\nTS3 History · chapter 3 spine with its mark · spine: mark, period, employer · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH3c History · chapter 3 role, clients, projects · chapter body · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nTS4 History · chapter 4 spine with its mark · spine: mark, period, employer · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH4c History · chapter 4 role, clients, projects · chapter body · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nAMB5 Ambient · animated background in the white space beside the FPT chapter · ambient beside the chapter · GRID-03, HIER-03, HIER-04 · \"allows me to add more animated backgrounds to fill the white space\" (your feedback, round 1 B); \"All three are pure CSS: two gradients, a blur and a mask, roughly 0.6 KB.\" (moodboard, Night light)\nTS5 History · chapter 5 spine with its mark · spine: mark, period, employer · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH5c History · chapter 5 role, clients, projects · chapter body · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nTS6 History · chapter 6 spine with its mark · spine: mark, period, employer · GRP-05, SCAN-10, GRID-01, A11Y-04, SCAN-12 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nCH6c History · chapter 6 role, clients, projects · chapter body · GRP-05, GRP-02, PRIO-01, Asked Q2, Asked Q6 · \"Page as timeline · Newest first. Each employer is a chapter holding its projects\" (moodboard, Patterns)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer, content column · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "T-1440-fail": {
+   "x": 2600,
+   "y": 31622,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1292 px (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2158 px.\n• Asked Q6 met per chapter only: Minor Projects sit inside the timeline chapters.\n• Proposal: \"Marks are the only images.\" Captioned visuals break this unless drawn in code (markup, not image files); Rule 10 bars \"an image of his work\", so a diagram of his work is your call. Each adds bytes to the 14 KB target."
+  }
+ },
+ "designSystems": []
+}
