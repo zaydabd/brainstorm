@@ -4,83 +4,101 @@
   "boards": {
     "B-Desktop.dc.html": {
       "h": 7000,
+      "page": "round1",
       "title": "B \u00b7 Desktop 1440",
       "w": 1440,
       "x": 2560,
-      "y": 0,
-      "page": "round1"
+      "y": 0
     },
     "B-Phone.dc.html": {
       "h": 7400,
+      "page": "round1",
       "title": "B \u00b7 Phone 320",
       "w": 320,
       "x": 2160,
-      "y": 0,
-      "page": "round1"
+      "y": 0
+    },
+    "C-Desktop.dc.html": {
+      "h": 7600,
+      "page": "radical",
+      "title": "C \u00b7 Engineering manual \u00b7 Desktop 1440",
+      "w": 1440,
+      "x": 400,
+      "y": 0
+    },
+    "C-Phone.dc.html": {
+      "h": 8000,
+      "page": "radical",
+      "title": "C \u00b7 Engineering manual \u00b7 Phone 320",
+      "w": 320,
+      "x": 0,
+      "y": 0
+    },
+    "D-Desktop.dc.html": {
+      "h": 8000,
+      "page": "radical",
+      "title": "D \u00b7 Title sequence \u00b7 Desktop 1440",
+      "w": 1440,
+      "x": 2560,
+      "y": 0
+    },
+    "D-Phone.dc.html": {
+      "h": 8000,
+      "page": "radical",
+      "title": "D \u00b7 Title sequence \u00b7 Phone 320",
+      "w": 320,
+      "x": 2160,
+      "y": 0
     },
     "Desktop.dc.html": {
       "h": 6000,
+      "page": "round1",
       "title": "Desktop 1440",
       "w": 1440,
       "x": 400,
-      "y": 0,
-      "page": "round1"
+      "y": 0
+    },
+    "E-Desktop.dc.html": {
+      "h": 7400,
+      "page": "radical",
+      "title": "E \u00b7 The book \u00b7 Desktop 1440",
+      "w": 1440,
+      "x": 4720,
+      "y": 0
+    },
+    "E-Phone.dc.html": {
+      "h": 8000,
+      "page": "radical",
+      "title": "E \u00b7 The book \u00b7 Phone 320",
+      "w": 320,
+      "x": 4320,
+      "y": 0
     },
     "Main.dc.html": {
       "h": 6700,
+      "page": "round1",
       "title": "Phone 320",
       "w": 320,
       "x": 0,
-      "y": 0,
-      "page": "round1"
+      "y": 0
     },
-    "C-Phone.dc.html": {
+    "F-Phone.dc.html": {
       "x": 0,
       "y": 0,
       "w": 320,
-      "h": 9000,
-      "title": "C \u00b7 Engineering manual \u00b7 Phone 320",
-      "page": "radical"
+      "h": 6400,
+      "title": "F \u00b7 Phone 320",
+      "page": "book",
+      "is_interactive": true
     },
-    "C-Desktop.dc.html": {
+    "F-Desktop.dc.html": {
       "x": 400,
       "y": 0,
       "w": 1440,
-      "h": 7600,
-      "title": "C \u00b7 Engineering manual \u00b7 Desktop 1440",
-      "page": "radical"
-    },
-    "D-Phone.dc.html": {
-      "x": 2160,
-      "y": 0,
-      "w": 320,
-      "h": 11400,
-      "title": "D \u00b7 Title sequence \u00b7 Phone 320",
-      "page": "radical"
-    },
-    "D-Desktop.dc.html": {
-      "x": 2560,
-      "y": 0,
-      "w": 1440,
-      "h": 12000,
-      "title": "D \u00b7 Title sequence \u00b7 Desktop 1440",
-      "page": "radical"
-    },
-    "E-Phone.dc.html": {
-      "x": 4320,
-      "y": 0,
-      "w": 320,
-      "h": 9500,
-      "title": "E \u00b7 The book \u00b7 Phone 320",
-      "page": "radical"
-    },
-    "E-Desktop.dc.html": {
-      "x": 4720,
-      "y": 0,
-      "w": 1440,
-      "h": 7400,
-      "title": "E \u00b7 The book \u00b7 Desktop 1440",
-      "page": "radical"
+      "h": 7200,
+      "title": "F \u00b7 Desktop 1440",
+      "page": "book",
+      "is_interactive": true
     }
   },
   "createdOnFiles": {
@@ -89,50 +107,62 @@
   },
   "designSystems": [],
   "launch": {
-    "view": "canvas"
+    "view": "canvas",
+    "page": "book"
   },
   "notes": {
     "t1": {
       "kind": "title1",
       "maxW": 1840,
+      "page": "round1",
       "text": "A \u00b7 Night light (palette v5)",
       "w": 240,
       "x": 0,
-      "y": -300,
-      "page": "round1"
+      "y": -300
     },
     "t2": {
       "kind": "title1",
       "maxW": 1840,
+      "page": "round1",
       "text": "B \u00b7 Day, no containers (palette v4)",
       "w": 240,
       "x": 2160,
-      "y": -300,
-      "page": "round1"
+      "y": -300
     },
     "tC": {
-      "x": 0,
-      "y": -300,
-      "text": "C \u00b7 Engineering manual (grey, black, one orange)",
       "kind": "title1",
       "maxW": 1840,
-      "page": "radical"
+      "page": "radical",
+      "text": "C \u00b7 Engineering manual (grey, black, one orange)",
+      "w": 240,
+      "x": 0,
+      "y": -300
     },
     "tD": {
-      "x": 2160,
-      "y": -300,
-      "text": "D \u00b7 Title sequence (black, one red)",
       "kind": "title1",
       "maxW": 1840,
-      "page": "radical"
+      "page": "radical",
+      "text": "D \u00b7 Title sequence (black, one red)",
+      "w": 240,
+      "x": 2160,
+      "y": -300
     },
     "tE": {
-      "x": 4320,
-      "y": -300,
-      "text": "E \u00b7 The book (rose-stone paper, serif)",
       "kind": "title1",
       "maxW": 1840,
-      "page": "radical"
+      "page": "radical",
+      "text": "E \u00b7 The book (rose-stone paper, serif)",
+      "w": 240,
+      "x": 4320,
+      "y": -300
+    },
+    "tF": {
+      "x": 0,
+      "y": -300,
+      "text": "F \u00b7 The book, white (video, photos, short projects)",
+      "kind": "title1",
+      "maxW": 1840,
+      "page": "book"
     }
   },
   "order": [
@@ -145,7 +175,9 @@
     "D-Phone.dc.html",
     "D-Desktop.dc.html",
     "E-Phone.dc.html",
-    "E-Desktop.dc.html"
+    "E-Desktop.dc.html",
+    "F-Phone.dc.html",
+    "F-Desktop.dc.html"
   ],
   "pages": [
     {
@@ -155,6 +187,10 @@
     {
       "id": "radical",
       "name": "Radical: C, D, E"
+    },
+    {
+      "id": "book",
+      "name": "F \u00b7 The book, white"
     }
   ],
   "title": "Portfolio hi-fi"
