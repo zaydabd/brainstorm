@@ -1,0 +1,192 @@
+{
+ "PS-320": [
+  {
+   "id": "H1",
+   "y": 24,
+   "h": 150,
+   "above_fold": true
+  },
+  {
+   "id": "F0t",
+   "y": 198,
+   "h": 444,
+   "above_fold": true
+  },
+  {
+   "id": "GLh",
+   "y": 666,
+   "h": 160,
+   "above_fold": false
+  },
+  {
+   "id": "KCm",
+   "y": 850,
+   "h": 300,
+   "above_fold": false
+  },
+  {
+   "id": "H4d",
+   "y": 1174,
+   "h": 198,
+   "above_fold": false
+  },
+  {
+   "id": "H5",
+   "y": 1395,
+   "h": 397,
+   "above_fold": false
+  },
+  {
+   "id": "P0h",
+   "y": 1816,
+   "h": 182,
+   "above_fold": false
+  },
+  {
+   "id": "PS7",
+   "y": 2022,
+   "h": 481,
+   "above_fold": false
+  },
+  {
+   "id": "PSD7_1",
+   "y": 2527,
+   "h": 952,
+   "above_fold": false
+  },
+  {
+   "id": "PSX7",
+   "y": 3502,
+   "h": 93,
+   "above_fold": false
+  },
+  {
+   "id": "X1",
+   "y": 3619,
+   "h": 160,
+   "above_fold": false
+  },
+  {
+   "id": "HBs",
+   "y": 3804,
+   "h": 350,
+   "above_fold": false
+  },
+  {
+   "id": "MB3",
+   "y": 4178,
+   "h": 1974,
+   "above_fold": false
+  },
+  {
+   "id": "FM",
+   "y": 6175,
+   "h": 112,
+   "above_fold": false
+  },
+  {
+   "id": "C1h",
+   "y": 6311,
+   "h": 286,
+   "above_fold": false
+  }
+ ],
+ "PS-1440": [
+  {
+   "id": "H1",
+   "y": 24,
+   "h": 102,
+   "above_fold": true
+  },
+  {
+   "id": "F0t",
+   "y": 150,
+   "h": 448,
+   "above_fold": true
+  },
+  {
+   "id": "GLh",
+   "y": 150,
+   "h": 160,
+   "above_fold": true
+  },
+  {
+   "id": "KCm",
+   "y": 622,
+   "h": 220,
+   "above_fold": true
+  },
+  {
+   "id": "H4d",
+   "y": 866,
+   "h": 126,
+   "above_fold": false
+  },
+  {
+   "id": "H5",
+   "y": 866,
+   "h": 308,
+   "above_fold": false
+  },
+  {
+   "id": "P0h",
+   "y": 1198,
+   "h": 128,
+   "above_fold": false
+  },
+  {
+   "id": "PS7",
+   "y": 1350,
+   "h": 664,
+   "above_fold": false
+  },
+  {
+   "id": "PSD7_1",
+   "y": 2038,
+   "h": 667,
+   "above_fold": false
+  },
+  {
+   "id": "PSX7",
+   "y": 2729,
+   "h": 51,
+   "above_fold": false
+  },
+  {
+   "id": "X1",
+   "y": 2804,
+   "h": 88,
+   "above_fold": false
+  },
+  {
+   "id": "HB9",
+   "y": 2916,
+   "h": 329,
+   "above_fold": false
+  },
+  {
+   "id": "HP7",
+   "y": 3270,
+   "h": 317,
+   "above_fold": false
+  },
+  {
+   "id": "MB3",
+   "y": 3611,
+   "h": 571,
+   "above_fold": false
+  },
+  {
+   "id": "FM",
+   "y": 4206,
+   "h": 161,
+   "above_fold": false
+  },
+  {
+   "id": "C1h",
+   "y": 4390,
+   "h": 240,
+   "above_fold": false
+  }
+ ]
+}
