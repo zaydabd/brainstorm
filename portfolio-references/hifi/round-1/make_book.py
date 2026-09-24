@@ -8,6 +8,11 @@ B = {'video': '/_blob/982b8513fa164c4e5d4b5a5bb8199c9b', 'poster': '/_blob/2d746
      'shadows': '/_blob/28cea1090f6087cd4d65d795241e9267', 'plants': '/_blob/826383981c95ef1f11aa8c1622e6b2f3',
      'street': '/_blob/5c788df47191487d560b509c782cb330', 'harp': '/_blob/d3282f304996981614eaaff9ddea37c0',
      'orchid': '/_blob/a10f7274e63db6b0f3a239c020c64fea'}
+LOGO = {'AvePoint': ('/_blob/a07c3c877b80d7a699b0c60107fcd2b5', 26), 'Sunway University': ('/_blob/6893c0648f56711645fa4096be05c209', 46),
+        'Maybank': ('/_blob/f3b8c1f834a3dfdad63148ebdc13d85d', 30), 'FPT Software': ('/_blob/e1be4f229a5d12bdc2038b07f075dde8', 36),
+        'PETRONAS': ('/_blob/1584f976d443789f6666ce1a0dd9954f', 40)}
+MARK = [('AvePoint', '/_blob/430bd3bddca6f6bab934ebe4f217c77f'), ('Maybank', '/_blob/3220e10666d87a2823f6de4bd8b5c52d'),
+        ('FPT', '/_blob/1d8b037dee7ca8144ac08a92cc07f26a'), ('PETRONAS', '/_blob/99dccac43a3485435e5261e8d3e14028')]
 TAGLINE = 'I design and build enterprise systems: on my own, in a team, and leading one.'
 LI_URL = 'https://www.linkedin.com/in/wan-zayd-abdullah-690033230'
 LI = 'linkedin.com/in/wan-zayd-abdullah-690033230'
@@ -62,6 +67,7 @@ h1,h2,h3{text-wrap:balance}p{text-wrap:pretty}
 .onum{font-variant-numeric:oldstyle-nums proportional-nums}
 .nv{text-decoration:none}.nv:hover{text-decoration:underline}
 .wk{transition:color .4s ease}.wk:hover{color:#262032}
+.mk{filter:grayscale(1);opacity:.72;transition:filter .4s ease,opacity .4s ease}.mk:hover,.wk:hover .mk,a:hover .mk,li:hover>div .mk{filter:none;opacity:1}
 .pl img{transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}.pl:hover img{transform:scale(1.02)}
 .vb{transition:background-color .2s}.vb:hover{background:rgba(13,11,18,0.7)}
 @keyframes wz-rtl{from{transform:translateX(0)}to{transform:translateX(-50%)}}
@@ -124,8 +130,14 @@ def sc(px=12, color=CLAY, ls='0.14em'):
 def slot(px, color=SL):
     return f'<span aria-hidden="true" style="display:inline-block;flex-shrink:0;width:{px}px;height:{px}px;box-sizing:border-box;border:1px dashed {color}"></span>'
 
+def mark(name, px):
+    for k, src in MARK:
+        if k in name:
+            return f'<img class="mk" src="{src}" alt="" style="display:inline-block;flex-shrink:0;height:{px}px;width:auto">'
+    return ''
+
 def org(p, px):
-    return ''.join((slot(px) if mk else '') + t for t, mk in p['org'])
+    return ''.join((mark(t, px + 3) if mk else '') + t for t, mk in p['org'])
 
 def leader(left, right, px, rc=SL):
     return (f'<div style="display:flex;align-items:baseline;font-size:{px}px;line-height:1.35"><span>{left}</span>'
@@ -136,7 +148,7 @@ def strong(n):
     return f'<strong style="font-weight:600">{n}</strong>'
 
 def emp(e, mk):
-    return f'<span style="display:inline-flex;align-items:center;gap:6px">{slot(12) if mk else ""}{e}</span>'
+    return f'<span style="display:inline-flex;align-items:center;gap:6px">{mark(e, 15) if mk else ""}{e}</span>'
 
 def photo(key, style):
     return f'<figure class="pl" style="margin:0;overflow:hidden;{style}"><img src="{B[key]}" alt="" style="display:block;width:100%;height:100%;object-fit:cover"></figure>'
@@ -155,7 +167,12 @@ def strip(items, height, direction):
 
 def worked(px, gap):
     def items(h):
-        lis = ''.join(f'<li class="wk" style="display:flex;align-items:center;gap:10px;font-style:italic;font-size:{px}px;color:{SL};white-space:nowrap">{slot(px - 10) if mk else ""}{n}</li>' for n, mk in WORKED)
+        def one(n):
+            if n in LOGO:
+                src, h = LOGO[n]
+                return f'<li class="wk" style="display:flex;align-items:center"><img class="mk" src="{src}" alt="{n}" style="display:block;height:{round(h * px / 32)}px;width:auto"></li>'
+            return f'<li class="wk" style="display:flex;align-items:center;font-style:italic;font-size:{px}px;color:{SL};white-space:nowrap">{n}</li>'
+        lis = ''.join(one(n) for n, mk in WORKED)
         return f'<ul{AH if h else ""} style="display:flex;align-items:center;gap:{gap}px;margin:0;padding:0 {gap//2}px;list-style:none">{lis}</ul>'
     return items
 
@@ -166,7 +183,7 @@ def project_text(p, wide):
             f'<p style="margin:0 0 {28 if wide else 20}px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-style:italic;font-size:{18 if wide else 15}px;color:{SL}">{org(p, 13)}</p>'
             + lines +
             f'<p style="margin:{18 if wide else 14}px 0 0;padding-top:12px;border-top:1px solid {RULE};display:flex;align-items:center;gap:8px;flex-wrap:wrap;{sc(11, SL, "0.1em")}">'
-            f'<span>{p["credit"]}</span><span aria-hidden="true">·</span>{slot(12)}<span>{p["tools"]}</span></p>')
+            f'<span>{p["credit"]}</span><span aria-hidden="true">·</span><span>{p["tools"]}</span></p>')
 
 # ---------------- desktop ----------------
 def desktop():
@@ -201,7 +218,7 @@ def desktop():
             f'<p style="margin:0;font-style:italic;font-size:21px;line-height:1.55;color:{SL}">[PLACEHOLDER: one short paragraph, in your words]</p></div>'
             f'<div style="grid-column:6 / span 7"><h2 id="f-hist" style="margin:0 0 6px;{sc(13)}">History</h2>'
             + ''.join(f'<div style="padding:{6 if n.startswith("↳") else 10}px 0 0 {22 if n.startswith("↳") else 0}px">'
-                      + leader(f'<span style="display:inline-flex;align-items:center;gap:8px;{"font-style:italic;color:" + SL if n.startswith("↳") else ""}">{slot(13) if mk else ""}{n}</span>', per, 19 if not n.startswith('↳') else 17)
+                      + leader(f'<span style="display:inline-flex;align-items:center;gap:8px;{"font-style:italic;color:" + SL if n.startswith("↳") else ""}">{mark(n, 16) if mk else ""}{n}</span>', per, 19 if not n.startswith('↳') else 17)
                       + (f'<p style="margin:0;font-style:italic;font-size:15px;color:{SL}">{r}</p>' if r else '') + '</div>' for n, mk, per, r in HIST)
             + '</div></section>')
     minor = (f'<section aria-labelledby="f-minor" style="{G};padding-bottom:160px"><h2 id="f-minor" style="grid-column:1 / span 12;margin:0 0 14px;{sc(13)}">Minor Projects</h2>'
@@ -245,7 +262,7 @@ def phone():
            f'<p style="margin:0;font-style:italic;font-size:18px;line-height:1.55;color:{SL}">[PLACEHOLDER: one short paragraph, in your words]</p></section>')
     def band(h):
         lis = ''.join(f'<li style="display:flex;flex-direction:column;justify-content:center;gap:4px;height:96px;padding:0 26px;white-space:nowrap">'
-                      f'<span class="onum" style="{sc(10)}">{per}</span><span style="display:flex;align-items:center;gap:6px;font-size:18px">{slot(13) if mk else ""}{n}</span></li>' for per, n, mk in TL)
+                      f'<span class="onum" style="{sc(10)}">{per}</span><span style="display:flex;align-items:center;gap:6px;font-size:18px">{mark(n, 16) if mk else ""}{n}</span></li>' for per, n, mk in TL)
         return f'<ol{AH if h else ""} style="display:flex;margin:0;padding:0;list-style:none">{lis}</ol>'
     hist = (f'<section id="history" aria-labelledby="f-hist" style="margin:0 0 72px;border-top:1px solid {RULE};border-bottom:1px solid {RULE}">'
             f'<h2 id="f-hist" style="margin:0;padding:6px {P}px 0;{sc(11)}">History</h2>' + strip(band, 96, 'ltr') + '</section>')
