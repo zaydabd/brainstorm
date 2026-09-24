@@ -1,0 +1,80 @@
+{
+ "F-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1290 px, below the fold (568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 2131 px, below the fold."
+ ],
+ "F-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1090 px, below the fold (765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 1688 px, below the fold."
+ ],
+ "G-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1248 px, below the fold (568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 1372 px, below the fold."
+ ],
+ "G-1440": [
+  "CPLX-01: 9 blocks start in viewport 1, the most on this canvas.",
+  "CPLX-02: a dense sheet reads casual; the brief asks for \"cinematic but calm\".",
+  "PRIO-01: the full Main Project write-ups come after the Minor list; only the contents rows (decision first) sit above it."
+ ],
+ "H-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1388 px, below the fold (568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 1987 px, below the fold.",
+  "RESP-04 allows it, but on a phone every table scrolls sideways, so each Main Project field needs panning (SCAN-09)."
+ ],
+ "H-1440": [
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 1235 px, below the fold.",
+  "SCAN-01: the first decision row starts at 761 px, 4 px above the fold."
+ ],
+ "I-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1248 px, below the fold (568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 1621 px, below the fold.",
+  "Asked Q6: the Minor Projects rows (in the list pane) come before the timeline."
+ ],
+ "I-1440": [
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 931 px, below the fold.",
+  "Asked Q6: the Minor Projects rows (in the list pane) come before the timeline.",
+  "Spec \"shows the three Main Projects, each with all its fields\": at 1440 one detail shows at a time."
+ ],
+ "J-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1213 px, below the fold (568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 2071 px, below the fold.",
+  "Spec \"shows the three Main Projects, each with all its fields\": fields show after a tap."
+ ],
+ "J-1440": [
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 1148 px, below the fold.",
+  "Spec \"shows the three Main Projects, each with all its fields\": fields show after a tap.",
+  "Journey \"Check career\" is the moment of truth for the hiring manager and recruiter; History is closed until tapped."
+ ],
+ "K-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1686 px, below the fold (568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 2421 px, below the fold.",
+  "PRIO-01: the credits strip moves employer names (journey stage 4) above About; placed on your request only.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+ ],
+ "K-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1366 px, below the fold (765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 1813 px, below the fold.",
+  "PRIO-01: the credits strip moves employer names (journey stage 4) above About; placed on your request only.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+ ],
+ "L-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1451 px, below the fold (568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 2186 px, below the fold.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+ ],
+ "L-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1077 px, below the fold (765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 1500 px, below the fold.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+ ],
+ "M-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1392 px, below the fold (568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 2127 px, below the fold.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+ ],
+ "M-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1056 px, below the fold (765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": the first Tools line is at 1503 px, below the fold.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+ ]
+}
