@@ -1,0 +1,92 @@
+{
+ "I-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1535 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1950 px.",
+  "SCAN-01: the visual slot above About pushes it to 860 px, screen 2.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+  "Asked Q6: the Minor Projects rows (in the list pane) come before the timeline."
+ ],
+ "I-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 801 px (fold 765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1110 px.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+  "Asked Q6: the Minor Projects rows (in the list pane) come before the timeline.",
+  "Spec \"shows the three Main Projects, each with all its fields\": at 1440 one detail shows at a time."
+ ],
+ "K-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1878 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2613 px.",
+  "SCAN-01: the visual slots above About push it to 1046 px, screen 2.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call).",
+  "PRIO-01: the credits strip moves employer names (journey stage 4) above About; placed on your request only."
+ ],
+ "K-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1480 px (fold 765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1927 px.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call).",
+  "PRIO-01: the credits strip moves employer names (journey stage 4) above About; placed on your request only."
+ ],
+ "L-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1793 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2528 px.",
+  "SCAN-01: the visual slot above About pushes it to 860 px, screen 2.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+ ],
+ "L-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1201 px (fold 765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1624 px.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+ ],
+ "M-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1691 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2426 px.",
+  "SCAN-01: the visual slot above About pushes it to 860 px, screen 2.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+ ],
+ "M-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1086 px (fold 765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1533 px.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+  "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+ ],
+ "N-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1691 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2426 px.",
+  "SCAN-01: the visual slot above About pushes it to 860 px, screen 2.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+ ],
+ "N-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1243 px (fold 765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1666 px.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+  "HIER-02: in row 2 the visual leads its project heading (zigzag by CSS order; DOM keeps text first)."
+ ],
+ "O-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1808 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2543 px.",
+  "SCAN-01: the visual slots above About push it to 976 px, screen 2.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+ ],
+ "O-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1177 px (fold 765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1600 px.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+  "CPLX-01: 15 tiles plus header and footer, the most blocks on this canvas; each tile adds to perceived complexity (GRP-C3)."
+ ],
+ "P-320": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1691 px (fold 568).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2426 px.",
+  "SCAN-01: the visual slot above About pushes it to 860 px, screen 2.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+ ],
+ "P-1440": [
+  "SCAN-01 / PRIO-02: the first Main Project decision starts at 1022 px (fold 765).",
+  "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1445 px.",
+  "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+ ]
+}

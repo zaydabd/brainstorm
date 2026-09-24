@@ -1,0 +1,4530 @@
+{
+ "title": "Portfolio block-out · round 3",
+ "fold": {
+  "320": 568,
+  "1440": 765
+ },
+ "blocks": {
+  "H1": {
+   "name": "Header · skip link, identity, nav",
+   "html": "<a href=\"#main\" style=\"font-size:13px;color:#555555\">Skip to content (shows on focus)</a><div style=\"display:flex;flex-wrap:wrap;align-items:center;gap:4px 16px;margin-top:4px\"><a href=\"#top\" style=\"font-weight:700;font-size:18px;display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0\">Wan Zayd Abdullah</a><nav aria-label=\"Sections\" style=\"display:flex;flex-wrap:wrap;gap:4px\"><a href=\"#work\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px\">work</a><a href=\"#history\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px\">history</a><a href=\"#contact\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px\">contact</a></nav></div>",
+   "rules": [
+    "CONV-01",
+    "INT-16",
+    "CONV-04",
+    "A11Y-02",
+    "Asked Q4"
+   ],
+   "doc": "\"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)"
+  },
+  "H2": {
+   "name": "Home · decision first",
+   "html": "<h1 style=\"font-size:32px;line-height:1.15;margin:0\">Row locking under enrolment load</h1><p style=\"margin:8px 0 0;font-size:18px\">Load-tested at 40,000 enrolments over a sustained 20-minute window.</p>",
+   "rules": [
+    "SCAN-03",
+    "HIER-01",
+    "SCAN-01",
+    "PRIO-01"
+   ],
+   "doc": "\"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)"
+  },
+  "H3": {
+   "name": "Home · title",
+   "html": "<p style=\"margin:0;font-size:20px;font-weight:600\">OutSystems Technical Lead</p>",
+   "rules": [
+    "SCAN-01",
+    "PRIO-02",
+    "GRP-02"
+   ],
+   "doc": "\"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)"
+  },
+  "H4": {
+   "name": "Home · About",
+   "html": "<h2 style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">About</h2><p style=\"margin:4px 0 0\"><span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: About text, written by Wan Zayd; a decision comes before the platform name]</span></p>",
+   "rules": [
+    "SCAN-03",
+    "PRIO-01"
+   ],
+   "doc": "\"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)"
+  },
+  "H5": {
+   "name": "Home · Qualifications (detail on tap)",
+   "html": "<h2 style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Qualifications (5)</h2><details open style=\"border-top:1px solid #cccccc\"><summary style=\"padding:11px 0;font-size:15px\">OutSystems Associate Developer Specialist (O11)</summary><p style=\"margin:0 0 10px 16px;font-size:14px;color:#444444\">Issuer: OutSystems · Year: <span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: year]</span></p></details><details style=\"border-top:1px solid #cccccc\"><summary style=\"padding:11px 0;font-size:15px\">OutSystems Associate Technical Lead (O11)</summary><p style=\"margin:0 0 10px 16px;font-size:14px;color:#444444\">Issuer: OutSystems · Year: <span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: year]</span></p></details><details style=\"border-top:1px solid #cccccc\"><summary style=\"padding:11px 0;font-size:15px\">Professional Scrum Developer</summary><p style=\"margin:0 0 10px 16px;font-size:14px;color:#444444\">Issuer: <span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: issuer]</span> · Year: <span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: year]</span></p></details><details style=\"border-top:1px solid #cccccc\"><summary style=\"padding:11px 0;font-size:15px\">Bachelor of Information System, Intelligent Systems Engineering</summary><p style=\"margin:0 0 10px 16px;font-size:14px;color:#444444\">Universiti Teknologi MARA · 2019 – 2021</p></details><details style=\"border-top:1px solid #cccccc\"><summary style=\"padding:11px 0;font-size:15px\">Diploma in Computer Science</summary><p style=\"margin:0 0 10px 16px;font-size:14px;color:#444444\">Universiti Teknologi MARA · 2015 – 2019</p></details>",
+   "rules": [
+    "PRIO-04",
+    "A11Y-01",
+    "GRP-02",
+    "Asked Q4"
+   ],
+   "doc": "\"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)"
+  },
+  "P1": {
+   "name": "Project case study · iZone rebuild",
+   "html": "<h3 id=\"izone\" style=\"margin:0;font-size:22px;line-height:1.2\">iZone rebuild</h3><p style=\"margin:4px 0 12px;font-size:14px;color:#444444\">Sunway University · via <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · AvePoint</span>AvePoint</p><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">Row locking with SELECT FOR UPDATE on Aurora PostgreSQL for enrolment. He kept the legacy database structure as a local replica.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">The legacy portal did not scale and crashed at every enrolment peak. The interface was old, and the client wanted it modernised. The old system counted submissions before commit, which fails under concurrency.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">The replica was not well optimised. With a thin team, he developed as well as led, and he was stretched hard.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">Senior Technical Lead and architecture owner, of three developers, himself included.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Deployed to live, not yet in use. Load-tested at 40,000 enrolments over a sustained 20-minute window.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems ODC · Aurora PostgreSQL · Microsoft single sign-on · private gateway</dd></div></dl>",
+   "rules": [
+    "SCAN-10",
+    "SCAN-03",
+    "HIER-02",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q5"
+   ],
+   "doc": "\"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order"
+  },
+  "P2": {
+   "name": "Project case study · Digital Form",
+   "html": "<h3 id=\"digital-form\" style=\"margin:0;font-size:22px;line-height:1.2\">Digital Form</h3><p style=\"margin:4px 0 12px;font-size:14px;color:#444444\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank</p><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">Extensible question types, so each MVP cycle added types and features and stabilised the platform.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">No internal form platform existed. A vendor built forms, but no confidential item was allowed in them.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">Each new question type added complexity.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">Technical Lead, Product Owner and sole developer.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Used across Maybank. Over 80 forms by the fifth MVP, with thousands of submissions and users.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</dd></div></dl>",
+   "rules": [
+    "SCAN-10",
+    "SCAN-03",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q5"
+   ],
+   "doc": "\"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order"
+  },
+  "P3": {
+   "name": "Project case study · MyInsights",
+   "html": "<h3 id=\"myinsights\" style=\"margin:0;font-size:22px;line-height:1.2\">MyInsights</h3><p style=\"margin:4px 0 12px;font-size:14px;color:#444444\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · PETRONAS</span>PETRONAS · via <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · FPT Software</span>FPT Software</p><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">A fixed set of roles, each tied to its business rules.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">Auditors checked exceptions manually, on files and paper.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">Low cost, in his account.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">OutSystems developer in a team of four; not the lead. Built user management, permissions, front-end screens, part of the audit rule logic and part of the data sync.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Auditors centralised audit exceptions and processed them in the system, not on files and paper.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</dd></div></dl>",
+   "rules": [
+    "SCAN-10",
+    "SCAN-03",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q5"
+   ],
+   "doc": "\"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order"
+  },
+  "X1": {
+   "name": "About/Experience · How I work",
+   "html": "<h2 style=\"margin:0 0 8px;font-size:22px;line-height:1.2\">How I work</h2><p style=\"margin:0\"><span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: one short paragraph, in his words, on architecture calls and running a team]</span></p>",
+   "rules": [
+    "PRIO-01",
+    "SCAN-05"
+   ],
+   "doc": "\"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)"
+  },
+  "IP1": {
+   "name": "Project case study · iZone rebuild detail pane",
+   "html": "<a href=\"#work\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0;font-size:14px\">← Projects list</a><div style=\"max-width:66ch\"><h3 id=\"izone\" style=\"margin:4px 0 0;font-size:24px\">iZone rebuild</h3><p style=\"margin:4px 0 12px;font-size:14px;color:#444444\">Sunway University · via <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · AvePoint</span>AvePoint</p><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">Row locking with SELECT FOR UPDATE on Aurora PostgreSQL for enrolment. He kept the legacy database structure as a local replica.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">The legacy portal did not scale and crashed at every enrolment peak. The interface was old, and the client wanted it modernised. The old system counted submissions before commit, which fails under concurrency.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">The replica was not well optimised. With a thin team, he developed as well as led, and he was stretched hard.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">Senior Technical Lead and architecture owner, of three developers, himself included.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Deployed to live, not yet in use. Load-tested at 40,000 enrolments over a sustained 20-minute window.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems ODC · Aurora PostgreSQL · Microsoft single sign-on · private gateway</dd></div></dl></div>",
+   "rules": [
+    "RESP-06",
+    "INT-10",
+    "GRP-02",
+    "A11Y-04",
+    "TYPE-01",
+    "Asked Q5"
+   ],
+   "doc": "\"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)"
+  },
+  "IP2": {
+   "name": "Project case study · Digital Form detail pane",
+   "html": "<a href=\"#work\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0;font-size:14px\">← Projects list</a><div style=\"max-width:66ch\"><h3 id=\"digital-form\" style=\"margin:4px 0 0;font-size:24px\">Digital Form</h3><p style=\"margin:4px 0 12px;font-size:14px;color:#444444\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank</p><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">Extensible question types, so each MVP cycle added types and features and stabilised the platform.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">No internal form platform existed. A vendor built forms, but no confidential item was allowed in them.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">Each new question type added complexity.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">Technical Lead, Product Owner and sole developer.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Used across Maybank. Over 80 forms by the fifth MVP, with thousands of submissions and users.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</dd></div></dl></div>",
+   "rules": [
+    "RESP-06",
+    "INT-10",
+    "GRP-02",
+    "A11Y-04",
+    "TYPE-01",
+    "Asked Q5"
+   ],
+   "doc": "\"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)"
+  },
+  "IP3": {
+   "name": "Project case study · MyInsights detail pane",
+   "html": "<a href=\"#work\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0;font-size:14px\">← Projects list</a><div style=\"max-width:66ch\"><h3 id=\"myinsights\" style=\"margin:4px 0 0;font-size:24px\">MyInsights</h3><p style=\"margin:4px 0 12px;font-size:14px;color:#444444\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · PETRONAS</span>PETRONAS · via <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · FPT Software</span>FPT Software</p><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">A fixed set of roles, each tied to its business rules.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">Auditors checked exceptions manually, on files and paper.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">Low cost, in his account.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">OutSystems developer in a team of four; not the lead. Built user management, permissions, front-end screens, part of the audit rule logic and part of the data sync.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Auditors centralised audit exceptions and processed them in the system, not on files and paper.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</dd></div></dl></div>",
+   "rules": [
+    "RESP-06",
+    "INT-10",
+    "GRP-02",
+    "A11Y-04",
+    "TYPE-01",
+    "Asked Q5"
+   ],
+   "doc": "\"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)"
+  },
+  "IPX": {
+   "name": "Project case study · where Digital Form and MyInsights appear at 1440",
+   "html": "<p style=\"margin:0;font-size:14px;color:#444444\">Digital Form (IP2) and MyInsights (IP3) sit here in the same pane, hidden until chosen in the list (CSS :target, no script).</p>",
+   "rules": [
+    "RESP-06",
+    "PRIO-04"
+   ],
+   "doc": "\"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)"
+  },
+  "LP2": {
+   "name": "Project case study · Digital Form with its marks trailing",
+   "html": "<div style=\"display:flex;gap:16px;justify-content:space-between;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><h3 id=\"digital-form\" style=\"margin:0;font-size:22px\">Digital Form</h3><p style=\"margin:4px 0 0;font-size:14px;color:#444444\">Maybank</p></div><div style=\"flex:0 0 auto;display:grid;gap:6px;justify-items:end\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · Maybank</span></div></div><div style=\"margin-top:12px\"><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">Extensible question types, so each MVP cycle added types and features and stabilised the platform.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">No internal form platform existed. A vendor built forms, but no confidential item was allowed in them.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">Each new question type added complexity.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">Technical Lead, Product Owner and sole developer.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Used across Maybank. Over 80 forms by the fifth MVP, with thousands of submissions and users.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</dd></div></dl></div>",
+   "rules": [
+    "SCAN-12",
+    "HIER-02",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q5"
+   ],
+   "doc": "\"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)"
+  },
+  "LP3": {
+   "name": "Project case study · MyInsights with its marks trailing",
+   "html": "<div style=\"display:flex;gap:16px;justify-content:space-between;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><h3 id=\"myinsights\" style=\"margin:0;font-size:22px\">MyInsights</h3><p style=\"margin:4px 0 0;font-size:14px;color:#444444\">PETRONAS · via FPT Software</p></div><div style=\"flex:0 0 auto;display:grid;gap:6px;justify-items:end\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · PETRONAS</span><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · FPT Software</span></div></div><div style=\"margin-top:12px\"><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">A fixed set of roles, each tied to its business rules.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">Auditors checked exceptions manually, on files and paper.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">Low cost, in his account.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">OutSystems developer in a team of four; not the lead. Built user management, permissions, front-end screens, part of the audit rule logic and part of the data sync.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Auditors centralised audit exceptions and processed them in the system, not on files and paper.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</dd></div></dl></div>",
+   "rules": [
+    "SCAN-12",
+    "HIER-02",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q5"
+   ],
+   "doc": "\"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)"
+  },
+  "LX2": {
+   "name": "About/Experience · timeline with marks trailing each entry",
+   "html": "<h2 id=\"history\" style=\"margin:0 0 8px;font-size:22px;line-height:1.2\">History</h2><ol style=\"list-style:none;padding:0;margin:0;display:grid;gap:10px\"><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><div style=\"display:flex;gap:16px;justify-content:space-between;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Jan 2026 – present</p><p style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · AvePoint</span><b>AvePoint</b> · Full-stack developer · full-time</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems ODC, Aurora PostgreSQL, Microsoft single sign-on, private gateway</p><ol style=\"list-style:none;margin:6px 0 0 20px;padding:0\"><li style=\"font-size:14px;color:#444444\">↳ Apr 2026 – present · Sunway University · Senior Technical Lead</li></ol></div><div style=\"flex:0 0 auto;display:grid;gap:6px;justify-items:end\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · AvePoint</span></div></div></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><div style=\"display:flex;gap:16px;justify-content:space-between;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Sep 2024 – Jan 2026</p><p style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span><b>Maybank</b> · Senior OS Engineer · full-time</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</p></div><div style=\"flex:0 0 auto;display:grid;gap:6px;justify-items:end\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · Maybank</span></div></div></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><div style=\"display:flex;gap:16px;justify-content:space-between;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">May 2024 – Jul 2024</p><p style=\"margin:2px 0 0\"><b>Adam Digital Assets</b> · Flutter Developer · part-time</p></div><div style=\"flex:0 0 auto;display:grid;gap:6px;justify-items:end\"><span style=\"display:inline-flex;align-items:center;justify-content:center;min-width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);padding:0 8px;border:1px solid #bbbbbb;background:#ffffff;font-weight:700;font-size:13px;color:#333333;text-align:center\">Adam Digital Assets<br>(in type)</span></div></div></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><div style=\"display:flex;gap:16px;justify-content:space-between;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Sep 2022 – Sep 2024</p><p style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · FPT Software</span><b>FPT Software Malaysia</b> · Software Consultant · contract</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</p><ol style=\"list-style:none;margin:6px 0 0 20px;padding:0\"><li style=\"font-size:14px;color:#444444\">↳ Sep 2022 – Sep 2024 · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · PETRONAS</span>PETRONAS Digital · OutSystems Developer</li></ol></div><div style=\"flex:0 0 auto;display:grid;gap:6px;justify-items:end\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · FPT Software</span><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · PETRONAS</span></div></div></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><div style=\"display:flex;gap:16px;justify-content:space-between;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Apr 2022 – Aug 2022</p><p style=\"margin:2px 0 0\"><b>Career break</b> · Personal goal pursuit</p></div><div style=\"flex:0 0 auto;display:grid;gap:6px;justify-items:end\"></div></div></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><div style=\"display:flex;gap:16px;justify-content:space-between;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Apr 2021 – May 2022</p><p style=\"margin:2px 0 0\"><b>Impact Business Solutions</b> · Software Consultant · contract</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: Power BI, QGIS, Firebase</p></div><div style=\"flex:0 0 auto;display:grid;gap:6px;justify-items:end\"><span style=\"display:inline-flex;align-items:center;justify-content:center;min-width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);padding:0 8px;border:1px solid #bbbbbb;background:#ffffff;font-weight:700;font-size:13px;color:#333333;text-align:center\">Impact Business Solutions<br>(in type)</span></div></div></li></ol>",
+   "rules": [
+    "SCAN-12",
+    "HIER-02",
+    "SCAN-10",
+    "GRP-05",
+    "Asked Q2",
+    "Asked Q6"
+   ],
+   "doc": "\"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)"
+  },
+  "MT1": {
+   "name": "History · employer tile 1",
+   "html": "<div style=\"margin-bottom:10px\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · AvePoint</span></div><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Jan 2026 – present</p><p style=\"margin:2px 0 0;font-weight:600\">AvePoint · Full-stack developer · full-time</p><p style=\"margin:6px 0 0 16px;font-size:14px;color:#444444\">↳ Sunway University · Apr 2026 – present · Senior Technical Lead</p><p style=\"margin:6px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems ODC, Aurora PostgreSQL, Microsoft single sign-on, private gateway</p>",
+   "rules": [
+    "GRP-01",
+    "GRID-01",
+    "SCAN-10",
+    "GRP-05",
+    "Asked Q2"
+   ],
+   "doc": "\"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)"
+  },
+  "MT2": {
+   "name": "History · employer tile 2",
+   "html": "<div style=\"margin-bottom:10px\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · Maybank</span></div><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Sep 2024 – Jan 2026</p><p style=\"margin:2px 0 0;font-weight:600\">Maybank · Senior OS Engineer · full-time</p><p style=\"margin:6px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</p>",
+   "rules": [
+    "GRP-01",
+    "GRID-01",
+    "SCAN-10",
+    "GRP-05",
+    "Asked Q2"
+   ],
+   "doc": "\"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)"
+  },
+  "MT3": {
+   "name": "History · employer tile 3",
+   "html": "<div style=\"margin-bottom:10px\"><span style=\"display:inline-flex;align-items:center;justify-content:center;min-width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);padding:0 8px;border:1px solid #bbbbbb;background:#ffffff;font-weight:700;font-size:13px;color:#333333;text-align:center\">Adam Digital Assets<br>(in type)</span></div><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">May 2024 – Jul 2024</p><p style=\"margin:2px 0 0;font-weight:600\">Adam Digital Assets · Flutter Developer · part-time</p>",
+   "rules": [
+    "GRP-01",
+    "GRID-01",
+    "SCAN-10",
+    "GRP-05",
+    "Asked Q2"
+   ],
+   "doc": "\"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)"
+  },
+  "MT4": {
+   "name": "History · employer tile 4",
+   "html": "<div style=\"margin-bottom:10px\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · FPT Software</span></div><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Sep 2022 – Sep 2024</p><p style=\"margin:2px 0 0;font-weight:600\">FPT Software Malaysia · Software Consultant · contract</p><p style=\"margin:6px 0 0 16px;font-size:14px;color:#444444\">↳ <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · PETRONAS</span>PETRONAS Digital · Sep 2022 – Sep 2024 · OutSystems Developer</p><p style=\"margin:6px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</p>",
+   "rules": [
+    "GRP-01",
+    "GRID-01",
+    "SCAN-10",
+    "GRP-05",
+    "Asked Q2"
+   ],
+   "doc": "\"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)"
+  },
+  "MT5": {
+   "name": "History · employer tile 5",
+   "html": "<p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Apr 2022 – Aug 2022</p><p style=\"margin:2px 0 0;font-weight:600\">Career break · Personal goal pursuit</p>",
+   "rules": [
+    "GRP-01",
+    "GRID-01",
+    "SCAN-10",
+    "GRP-05",
+    "Asked Q2"
+   ],
+   "doc": "\"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)"
+  },
+  "MT6": {
+   "name": "History · employer tile 6",
+   "html": "<div style=\"margin-bottom:10px\"><span style=\"display:inline-flex;align-items:center;justify-content:center;min-width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);padding:0 8px;border:1px solid #bbbbbb;background:#ffffff;font-weight:700;font-size:13px;color:#333333;text-align:center\">Impact Business Solutions<br>(in type)</span></div><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Apr 2021 – May 2022</p><p style=\"margin:2px 0 0;font-weight:600\">Impact Business Solutions · Software Consultant · contract</p><p style=\"margin:6px 0 0;font-size:14px;color:#444444\">Tools: Power BI, QGIS, Firebase</p>",
+   "rules": [
+    "GRP-01",
+    "GRID-01",
+    "SCAN-10",
+    "GRP-05",
+    "Asked Q2"
+   ],
+   "doc": "\"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)"
+  },
+  "HV": {
+   "name": "Home · visual slot beside the decision",
+   "html": "<div style=\"aspect-ratio:4/3;border:2px dashed #888888;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:repeating-linear-gradient(45deg,#e6e6e6 0 10px,#f3f3f3 10px 20px);font-size:13px;color:#333333\">[PLACEHOLDER: visual · opening visual · drawn in code, never a photo or screenshot]</div>",
+   "rules": [
+    "HIER-03",
+    "HIER-01",
+    "CPLX-01"
+   ],
+   "doc": "\"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)"
+  },
+  "V1": {
+   "name": "Project case study · visual slot for iZone rebuild",
+   "html": "<div style=\"aspect-ratio:4/3;border:2px dashed #888888;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:repeating-linear-gradient(45deg,#e6e6e6 0 10px,#f3f3f3 10px 20px);font-size:13px;color:#333333\">[PLACEHOLDER: visual · for iZone rebuild · drawn in code, never a photo or screenshot]</div>",
+   "rules": [
+    "HIER-02",
+    "SCAN-12",
+    "HIER-03"
+   ],
+   "doc": "\"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)"
+  },
+  "V2": {
+   "name": "Project case study · visual slot for Digital Form",
+   "html": "<div style=\"aspect-ratio:4/3;border:2px dashed #888888;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:repeating-linear-gradient(45deg,#e6e6e6 0 10px,#f3f3f3 10px 20px);font-size:13px;color:#333333\">[PLACEHOLDER: visual · for Digital Form · drawn in code, never a photo or screenshot]</div>",
+   "rules": [
+    "HIER-02",
+    "SCAN-12",
+    "HIER-03"
+   ],
+   "doc": "\"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)"
+  },
+  "V3": {
+   "name": "Project case study · visual slot for MyInsights",
+   "html": "<div style=\"aspect-ratio:4/3;border:2px dashed #888888;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:repeating-linear-gradient(45deg,#e6e6e6 0 10px,#f3f3f3 10px 20px);font-size:13px;color:#333333\">[PLACEHOLDER: visual · for MyInsights · drawn in code, never a photo or screenshot]</div>",
+   "rules": [
+    "HIER-02",
+    "SCAN-12",
+    "HIER-03"
+   ],
+   "doc": "\"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)"
+  },
+  "VL1": {
+   "name": "Project case study · wide visual interlude after iZone rebuild",
+   "html": "<div style=\"aspect-ratio:3/1;border:2px dashed #888888;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:repeating-linear-gradient(45deg,#e6e6e6 0 10px,#f3f3f3 10px 20px);font-size:13px;color:#333333\">[PLACEHOLDER: visual · interlude after iZone rebuild · drawn in code, never a photo or screenshot]</div>",
+   "rules": [
+    "HIER-03",
+    "SCAN-12",
+    "CPLX-02"
+   ],
+   "doc": "\"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)"
+  },
+  "VL2": {
+   "name": "Project case study · wide visual interlude after Digital Form",
+   "html": "<div style=\"aspect-ratio:3/1;border:2px dashed #888888;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:repeating-linear-gradient(45deg,#e6e6e6 0 10px,#f3f3f3 10px 20px);font-size:13px;color:#333333\">[PLACEHOLDER: visual · interlude after Digital Form · drawn in code, never a photo or screenshot]</div>",
+   "rules": [
+    "HIER-03",
+    "SCAN-12",
+    "CPLX-02"
+   ],
+   "doc": "\"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)"
+  },
+  "VL3": {
+   "name": "Project case study · wide visual interlude after MyInsights",
+   "html": "<div style=\"aspect-ratio:3/1;border:2px dashed #888888;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:repeating-linear-gradient(45deg,#e6e6e6 0 10px,#f3f3f3 10px 20px);font-size:13px;color:#333333\">[PLACEHOLDER: visual · interlude after MyInsights · drawn in code, never a photo or screenshot]</div>",
+   "rules": [
+    "HIER-03",
+    "SCAN-12",
+    "CPLX-02"
+   ],
+   "doc": "\"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)"
+  },
+  "VT1": {
+   "name": "History · visual tile 1 in the wall",
+   "html": "<div style=\"aspect-ratio:1/1;border:2px dashed #888888;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:repeating-linear-gradient(45deg,#e6e6e6 0 10px,#f3f3f3 10px 20px);font-size:13px;color:#333333\">[PLACEHOLDER: visual · wall tile 1 · drawn in code, never a photo or screenshot]</div>",
+   "rules": [
+    "GRID-01",
+    "GRID-03",
+    "GRP-01"
+   ],
+   "doc": "\"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)"
+  },
+  "VT2": {
+   "name": "History · visual tile 2 in the wall",
+   "html": "<div style=\"aspect-ratio:1/1;border:2px dashed #888888;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:repeating-linear-gradient(45deg,#e6e6e6 0 10px,#f3f3f3 10px 20px);font-size:13px;color:#333333\">[PLACEHOLDER: visual · wall tile 2 · drawn in code, never a photo or screenshot]</div>",
+   "rules": [
+    "GRID-01",
+    "GRID-03",
+    "GRP-01"
+   ],
+   "doc": "\"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)"
+  },
+  "VT3": {
+   "name": "History · visual tile 3 in the wall",
+   "html": "<div style=\"aspect-ratio:1/1;border:2px dashed #888888;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:repeating-linear-gradient(45deg,#e6e6e6 0 10px,#f3f3f3 10px 20px);font-size:13px;color:#333333\">[PLACEHOLDER: visual · wall tile 3 · drawn in code, never a photo or screenshot]</div>",
+   "rules": [
+    "GRID-01",
+    "GRID-03",
+    "GRP-01"
+   ],
+   "doc": "\"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)"
+  },
+  "F0r": {
+   "name": "Home · title card with a light-rays layer behind it",
+   "html": "<div style=\"position:relative\"><div style=\"position:absolute;inset:0;border:2px dashed #aaaaaa;background:repeating-linear-gradient(120deg,#ececec 0 18px,#f6f6f6 18px 36px)\"></div><div style=\"position:relative;padding:12px\"><h1 style=\"font-size:clamp(34px,6vw,76px);line-height:1.05;margin:0;padding-top:clamp(8px,5vw,80px)\">Row locking under enrolment load</h1><p style=\"margin:16px 0 0;font-size:clamp(17px,1.6vw,22px)\">Load-tested at 40,000 enrolments over a sustained 20-minute window.</p><p style=\"margin:clamp(16px,3vw,40px) 0 clamp(32px,2vw,40px);font-size:20px;font-weight:600\">OutSystems Technical Lead</p><span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · light rays behind this card follow the pointer · off on touch and reduced motion</span></div></div>",
+   "rules": [
+    "HIER-01",
+    "HIER-04",
+    "SCAN-03",
+    "CPLX-02",
+    "PRIO-01"
+   ],
+   "doc": "\"Rays that follow the cursor · Off on touch and under reduced motion.\" (moodboard, Fun that fits 14 KB)"
+  },
+  "P0f": {
+   "name": "Project case study · heading, projects rise in as they enter view",
+   "html": "<h2 id=\"work\" style=\"margin:0 0 8px;font-size:22px;line-height:1.2;font-size:26px\">Projects <span style=\"color:#555555\">(3)</span></h2><span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · each project rises in as it enters view · text visible from first paint</span>",
+   "rules": [
+    "HIER-02",
+    "SCAN-05"
+   ],
+   "doc": "\"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)"
+  },
+  "X2f": {
+   "name": "About/Experience · timeline, full-row hover",
+   "html": "<span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · full-row hover on every entry</span><h2 id=\"history\" style=\"margin:0 0 8px;font-size:22px;line-height:1.2\">History</h2><ol style=\"list-style:none;padding:0;margin:0;display:grid;gap:10px\"><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Jan 2026 – present</p><p style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · AvePoint</span><b>AvePoint</b> · Full-stack developer · full-time</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems ODC, Aurora PostgreSQL, Microsoft single sign-on, private gateway</p><ol style=\"list-style:none;margin:6px 0 0 20px;padding:0\"><li style=\"font-size:14px;color:#444444\">↳ Apr 2026 – present · Sunway University · Senior Technical Lead</li></ol></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Sep 2024 – Jan 2026</p><p style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span><b>Maybank</b> · Senior OS Engineer · full-time</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</p></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">May 2024 – Jul 2024</p><p style=\"margin:2px 0 0\"><b>Adam Digital Assets</b> · Flutter Developer · part-time</p></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Sep 2022 – Sep 2024</p><p style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · FPT Software</span><b>FPT Software Malaysia</b> · Software Consultant · contract</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</p><ol style=\"list-style:none;margin:6px 0 0 20px;padding:0\"><li style=\"font-size:14px;color:#444444\">↳ Sep 2022 – Sep 2024 · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · PETRONAS</span>PETRONAS Digital · OutSystems Developer</li></ol></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Apr 2022 – Aug 2022</p><p style=\"margin:2px 0 0\"><b>Career break</b> · Personal goal pursuit</p></li><li style=\"border-top:1px solid #cccccc;padding-top:8px\"><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Apr 2021 – May 2022</p><p style=\"margin:2px 0 0\"><b>Impact Business Solutions</b> · Software Consultant · contract</p><p style=\"margin:2px 0 0;font-size:14px;color:#444444\">Tools: Power BI, QGIS, Firebase</p></li></ol>",
+   "rules": [
+    "SCAN-10",
+    "GRP-05",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q2",
+    "Asked Q6"
+   ],
+   "doc": "\"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)"
+  },
+  "M1f": {
+   "name": "Projects list · Minor Projects, full-row hover",
+   "html": "<span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · full-row hover on every row</span><h2 style=\"margin:0 0 8px;font-size:22px;line-height:1.2;font-size:18px\">Minor Projects <span style=\"color:#555555\">(8)</span></h2><ul style=\"list-style:none;margin:0;padding:0;columns:240px;column-gap:24px\"><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>CAB-Q</b> — Deployment approval tool. Cut a daily process from 6 hours to 30 minutes.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>Audit Log</b> — Standardised audit logging, adopted across every OutSystems application.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>Tokenizer</b> — Tokenisation for public display strings, with an encrypted database.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>MPowered</b> — Internal agile project management platform. Stability and defect work.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>RPSST</b> — Prototype to modernise legacy RBS transaction processes.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>VIP Dashboard</b> — Visualisations of Sarawak data for a VIP presentation.<br><span style=\"color:#555555\">Impact Business Solutions · Power BI, QGIS</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>QR Asset Management</b> — QR-based asset tracking.<br><span style=\"color:#555555\">Impact Business Solutions · Flutter, Firebase</span></li><li style=\"break-inside:avoid;padding:6px 0;border-top:1px solid #cccccc;font-size:14px\"><b>Adam Digital Assets</b> — Islamic mosque signage app, plus a website twin. Two developers shared requirements, design and build.<br><span style=\"color:#555555\">Adam Digital Assets · Flutter</span></li></ul>",
+   "rules": [
+    "PRIO-01",
+    "SCAN-04",
+    "CPLX-04",
+    "GRP-02",
+    "TYPE-03",
+    "Asked Q6"
+   ],
+   "doc": "\"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)"
+  },
+  "FM": {
+   "name": "Closing · the name as a marquee (loops, pauses on hover, still under reduced motion)",
+   "html": "<span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · loops · pauses on hover · still under reduced motion</span><p aria-hidden=\"true\" style=\"margin:0;white-space:nowrap;overflow:hidden;font-size:clamp(40px,7vw,104px);font-weight:800;line-height:1;color:#bbbbbb\">Wan Zayd Abdullah · Wan Zayd Abdullah · Wan Zayd Abdullah</p>",
+   "rules": [
+    "HIER-03",
+    "SCAN-01",
+    "CONV-05"
+   ],
+   "doc": "\"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)"
+  },
+  "C1f": {
+   "name": "Contact · email copies on click, \"Copied\" shows beside it",
+   "html": "<h2 id=\"contact\" style=\"margin:0 0 8px;font-size:22px;line-height:1.2\">Contact</h2><p style=\"margin:0;display:flex;flex-wrap:wrap;gap:12px\"><a href=\"mailto:\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0 12px;border:1px solid #666666;overflow-wrap:anywhere\">Email · <span style=\"background:#e6e6e6;border:1px dashed #888888;padding:0 4px\">[PLACEHOLDER: email address]</span></a><a href=\"https://www.linkedin.com/in/wan-zayd-abdullah-690033230/\" style=\"display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0 12px;border:1px solid #666666;overflow-wrap:anywhere\">LinkedIn · linkedin.com/in/wan-zayd-abdullah-690033230</a></p><p style=\"margin:8px 0 0\"><span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · click Email to copy it · \"Copied\" appears next to it</span></p>",
+   "rules": [
+    "CONV-05",
+    "INT-11",
+    "A11Y-05",
+    "Asked Q4",
+    "INT-12",
+    "A11Y-04"
+   ],
+   "doc": "\"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "KCf": {
+   "name": "Home · credits strip, marks grey until touched",
+   "html": "<span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · marks grey until touched · hover or tap</span><p style=\"font-size:13px;color:#555555;font-weight:600;margin:0;margin-bottom:8px\">Worked with</p><div style=\"display:flex;flex-wrap:wrap;gap:12px;align-items:center\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · AvePoint</span><span style=\"display:inline-flex;align-items:center;justify-content:center;min-width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);padding:0 8px;border:1px solid #bbbbbb;background:#ffffff;font-weight:700;font-size:13px;color:#333333;text-align:center\">Sunway University<br>(in type)</span><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · Maybank</span><span style=\"display:inline-flex;align-items:center;justify-content:center;min-width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);padding:0 8px;border:1px solid #bbbbbb;background:#ffffff;font-weight:700;font-size:13px;color:#333333;text-align:center\">Adam Digital Assets<br>(in type)</span><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · FPT Software</span><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · PETRONAS</span><span style=\"display:inline-flex;align-items:center;justify-content:center;min-width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);padding:0 8px;border:1px solid #bbbbbb;background:#ffffff;font-weight:700;font-size:13px;color:#333333;text-align:center\">Impact Business Solutions<br>(in type)</span></div>",
+   "rules": [
+    "HIER-03",
+    "SCAN-12",
+    "SCAN-02",
+    "CPLX-01",
+    "SCAN-10"
+   ],
+   "doc": "\"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)"
+  },
+  "MT0f": {
+   "name": "About/Experience · wall heading, marks grey until touched",
+   "html": "<h2 id=\"history\" style=\"margin:0 0 8px;font-size:22px;line-height:1.2\">History</h2><p style=\"margin:0;font-size:14px;color:#444444\">Newest first, one tile per employer</p><span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · marks grey until touched · hover or tap</span>",
+   "rules": [
+    "HIER-02",
+    "SCAN-10"
+   ],
+   "doc": "\"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)"
+  },
+  "LP1f": {
+   "name": "Project case study · iZone rebuild with marks trailing, grey until touched",
+   "html": "<span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · marks grey until touched · hover or tap</span><div style=\"display:flex;gap:16px;justify-content:space-between;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><h3 id=\"izone\" style=\"margin:0;font-size:22px\">iZone rebuild</h3><p style=\"margin:4px 0 0;font-size:14px;color:#444444\">Sunway University · via AvePoint</p></div><div style=\"flex:0 0 auto;display:grid;gap:6px;justify-items:end\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);border:1px dashed #777777;background:#d6d6d6;font-size:12px;color:#333333;text-align:center\">Mark · AvePoint</span><span style=\"display:inline-flex;align-items:center;justify-content:center;min-width:clamp(72px,9vw,128px);height:clamp(40px,4.5vw,64px);padding:0 8px;border:1px solid #bbbbbb;background:#ffffff;font-weight:700;font-size:13px;color:#333333;text-align:center\">Sunway University<br>(in type)</span></div></div><div style=\"margin-top:12px\"><dl style=\"margin:0;display:grid;gap:10px\"><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Decision</dt><dd style=\"margin:2px 0 0\">Row locking with SELECT FOR UPDATE on Aurora PostgreSQL for enrolment. He kept the legacy database structure as a local replica.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Problem</dt><dd style=\"margin:2px 0 0\">The legacy portal did not scale and crashed at every enrolment peak. The interface was old, and the client wanted it modernised. The old system counted submissions before commit, which fails under concurrency.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Trade-off</dt><dd style=\"margin:2px 0 0\">The replica was not well optimised. With a thin team, he developed as well as led, and he was stretched hard.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Role and team</dt><dd style=\"margin:2px 0 0\">Senior Technical Lead and architecture owner, of three developers, himself included.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Outcome</dt><dd style=\"margin:2px 0 0\">Deployed to live, not yet in use. Load-tested at 40,000 enrolments over a sustained 20-minute window.</dd></div><div><dt style=\"font-size:13px;color:#555555;font-weight:600;margin:0\">Tools</dt><dd style=\"margin:2px 0 0\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems ODC · Aurora PostgreSQL · Microsoft single sign-on · private gateway</dd></div></dl></div>",
+   "rules": [
+    "SCAN-12",
+    "HIER-02",
+    "GRP-02",
+    "A11Y-04",
+    "Asked Q5"
+   ],
+   "doc": "\"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)"
+  },
+  "FR": {
+   "name": "History · scroll ruler, ticks are the years (pinned)",
+   "html": "<span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · ticks track your position</span><nav aria-label=\"Timeline position\" style=\"display:flex;flex-wrap:wrap;gap:4px\"><a href=\"#history\" style=\"flex:1 0 56px;display:flex;align-items:center;min-height:44px;border-top:2px solid #555555;font-size:13px\">2026</a><a href=\"#history\" style=\"flex:1 0 56px;display:flex;align-items:center;min-height:44px;border-top:2px solid #555555;font-size:13px\">2025</a><a href=\"#history\" style=\"flex:1 0 56px;display:flex;align-items:center;min-height:44px;border-top:2px solid #555555;font-size:13px\">2024</a><a href=\"#history\" style=\"flex:1 0 56px;display:flex;align-items:center;min-height:44px;border-top:2px solid #555555;font-size:13px\">2023</a><a href=\"#history\" style=\"flex:1 0 56px;display:flex;align-items:center;min-height:44px;border-top:2px solid #555555;font-size:13px\">2022</a><a href=\"#history\" style=\"flex:1 0 56px;display:flex;align-items:center;min-height:44px;border-top:2px solid #555555;font-size:13px\">2021</a></nav>",
+   "rules": [
+    "CONV-04",
+    "A11Y-03",
+    "INT-16",
+    "Asked Q4"
+   ],
+   "doc": "\"Scroll ruler as the timeline spine · On a page-as-timeline, its ticks are the years.\" (moodboard, Fun that fits 14 KB)"
+  },
+  "ILv": {
+   "name": "Projects list · list pane with a visual thumb on each Main row, full-row hover",
+   "html": "<span style=\"display:inline-block;border:1px dotted #333333;background:#ffffff;color:#333333;font-size:11px;line-height:16px;padding:1px 6px;margin:0 4px 6px 0;font-weight:600\">FUN · full-row hover on every row</span><h2 id=\"work\" style=\"margin:0 0 8px;font-size:22px;line-height:1.2\">Projects list <span style=\"color:#555555\">(3 + 8)</span></h2><ol style=\"list-style:none;margin:0;padding:0\"><li style=\"border-top:1px solid #cccccc;padding:8px 0;display:flex;gap:12px;align-items:flex-start;background:#e2e2e2\"><div style=\"flex:1 1 auto;min-width:0\"><a href=\"#izone\" style=\"font-weight:700;display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0\">01 · iZone rebuild</a><p style=\"margin:0;font-size:14px;color:#444444\">Row locking for enrolment</p></div><div style=\"flex:0 0 72px;height:54px;border:2px dashed #888888;background:#eeeeee;font-size:10px;display:flex;align-items:center;justify-content:center;text-align:center\">visual</div></li><li style=\"border-top:1px solid #cccccc;padding:8px 0;display:flex;gap:12px;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><a href=\"#digital-form\" style=\"font-weight:700;display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0\">02 · Digital Form</a><p style=\"margin:0;font-size:14px;color:#444444\">Extensible question types</p></div><div style=\"flex:0 0 72px;height:54px;border:2px dashed #888888;background:#eeeeee;font-size:10px;display:flex;align-items:center;justify-content:center;text-align:center\">visual</div></li><li style=\"border-top:1px solid #cccccc;padding:8px 0;display:flex;gap:12px;align-items:flex-start\"><div style=\"flex:1 1 auto;min-width:0\"><a href=\"#myinsights\" style=\"font-weight:700;display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 8px;padding:0\">03 · MyInsights</a><p style=\"margin:0;font-size:14px;color:#444444\">Fixed roles tied to business rules</p></div><div style=\"flex:0 0 72px;height:54px;border:2px dashed #888888;background:#eeeeee;font-size:10px;display:flex;align-items:center;justify-content:center;text-align:center\">visual</div></li></ol><ul style=\"list-style:none;margin:12px 0 0;padding:0\"><li style=\"border-top:1px solid #dddddd;padding:6px 0;font-size:14px\"><b>CAB-Q</b> — Deployment approval tool. Cut a daily process from 6 hours to 30 minutes.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"border-top:1px solid #dddddd;padding:6px 0;font-size:14px\"><b>Audit Log</b> — Standardised audit logging, adopted across every OutSystems application.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"border-top:1px solid #dddddd;padding:6px 0;font-size:14px\"><b>Tokenizer</b> — Tokenisation for public display strings, with an encrypted database.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"border-top:1px solid #dddddd;padding:6px 0;font-size:14px\"><b>MPowered</b> — Internal agile project management platform. Stability and defect work.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"border-top:1px solid #dddddd;padding:6px 0;font-size:14px\"><b>RPSST</b> — Prototype to modernise legacy RBS transaction processes.<br><span style=\"color:#555555\"><span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · Maybank</span>Maybank · <span style=\"display:inline-block;border:1px dashed #777777;background:#dddddd;font-size:11px;line-height:16px;padding:1px 4px;margin-right:4px;color:#333333\">Mark · OutSystems</span>OutSystems O11</span></li><li style=\"border-top:1px solid #dddddd;padding:6px 0;font-size:14px\"><b>VIP Dashboard</b> — Visualisations of Sarawak data for a VIP presentation.<br><span style=\"color:#555555\">Impact Business Solutions · Power BI, QGIS</span></li><li style=\"border-top:1px solid #dddddd;padding:6px 0;font-size:14px\"><b>QR Asset Management</b> — QR-based asset tracking.<br><span style=\"color:#555555\">Impact Business Solutions · Flutter, Firebase</span></li><li style=\"border-top:1px solid #dddddd;padding:6px 0;font-size:14px\"><b>Adam Digital Assets</b> — Islamic mosque signage app, plus a website twin. Two developers shared requirements, design and build.<br><span style=\"color:#555555\">Adam Digital Assets · Flutter</span></li></ul>",
+   "rules": [
+    "RESP-06",
+    "SCAN-10",
+    "SCAN-12",
+    "SCAN-04",
+    "Asked Q4",
+    "Asked Q5"
+   ],
+   "doc": "\"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)"
+  }
+ },
+ "options": [
+  {
+   "id": "I",
+   "name": "List + detail reader, with slots",
+   "axis": "RESP-06 two panes · slots: opening visual, a visual thumb per Main row (SCAN-12, one side), row hover, marquee, copy email",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption I (kept): the round-2 reader plus an opening visual beside the decision, a visual thumb trailing each Main row, full-row hover on the list and timeline, the name marquee as a closing band and click-to-copy email.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "HV",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "ILv",
+            "where": "single column, master order",
+            "rules": [
+             "RESP-06",
+             "SCAN-10",
+             "SCAN-12",
+             "SCAN-04",
+             "Asked Q4",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "IP1",
+            "where": "single column, master order",
+            "rules": [
+             "RESP-06",
+             "INT-10",
+             "GRP-02",
+             "A11Y-04",
+             "TYPE-01",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "IP2",
+            "where": "single column, master order",
+            "rules": [
+             "RESP-06",
+             "INT-10",
+             "GRP-02",
+             "A11Y-04",
+             "TYPE-01",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "IP3",
+            "where": "single column, master order",
+            "rules": [
+             "RESP-06",
+             "INT-10",
+             "GRP-02",
+             "A11Y-04",
+             "TYPE-01",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X2f",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "FM",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "left half: decision, then title",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "left half: decision, then title",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "HV",
+            "where": "beside the decision, never above it",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "H4",
+            "where": "right",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "right",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "ILv",
+            "where": "list pane, pinned",
+            "rules": [
+             "RESP-06",
+             "SCAN-10",
+             "SCAN-12",
+             "SCAN-04",
+             "Asked Q4",
+             "Asked Q5"
+            ]
+           }
+          ],
+          "sticky": true
+         },
+         {
+          "span": 8,
+          "blocks": [
+           {
+            "id": "IP1",
+            "where": "detail pane",
+            "rules": [
+             "RESP-06",
+             "INT-10",
+             "GRP-02",
+             "A11Y-04",
+             "TYPE-01",
+             "Asked Q5"
+            ]
+           },
+           {
+            "id": "IPX",
+            "where": "detail pane",
+            "rules": [
+             "RESP-06",
+             "PRIO-04"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "X1",
+            "where": "left half",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "X2f",
+            "where": "right half",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "FM",
+            "where": "closing band, full width",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "K",
+   "name": "Credits poster, with slots",
+   "axis": "HIER-03 marks after the decision · slots: light rays behind the title card, marks grey until touched, a visual after each project (SCAN-12, trailing side)",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption K (kept): the title card gains a light-rays layer (1440, pointer only); the credits strip greys its marks until touched; each Main Project gets a trailing visual; rows hover; the name marquee closes the page.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "F0r",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-01",
+             "HIER-04",
+             "SCAN-03",
+             "CPLX-02",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "KCf",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-12",
+             "SCAN-02",
+             "CPLX-01",
+             "SCAN-10",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V1",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V2",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V3",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X2f",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "M1f",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "FM",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 10,
+          "blocks": [
+           {
+            "id": "F0r",
+            "where": "title card, cols 1–10",
+            "rules": [
+             "HIER-01",
+             "HIER-04",
+             "SCAN-03",
+             "CPLX-02",
+             "PRIO-01",
+             "HIER-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 2,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "KCf",
+            "where": "credits strip, full width",
+            "rules": [
+             "HIER-03",
+             "SCAN-12",
+             "SCAN-02",
+             "CPLX-01",
+             "SCAN-10"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "H4",
+            "where": "cols 3–8",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "cols 3–8",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "cols 3–8",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "P1",
+            "where": "cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "V1",
+            "where": "trailing, beside its project",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "GRID-02"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "P2",
+            "where": "cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "V2",
+            "where": "trailing, beside its project",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "GRID-02"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "P3",
+            "where": "cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "V3",
+            "where": "trailing, beside its project",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "GRID-02"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "X1",
+            "where": "cols 3–8",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "X2f",
+            "where": "cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "M1f",
+            "where": "cols 3–8",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "FM",
+            "where": "closing band, full width",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "footer, cols 3–8",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L",
+   "name": "Mark spine, with slots",
+   "axis": "SCAN-12 marks on the trailing edge · slots: a full-width visual interlude after each project for rhythm, marks grey until touched",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption L (kept): the mark spine stays on the trailing edge; between projects a full-width visual interlude sets a text / picture / text beat; marks grey until touched; closing marquee; copy email.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "HV",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "LP1f",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-12",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "VL1",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-12",
+             "CPLX-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "LP2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-12",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "VL2",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-12",
+             "CPLX-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "LP3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-12",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "VL3",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-12",
+             "CPLX-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "LX2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-12",
+             "HIER-02",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "M1f",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "FM",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 5,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "cols 3–7",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "cols 3–7",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "HV",
+            "where": "beside the decision",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 2,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "H4",
+            "where": "cols 3–9",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "cols 3–9",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "cols 3–9",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "LP1f",
+            "where": "cols 3–9, marks trailing",
+            "rules": [
+             "SCAN-12",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "VL1",
+            "where": "full-width interlude after its project",
+            "rules": [
+             "HIER-03",
+             "SCAN-12",
+             "CPLX-02"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "LP2",
+            "where": "cols 3–9, marks trailing",
+            "rules": [
+             "SCAN-12",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "VL2",
+            "where": "full-width interlude after its project",
+            "rules": [
+             "HIER-03",
+             "SCAN-12",
+             "CPLX-02"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "LP3",
+            "where": "cols 3–9, marks trailing",
+            "rules": [
+             "SCAN-12",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "VL3",
+            "where": "full-width interlude after its project",
+            "rules": [
+             "HIER-03",
+             "SCAN-12",
+             "CPLX-02"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "X1",
+            "where": "cols 3–9",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "LX2",
+            "where": "cols 3–9",
+            "rules": [
+             "SCAN-12",
+             "HIER-02",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2",
+             "Asked Q6",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "M1f",
+            "where": "cols 3–9",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "FM",
+            "where": "closing band, full width",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "footer, cols 3–9",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": []
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M",
+   "name": "Employer wall, with slots",
+   "axis": "GRP-01 one tile per employer · slots: visual tiles woven into the wall for a checkerboard rhythm, marks grey until touched",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption M (kept): the wall becomes a 4-across checkerboard (1440) of employer tiles and visual tiles, newest first, read row by row; marks grey until touched; rows hover; closing marquee.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "HV",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "MT0f",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-10",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "MT1",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "VT1",
+            "where": "single column, master order",
+            "rules": [
+             "GRID-01",
+             "GRID-03",
+             "GRP-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "MT2",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "MT3",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "VT2",
+            "where": "single column, master order",
+            "rules": [
+             "GRID-01",
+             "GRID-03",
+             "GRP-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "MT4",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "MT5",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "VT3",
+            "where": "single column, master order",
+            "rules": [
+             "GRID-01",
+             "GRID-03",
+             "GRP-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "MT6",
+            "where": "single column, master order",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "M1f",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "FM",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 5,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "cols 3–7",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "cols 3–7",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "HV",
+            "where": "beside the decision",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 2,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "H4",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "one column, cols 3–8",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "MT0f",
+            "where": "wall heading",
+            "rules": [
+             "HIER-02",
+             "SCAN-10"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "MT1",
+            "where": "wall row 1",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "VT1",
+            "where": "wall row 1",
+            "rules": [
+             "GRID-01",
+             "GRID-03",
+             "GRP-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "MT2",
+            "where": "wall row 1",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "MT3",
+            "where": "wall row 1",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "VT2",
+            "where": "wall row 2",
+            "rules": [
+             "GRID-01",
+             "GRID-03",
+             "GRP-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "MT4",
+            "where": "wall row 2",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "MT5",
+            "where": "wall row 2",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "VT3",
+            "where": "wall row 2",
+            "rules": [
+             "GRID-01",
+             "GRID-03",
+             "GRP-01"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 3,
+          "blocks": [
+           {
+            "id": "MT6",
+            "where": "wall row 3",
+            "rules": [
+             "GRP-01",
+             "GRID-01",
+             "SCAN-10",
+             "GRP-05",
+             "Asked Q2"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 9,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "M1f",
+            "where": "cols 3–8",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "FM",
+            "where": "closing band, full width",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "footer, cols 3–8",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N",
+   "name": "Zigzag rhythm",
+   "axis": "SCAN-12: zigzag is allowed for 2–3 rows · text and visual trade sides down the three Main Projects",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption N (new): the three Main Projects alternate text and visual sides at 1440 (text leads rows 1 and 3, the visual leads row 2 by CSS order; DOM keeps text first, A11Y-C1). At 320 each project reads text, then its visual.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "HV",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V1",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V2",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V3",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X2f",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "M1f",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "FM",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "leading seven columns",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "HIER-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "leading seven columns",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "HIER-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 5,
+          "blocks": [
+           {
+            "id": "HV",
+            "where": "trailing, beside the decision",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "H4",
+            "where": "cols 3–8",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "cols 3–8",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "cols 3–8",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "P1",
+            "where": "row 1: text leading",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 5,
+          "blocks": [
+           {
+            "id": "V1",
+            "where": "row 1: visual trailing",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 5,
+          "blocks": [
+           {
+            "id": "V2",
+            "where": "row 2: visual leading (CSS order; DOM text first)",
+            "rules": [
+             "SCAN-12",
+             "A11Y-C1",
+             "HIER-03"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "P2",
+            "where": "row 2: text trailing",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "P3",
+            "where": "row 3: text leading",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 5,
+          "blocks": [
+           {
+            "id": "V3",
+            "where": "row 3: visual trailing",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "X1",
+            "where": "cols 3–8",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "X2f",
+            "where": "cols 3–8",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "M1f",
+            "where": "cols 3–8",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "FM",
+            "where": "closing band, full width",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 2,
+          "blocks": []
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "footer, cols 3–8",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "O",
+   "name": "Bento board",
+   "axis": "GRP-C3: every item in its own tile (GRP-01) against keeping block count low (CPLX-01) · brief \"bento layouts\"",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption O (new): at 1440 the page is a tile board: the title card with its rays, an opening visual, About and Qualifications, the three Main Projects at different tile sizes with visual tiles between them, then History and Minor Projects side by side. Row by row, it keeps the master order.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "F0r",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-01",
+             "HIER-04",
+             "SCAN-03",
+             "CPLX-02",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "HV",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V1",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V2",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V3",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X2f",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "M1f",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "FM",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 8,
+          "blocks": [
+           {
+            "id": "F0r",
+            "where": "hero tile, 8 columns",
+            "rules": [
+             "HIER-01",
+             "HIER-04",
+             "SCAN-03",
+             "CPLX-02",
+             "PRIO-01",
+             "HIER-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "HV",
+            "where": "visual tile beside the hero",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "H4",
+            "where": "tile",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "H5",
+            "where": "tile",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "P0f",
+            "where": "full-width heading",
+            "rules": [
+             "HIER-02",
+             "SCAN-05"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 8,
+          "blocks": [
+           {
+            "id": "P1",
+            "where": "large tile",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "V1",
+            "where": "visual tile",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "P2",
+            "where": "tile",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "P3",
+            "where": "tile",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "V2",
+            "where": "visual tile",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 8,
+          "blocks": [
+           {
+            "id": "X1",
+            "where": "tile",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "V3",
+            "where": "visual tile",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "X2f",
+            "where": "tile",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 6,
+          "blocks": [
+           {
+            "id": "M1f",
+            "where": "tile",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "FM",
+            "where": "closing band, full width",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "P",
+   "name": "Ruler spine",
+   "axis": "CONV-04 leading rail: the scroll ruler, ticks are the years · moodboard \"Scroll ruler as the timeline spine\"",
+   "note": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption P (new): at 1440 a thin ruler pins to the leading edge, one tick per year 2026 → 2021, tracking your place; one column of content with visuals trailing each project. At 320 the ruler becomes a strip that pins under the header once History starts (A11Y-03: reserve scroll padding).\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new.",
+   "artboards": [
+    {
+     "width": 320,
+     "margin": 16,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top, full width",
+            "rules": [
+             "CONV-01",
+             "INT-16",
+             "RESP-02",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "HV",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V1",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V2",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "V3",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "FR",
+            "where": "single column, master order",
+            "rules": [
+             "CONV-04",
+             "A11Y-03",
+             "INT-16",
+             "Asked Q4",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "X2f",
+            "where": "single column, master order",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "M1f",
+            "where": "single column, master order",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "RESP-01"
+            ]
+           },
+           {
+            "id": "FM",
+            "where": "single column, master order",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05",
+             "RESP-01"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "last, footer",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04",
+             "RESP-02"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "width": 1440,
+     "margin": 80,
+     "rows": [
+      {
+       "landmark": "header",
+       "rows": [
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "H1",
+            "where": "top bar",
+            "rules": [
+             "CONV-01",
+             "CONV-04",
+             "INT-16",
+             "A11Y-02",
+             "Asked Q4"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "main",
+       "rows": [
+        [
+         {
+          "span": 1,
+          "blocks": [
+           {
+            "id": "FR",
+            "where": "leading ruler, pinned (CSS-positioned independent region, A11Y-C1)",
+            "rules": [
+             "CONV-04",
+             "A11Y-03",
+             "A11Y-C1",
+             "Asked Q4"
+            ]
+           }
+          ],
+          "sticky": true
+         },
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "H2",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "SCAN-03",
+             "HIER-01",
+             "SCAN-01",
+             "PRIO-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H3",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "SCAN-01",
+             "PRIO-02",
+             "GRP-02",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H4",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "SCAN-03",
+             "PRIO-01",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "H5",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "PRIO-04",
+             "A11Y-01",
+             "GRP-02",
+             "Asked Q4",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P0f",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "HIER-02",
+             "SCAN-05",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P1",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "HIER-02",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "V1",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P2",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "V2",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "P3",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "SCAN-10",
+             "SCAN-03",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q5",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "V3",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "HIER-02",
+             "SCAN-12",
+             "HIER-03",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "X1",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "PRIO-01",
+             "SCAN-05",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "X2f",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "SCAN-10",
+             "GRP-05",
+             "GRP-02",
+             "A11Y-04",
+             "Asked Q2",
+             "Asked Q6",
+             "TYPE-01"
+            ]
+           },
+           {
+            "id": "M1f",
+            "where": "content column, cols 2–8; each visual straight after its project",
+            "rules": [
+             "PRIO-01",
+             "SCAN-04",
+             "CPLX-04",
+             "GRP-02",
+             "TYPE-03",
+             "Asked Q6",
+             "TYPE-01"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": [
+           {
+            "id": "HV",
+            "where": "trailing, beside the decision",
+            "rules": [
+             "HIER-03",
+             "HIER-01",
+             "CPLX-01"
+            ]
+           }
+          ]
+         }
+        ],
+        [
+         {
+          "span": 12,
+          "blocks": [
+           {
+            "id": "FM",
+            "where": "closing band, full width",
+            "rules": [
+             "HIER-03",
+             "SCAN-01",
+             "CONV-05"
+            ]
+           }
+          ]
+         }
+        ]
+       ]
+      },
+      {
+       "landmark": "footer",
+       "rows": [
+        [
+         {
+          "span": 1,
+          "blocks": []
+         },
+         {
+          "span": 7,
+          "blocks": [
+           {
+            "id": "C1f",
+            "where": "footer, cols 2–8",
+            "rules": [
+             "CONV-05",
+             "INT-11",
+             "A11Y-05",
+             "Asked Q4",
+             "INT-12",
+             "A11Y-04"
+            ]
+           }
+          ]
+         },
+         {
+          "span": 4,
+          "blocks": []
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "failures": {
+  "I-320": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1535 px (fold 568).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1950 px.",
+   "SCAN-01: the visual slot above About pushes it to 860 px, screen 2.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+   "Asked Q6: the Minor Projects rows (in the list pane) come before the timeline."
+  ],
+  "I-1440": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 801 px (fold 765).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1110 px.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+   "Asked Q6: the Minor Projects rows (in the list pane) come before the timeline.",
+   "Spec \"shows the three Main Projects, each with all its fields\": at 1440 one detail shows at a time."
+  ],
+  "K-320": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1878 px (fold 568).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2613 px.",
+   "SCAN-01: the visual slots above About push it to 1046 px, screen 2.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+   "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call).",
+   "PRIO-01: the credits strip moves employer names (journey stage 4) above About; placed on your request only."
+  ],
+  "K-1440": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1480 px (fold 765).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1927 px.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+   "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call).",
+   "PRIO-01: the credits strip moves employer names (journey stage 4) above About; placed on your request only."
+  ],
+  "L-320": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1793 px (fold 568).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2528 px.",
+   "SCAN-01: the visual slot above About pushes it to 860 px, screen 2.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+   "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+  ],
+  "L-1440": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1201 px (fold 765).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1624 px.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+   "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+  ],
+  "M-320": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1691 px (fold 568).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2426 px.",
+   "SCAN-01: the visual slot above About pushes it to 860 px, screen 2.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+   "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+  ],
+  "M-1440": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1086 px (fold 765).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1533 px.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+   "Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+  ],
+  "N-320": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1691 px (fold 568).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2426 px.",
+   "SCAN-01: the visual slot above About pushes it to 860 px, screen 2.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+  ],
+  "N-1440": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1243 px (fold 765).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1666 px.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+   "HIER-02: in row 2 the visual leads its project heading (zigzag by CSS order; DOM keeps text first)."
+  ],
+  "O-320": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1808 px (fold 568).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2543 px.",
+   "SCAN-01: the visual slots above About push it to 976 px, screen 2.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+  ],
+  "O-1440": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1177 px (fold 765).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1600 px.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.",
+   "CPLX-01: 15 tiles plus header and footer, the most blocks on this canvas; each tile adds to perceived complexity (GRP-C3)."
+  ],
+  "P-320": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1691 px (fold 568).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2426 px.",
+   "SCAN-01: the visual slot above About pushes it to 860 px, screen 2.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+  ],
+  "P-1440": [
+   "SCAN-01 / PRIO-02: the first Main Project decision starts at 1022 px (fold 765).",
+   "Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1445 px.",
+   "Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+  ]
+ }
+}

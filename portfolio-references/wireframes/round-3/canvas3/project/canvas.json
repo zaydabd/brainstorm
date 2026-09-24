@@ -1,0 +1,558 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-09-24T08:59:03Z"
+ },
+ "title": "Portfolio block-out · round 3",
+ "launch": {
+  "view": "canvas"
+ },
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 260,
+   "w": 320,
+   "h": 6889,
+   "title": "I · List + detail reader, with slots · 320"
+  },
+  "I-1440.dc.html": {
+   "x": 1080,
+   "y": 260,
+   "w": 1440,
+   "h": 2883,
+   "title": "I · List + detail reader, with slots · 1440"
+  },
+  "K-320.dc.html": {
+   "x": 0,
+   "y": 7509,
+   "w": 320,
+   "h": 7485,
+   "title": "K · Credits poster, with slots · 320"
+  },
+  "K-1440.dc.html": {
+   "x": 1080,
+   "y": 7509,
+   "w": 1440,
+   "h": 4892,
+   "title": "K · Credits poster, with slots · 1440"
+  },
+  "L-320.dc.html": {
+   "x": 0,
+   "y": 15354,
+   "w": 320,
+   "h": 7766,
+   "title": "L · Mark spine, with slots · 320"
+  },
+  "L-1440.dc.html": {
+   "x": 1080,
+   "y": 15354,
+   "w": 1440,
+   "h": 6107,
+   "title": "L · Mark spine, with slots · 1440"
+  },
+  "M-320.dc.html": {
+   "x": 0,
+   "y": 23480,
+   "w": 320,
+   "h": 8033,
+   "title": "M · Employer wall, with slots · 320"
+  },
+  "M-1440.dc.html": {
+   "x": 1080,
+   "y": 23480,
+   "w": 1440,
+   "h": 4872,
+   "title": "M · Employer wall, with slots · 1440"
+  },
+  "N-320.dc.html": {
+   "x": 0,
+   "y": 31873,
+   "w": 320,
+   "h": 7298,
+   "title": "N · Zigzag rhythm · 320"
+  },
+  "N-1440.dc.html": {
+   "x": 1080,
+   "y": 31873,
+   "w": 1440,
+   "h": 4606,
+   "title": "N · Zigzag rhythm · 1440"
+  },
+  "O-320.dc.html": {
+   "x": 0,
+   "y": 39531,
+   "w": 320,
+   "h": 7415,
+   "title": "O · Bento board · 320"
+  },
+  "O-1440.dc.html": {
+   "x": 1080,
+   "y": 39531,
+   "w": 1440,
+   "h": 3706,
+   "title": "O · Bento board · 1440"
+  },
+  "P-320.dc.html": {
+   "x": 0,
+   "y": 47306,
+   "w": 320,
+   "h": 7478,
+   "title": "P · Ruler spine · 320"
+  },
+  "P-1440.dc.html": {
+   "x": 1080,
+   "y": 47306,
+   "w": 1440,
+   "h": 6079,
+   "title": "P · Ruler spine · 1440"
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "I-1440.dc.html",
+  "K-320.dc.html",
+  "K-1440.dc.html",
+  "L-320.dc.html",
+  "L-1440.dc.html",
+  "M-320.dc.html",
+  "M-1440.dc.html",
+  "N-320.dc.html",
+  "N-1440.dc.html",
+  "O-320.dc.html",
+  "O-1440.dc.html",
+  "P-320.dc.html",
+  "P-1440.dc.html"
+ ],
+ "notes": {
+  "Ititle": {
+   "x": 0,
+   "y": 20,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option I · List + detail reader, with slots (RESP-06 two panes · slots: opening visual, a visual thumb per Main row (SCAN-12, one side), row hover, marquee, copy email)"
+  },
+  "I-320-task": {
+   "x": 400,
+   "y": 260,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption I (kept): the round-2 reader plus an opening visual beside the decision, a visual thumb trailing each Main row, full-row hover on the list and timeline, the name marquee as a closing band and click-to-copy email.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "I-320-ledger": {
+   "x": 400,
+   "y": 900,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · single column, master order · SCAN-01, PRIO-02, GRP-02, RESP-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nHV Home · visual slot beside the decision · single column, master order · HIER-03, HIER-01, CPLX-01, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nILv Projects list · list pane with a visual thumb on each Main row, full-row hover · single column, master order · RESP-06, SCAN-10, SCAN-12, SCAN-04, Asked Q4, Asked Q5, RESP-01 · \"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)\nIP1 Project case study · iZone rebuild detail pane · single column, master order · RESP-06, INT-10, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)\nIP2 Project case study · Digital Form detail pane · single column, master order · RESP-06, INT-10, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)\nIP3 Project case study · MyInsights detail pane · single column, master order · RESP-06, INT-10, GRP-02, A11Y-04, TYPE-01, Asked Q5, RESP-01 · \"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2f About/Experience · timeline, full-row hover · single column, master order · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · single column, master order · HIER-03, SCAN-01, CONV-05, RESP-01 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "I-320-fail": {
+   "x": 400,
+   "y": 2540,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1535 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1950 px.\n• SCAN-01: the visual slot above About pushes it to 860 px, screen 2.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.\n• Asked Q6: the Minor Projects rows (in the list pane) come before the timeline."
+  },
+  "I-1440-task": {
+   "x": 2600,
+   "y": 260,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption I (kept): the round-2 reader plus an opening visual beside the decision, a visual thumb trailing each Main row, full-row hover on the list and timeline, the name marquee as a closing band and click-to-copy email.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "I-1440-ledger": {
+   "x": 2600,
+   "y": 900,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · left half: decision, then title · SCAN-03, HIER-01, SCAN-01, PRIO-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · left half: decision, then title · SCAN-01, PRIO-02, GRP-02 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nHV Home · visual slot beside the decision · beside the decision, never above it · HIER-03, HIER-01, CPLX-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · right · SCAN-03, PRIO-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · right · PRIO-04, A11Y-01, GRP-02, Asked Q4 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nILv Projects list · list pane with a visual thumb on each Main row, full-row hover · list pane, pinned · RESP-06, SCAN-10, SCAN-12, SCAN-04, Asked Q4, Asked Q5 · \"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)\nIP1 Project case study · iZone rebuild detail pane · detail pane · RESP-06, INT-10, GRP-02, A11Y-04, TYPE-01, Asked Q5 · \"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)\nIPX Project case study · where Digital Form and MyInsights appear at 1440 · detail pane · RESP-06, PRIO-04 · \"Pages: Home, Projects list, Project case study, About/Experience, Contact\" (your request)\nX1 About/Experience · How I work · left half · PRIO-01, SCAN-05 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2f About/Experience · timeline, full-row hover · right half · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · closing band, full width · HIER-03, SCAN-01, CONV-05 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "I-1440-fail": {
+   "x": 2600,
+   "y": 2540,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 801 px (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1110 px.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.\n• Asked Q6: the Minor Projects rows (in the list pane) come before the timeline.\n• Spec \"shows the three Main Projects, each with all its fields\": at 1440 one detail shows at a time."
+  },
+  "Ktitle": {
+   "x": 0,
+   "y": 7269,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option K · Credits poster, with slots (HIER-03 marks after the decision · slots: light rays behind the title card, marks grey until touched, a visual after each project (SCAN-12, trailing side))"
+  },
+  "K-320-task": {
+   "x": 400,
+   "y": 7509,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption K (kept): the title card gains a light-rays layer (1440, pointer only); the credits strip greys its marks until touched; each Main Project gets a trailing visual; rows hover; the name marquee closes the page.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "K-320-ledger": {
+   "x": 400,
+   "y": 8149,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nF0r Home · title card with a light-rays layer behind it · single column, master order · HIER-01, HIER-04, SCAN-03, CPLX-02, PRIO-01, RESP-01 · \"Rays that follow the cursor · Off on touch and under reduced motion.\" (moodboard, Fun that fits 14 KB)\nKCf Home · credits strip, marks grey until touched · single column, master order · HIER-03, SCAN-12, SCAN-02, CPLX-01, SCAN-10, RESP-01 · \"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nP1 Project case study · iZone rebuild · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV1 Project case study · visual slot for iZone rebuild · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP2 Project case study · Digital Form · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV2 Project case study · visual slot for Digital Form · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP3 Project case study · MyInsights · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nV3 Project case study · visual slot for MyInsights · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2f About/Experience · timeline, full-row hover · single column, master order · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nM1f Projects list · Minor Projects, full-row hover · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · single column, master order · HIER-03, SCAN-01, CONV-05, RESP-01 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "K-320-fail": {
+   "x": 400,
+   "y": 9789,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1878 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2613 px.\n• SCAN-01: the visual slots above About push it to 1046 px, screen 2.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.\n• Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call).\n• PRIO-01: the credits strip moves employer names (journey stage 4) above About; placed on your request only."
+  },
+  "K-1440-task": {
+   "x": 2600,
+   "y": 7509,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption K (kept): the title card gains a light-rays layer (1440, pointer only); the credits strip greys its marks until touched; each Main Project gets a trailing visual; rows hover; the name marquee closes the page.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "K-1440-ledger": {
+   "x": 2600,
+   "y": 8149,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nF0r Home · title card with a light-rays layer behind it · title card, cols 1–10 · HIER-01, HIER-04, SCAN-03, CPLX-02, PRIO-01, HIER-01 · \"Rays that follow the cursor · Off on touch and under reduced motion.\" (moodboard, Fun that fits 14 KB)\nKCf Home · credits strip, marks grey until touched · credits strip, full width · HIER-03, SCAN-12, SCAN-02, CPLX-01, SCAN-10 · \"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)\nH4 Home · About · cols 3–8 · SCAN-03, PRIO-01, TYPE-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · cols 3–8 · PRIO-04, A11Y-01, GRP-02, Asked Q4, TYPE-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · cols 3–8 · HIER-02, SCAN-05, TYPE-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nP1 Project case study · iZone rebuild · cols 3–8 · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV1 Project case study · visual slot for iZone rebuild · trailing, beside its project · HIER-02, SCAN-12, HIER-03, GRID-02 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP2 Project case study · Digital Form · cols 3–8 · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV2 Project case study · visual slot for Digital Form · trailing, beside its project · HIER-02, SCAN-12, HIER-03, GRID-02 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP3 Project case study · MyInsights · cols 3–8 · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nV3 Project case study · visual slot for MyInsights · trailing, beside its project · HIER-02, SCAN-12, HIER-03, GRID-02 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX1 About/Experience · How I work · cols 3–8 · PRIO-01, SCAN-05, TYPE-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2f About/Experience · timeline, full-row hover · cols 3–8 · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, TYPE-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nM1f Projects list · Minor Projects, full-row hover · cols 3–8 · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, TYPE-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · closing band, full width · HIER-03, SCAN-01, CONV-05 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer, cols 3–8 · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "K-1440-fail": {
+   "x": 2600,
+   "y": 9789,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1480 px (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1927 px.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.\n• Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call).\n• PRIO-01: the credits strip moves employer names (journey stage 4) above About; placed on your request only."
+  },
+  "Ltitle": {
+   "x": 0,
+   "y": 15114,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option L · Mark spine, with slots (SCAN-12 marks on the trailing edge · slots: a full-width visual interlude after each project for rhythm, marks grey until touched)"
+  },
+  "L-320-task": {
+   "x": 400,
+   "y": 15354,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption L (kept): the mark spine stays on the trailing edge; between projects a full-width visual interlude sets a text / picture / text beat; marks grey until touched; closing marquee; copy email.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "L-320-ledger": {
+   "x": 400,
+   "y": 15994,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · single column, master order · SCAN-01, PRIO-02, GRP-02, RESP-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nHV Home · visual slot beside the decision · single column, master order · HIER-03, HIER-01, CPLX-01, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nLP1f Project case study · iZone rebuild with marks trailing, grey until touched · single column, master order · SCAN-12, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)\nVL1 Project case study · wide visual interlude after iZone rebuild · single column, master order · HIER-03, SCAN-12, CPLX-02, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nLP2 Project case study · Digital Form with its marks trailing · single column, master order · SCAN-12, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nVL2 Project case study · wide visual interlude after Digital Form · single column, master order · HIER-03, SCAN-12, CPLX-02, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nLP3 Project case study · MyInsights with its marks trailing · single column, master order · SCAN-12, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nVL3 Project case study · wide visual interlude after MyInsights · single column, master order · HIER-03, SCAN-12, CPLX-02, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nLX2 About/Experience · timeline with marks trailing each entry · single column, master order · SCAN-12, HIER-02, SCAN-10, GRP-05, Asked Q2, Asked Q6, RESP-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nM1f Projects list · Minor Projects, full-row hover · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · single column, master order · HIER-03, SCAN-01, CONV-05, RESP-01 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "L-320-fail": {
+   "x": 400,
+   "y": 17634,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1793 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2528 px.\n• SCAN-01: the visual slot above About pushes it to 860 px, screen 2.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.\n• Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+  },
+  "L-1440-task": {
+   "x": 2600,
+   "y": 15354,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption L (kept): the mark spine stays on the trailing edge; between projects a full-width visual interlude sets a text / picture / text beat; marks grey until touched; closing marquee; copy email.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "L-1440-ledger": {
+   "x": 2600,
+   "y": 15994,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · cols 3–7 · SCAN-03, HIER-01, SCAN-01, PRIO-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · cols 3–7 · SCAN-01, PRIO-02, GRP-02 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nHV Home · visual slot beside the decision · beside the decision · HIER-03, HIER-01, CPLX-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · cols 3–9 · SCAN-03, PRIO-01, TYPE-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · cols 3–9 · PRIO-04, A11Y-01, GRP-02, Asked Q4, TYPE-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · cols 3–9 · HIER-02, SCAN-05, TYPE-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nLP1f Project case study · iZone rebuild with marks trailing, grey until touched · cols 3–9, marks trailing · SCAN-12, HIER-02, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)\nVL1 Project case study · wide visual interlude after iZone rebuild · full-width interlude after its project · HIER-03, SCAN-12, CPLX-02 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nLP2 Project case study · Digital Form with its marks trailing · cols 3–9, marks trailing · SCAN-12, HIER-02, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nVL2 Project case study · wide visual interlude after Digital Form · full-width interlude after its project · HIER-03, SCAN-12, CPLX-02 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nLP3 Project case study · MyInsights with its marks trailing · cols 3–9, marks trailing · SCAN-12, HIER-02, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nVL3 Project case study · wide visual interlude after MyInsights · full-width interlude after its project · HIER-03, SCAN-12, CPLX-02 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX1 About/Experience · How I work · cols 3–9 · PRIO-01, SCAN-05, TYPE-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nLX2 About/Experience · timeline with marks trailing each entry · cols 3–9 · SCAN-12, HIER-02, SCAN-10, GRP-05, Asked Q2, Asked Q6, TYPE-01 · \"Work history 2013 to present with a logo beside each company\" (references, #69 Alasdair Monk); \"a mark appears wherever an employer or client with a vector file is named\" (details, Rule 8)\nM1f Projects list · Minor Projects, full-row hover · cols 3–9 · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, TYPE-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · closing band, full width · HIER-03, SCAN-01, CONV-05 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer, cols 3–9 · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "L-1440-fail": {
+   "x": 2600,
+   "y": 17634,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1201 px (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1624 px.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.\n• Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+  },
+  "Mtitle": {
+   "x": 0,
+   "y": 23240,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option M · Employer wall, with slots (GRP-01 one tile per employer · slots: visual tiles woven into the wall for a checkerboard rhythm, marks grey until touched)"
+  },
+  "M-320-task": {
+   "x": 400,
+   "y": 23480,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption M (kept): the wall becomes a 4-across checkerboard (1440) of employer tiles and visual tiles, newest first, read row by row; marks grey until touched; rows hover; closing marquee.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "M-320-ledger": {
+   "x": 400,
+   "y": 24120,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · single column, master order · SCAN-01, PRIO-02, GRP-02, RESP-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nHV Home · visual slot beside the decision · single column, master order · HIER-03, HIER-01, CPLX-01, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nP1 Project case study · iZone rebuild · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nMT0f About/Experience · wall heading, marks grey until touched · single column, master order · HIER-02, SCAN-10, RESP-01 · \"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)\nMT1 History · employer tile 1 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nVT1 History · visual tile 1 in the wall · single column, master order · GRID-01, GRID-03, GRP-01, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nMT2 History · employer tile 2 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT3 History · employer tile 3 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nVT2 History · visual tile 2 in the wall · single column, master order · GRID-01, GRID-03, GRP-01, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nMT4 History · employer tile 4 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT5 History · employer tile 5 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nVT3 History · visual tile 3 in the wall · single column, master order · GRID-01, GRID-03, GRP-01, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nMT6 History · employer tile 6 · single column, master order · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2, RESP-01 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nM1f Projects list · Minor Projects, full-row hover · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · single column, master order · HIER-03, SCAN-01, CONV-05, RESP-01 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "M-320-fail": {
+   "x": 400,
+   "y": 25760,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1691 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2426 px.\n• SCAN-01: the visual slot above About pushes it to 860 px, screen 2.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.\n• Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+  },
+  "M-1440-task": {
+   "x": 2600,
+   "y": 23480,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption M (kept): the wall becomes a 4-across checkerboard (1440) of employer tiles and visual tiles, newest first, read row by row; marks grey until touched; rows hover; closing marquee.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "M-1440-ledger": {
+   "x": 2600,
+   "y": 24120,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · cols 3–7 · SCAN-03, HIER-01, SCAN-01, PRIO-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · cols 3–7 · SCAN-01, PRIO-02, GRP-02 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nHV Home · visual slot beside the decision · beside the decision · HIER-03, HIER-01, CPLX-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · one column, cols 3–8 · SCAN-03, PRIO-01, TYPE-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · one column, cols 3–8 · PRIO-04, A11Y-01, GRP-02, Asked Q4, TYPE-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · one column, cols 3–8 · HIER-02, SCAN-05, TYPE-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nP1 Project case study · iZone rebuild · one column, cols 3–8 · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP2 Project case study · Digital Form · one column, cols 3–8 · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · one column, cols 3–8 · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nX1 About/Experience · How I work · one column, cols 3–8 · PRIO-01, SCAN-05, TYPE-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nMT0f About/Experience · wall heading, marks grey until touched · wall heading · HIER-02, SCAN-10 · \"Grey until touched · the employer marks sit in ice grey and turn to their own colours on hover\" (moodboard, Fun that fits 14 KB)\nMT1 History · employer tile 1 · wall row 1 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nVT1 History · visual tile 1 in the wall · wall row 1 · GRID-01, GRID-03, GRP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nMT2 History · employer tile 2 · wall row 1 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT3 History · employer tile 3 · wall row 1 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nVT2 History · visual tile 2 in the wall · wall row 2 · GRID-01, GRID-03, GRP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nMT4 History · employer tile 4 · wall row 2 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nMT5 History · employer tile 5 · wall row 2 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nVT3 History · visual tile 3 in the wall · wall row 2 · GRID-01, GRID-03, GRP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nMT6 History · employer tile 6 · wall row 3 · GRP-01, GRID-01, SCAN-10, GRP-05, Asked Q2 · \"album art, minimalist movie posters, bento layouts\" (next-session brief); \"An organisation with no vector file appears in type.\" (details, Rule 8)\nM1f Projects list · Minor Projects, full-row hover · cols 3–8 · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · closing band, full width · HIER-03, SCAN-01, CONV-05 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer, cols 3–8 · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "M-1440-fail": {
+   "x": 2600,
+   "y": 25760,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1086 px (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1533 px.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.\n• Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Large client marks raise that risk (his call)."
+  },
+  "Ntitle": {
+   "x": 0,
+   "y": 31633,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option N · Zigzag rhythm (SCAN-12: zigzag is allowed for 2–3 rows · text and visual trade sides down the three Main Projects)"
+  },
+  "N-320-task": {
+   "x": 400,
+   "y": 31873,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption N (new): the three Main Projects alternate text and visual sides at 1440 (text leads rows 1 and 3, the visual leads row 2 by CSS order; DOM keeps text first, A11Y-C1). At 320 each project reads text, then its visual.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "N-320-ledger": {
+   "x": 400,
+   "y": 32513,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · single column, master order · SCAN-01, PRIO-02, GRP-02, RESP-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nHV Home · visual slot beside the decision · single column, master order · HIER-03, HIER-01, CPLX-01, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nP1 Project case study · iZone rebuild · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV1 Project case study · visual slot for iZone rebuild · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP2 Project case study · Digital Form · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV2 Project case study · visual slot for Digital Form · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP3 Project case study · MyInsights · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nV3 Project case study · visual slot for MyInsights · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2f About/Experience · timeline, full-row hover · single column, master order · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nM1f Projects list · Minor Projects, full-row hover · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · single column, master order · HIER-03, SCAN-01, CONV-05, RESP-01 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "N-320-fail": {
+   "x": 400,
+   "y": 34153,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1691 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2426 px.\n• SCAN-01: the visual slot above About pushes it to 860 px, screen 2.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+  },
+  "N-1440-task": {
+   "x": 2600,
+   "y": 31873,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption N (new): the three Main Projects alternate text and visual sides at 1440 (text leads rows 1 and 3, the visual leads row 2 by CSS order; DOM keeps text first, A11Y-C1). At 320 each project reads text, then its visual.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "N-1440-ledger": {
+   "x": 2600,
+   "y": 32513,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · leading seven columns · SCAN-03, HIER-01, SCAN-01, PRIO-01, HIER-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · leading seven columns · SCAN-01, PRIO-02, GRP-02, HIER-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nHV Home · visual slot beside the decision · trailing, beside the decision · HIER-03, HIER-01, CPLX-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · cols 3–8 · SCAN-03, PRIO-01, TYPE-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · cols 3–8 · PRIO-04, A11Y-01, GRP-02, Asked Q4, TYPE-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · cols 3–8 · HIER-02, SCAN-05, TYPE-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nP1 Project case study · iZone rebuild · row 1: text leading · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV1 Project case study · visual slot for iZone rebuild · row 1: visual trailing · HIER-02, SCAN-12, HIER-03 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nV2 Project case study · visual slot for Digital Form · row 2: visual leading (CSS order; DOM text first) · SCAN-12, A11Y-C1, HIER-03 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP2 Project case study · Digital Form · row 2: text trailing · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · row 3: text leading · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nV3 Project case study · visual slot for MyInsights · row 3: visual trailing · HIER-02, SCAN-12, HIER-03 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX1 About/Experience · How I work · cols 3–8 · PRIO-01, SCAN-05, TYPE-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2f About/Experience · timeline, full-row hover · cols 3–8 · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, TYPE-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nM1f Projects list · Minor Projects, full-row hover · cols 3–8 · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, TYPE-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · closing band, full width · HIER-03, SCAN-01, CONV-05 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer, cols 3–8 · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "N-1440-fail": {
+   "x": 2600,
+   "y": 34153,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1243 px (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1666 px.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.\n• HIER-02: in row 2 the visual leads its project heading (zigzag by CSS order; DOM keeps text first)."
+  },
+  "Otitle": {
+   "x": 0,
+   "y": 39291,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option O · Bento board (GRP-C3: every item in its own tile (GRP-01) against keeping block count low (CPLX-01) · brief \"bento layouts\")"
+  },
+  "O-320-task": {
+   "x": 400,
+   "y": 39531,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption O (new): at 1440 the page is a tile board: the title card with its rays, an opening visual, About and Qualifications, the three Main Projects at different tile sizes with visual tiles between them, then History and Minor Projects side by side. Row by row, it keeps the master order.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "O-320-ledger": {
+   "x": 400,
+   "y": 40171,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nF0r Home · title card with a light-rays layer behind it · single column, master order · HIER-01, HIER-04, SCAN-03, CPLX-02, PRIO-01, RESP-01 · \"Rays that follow the cursor · Off on touch and under reduced motion.\" (moodboard, Fun that fits 14 KB)\nHV Home · visual slot beside the decision · single column, master order · HIER-03, HIER-01, CPLX-01, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nP1 Project case study · iZone rebuild · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV1 Project case study · visual slot for iZone rebuild · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP2 Project case study · Digital Form · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nV2 Project case study · visual slot for Digital Form · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nV3 Project case study · visual slot for MyInsights · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX2f About/Experience · timeline, full-row hover · single column, master order · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nM1f Projects list · Minor Projects, full-row hover · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · single column, master order · HIER-03, SCAN-01, CONV-05, RESP-01 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "O-320-fail": {
+   "x": 400,
+   "y": 41811,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1808 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2543 px.\n• SCAN-01: the visual slots above About push it to 976 px, screen 2.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+  },
+  "O-1440-task": {
+   "x": 2600,
+   "y": 39531,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption O (new): at 1440 the page is a tile board: the title card with its rays, an opening visual, About and Qualifications, the three Main Projects at different tile sizes with visual tiles between them, then History and Minor Projects side by side. Row by row, it keeps the master order.\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "O-1440-ledger": {
+   "x": 2600,
+   "y": 40171,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nF0r Home · title card with a light-rays layer behind it · hero tile, 8 columns · HIER-01, HIER-04, SCAN-03, CPLX-02, PRIO-01, HIER-01 · \"Rays that follow the cursor · Off on touch and under reduced motion.\" (moodboard, Fun that fits 14 KB)\nHV Home · visual slot beside the decision · visual tile beside the hero · HIER-03, HIER-01, CPLX-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · tile · SCAN-03, PRIO-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · tile · PRIO-04, A11Y-01, GRP-02, Asked Q4 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · full-width heading · HIER-02, SCAN-05 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nP1 Project case study · iZone rebuild · large tile · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV1 Project case study · visual slot for iZone rebuild · visual tile · HIER-02, SCAN-12, HIER-03 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP2 Project case study · Digital Form · tile · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nP3 Project case study · MyInsights · tile · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nV2 Project case study · visual slot for Digital Form · visual tile · HIER-02, SCAN-12, HIER-03 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX1 About/Experience · How I work · tile · PRIO-01, SCAN-05 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nV3 Project case study · visual slot for MyInsights · visual tile · HIER-02, SCAN-12, HIER-03 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX2f About/Experience · timeline, full-row hover · tile · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nM1f Projects list · Minor Projects, full-row hover · tile · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · closing band, full width · HIER-03, SCAN-01, CONV-05 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "O-1440-fail": {
+   "x": 2600,
+   "y": 41811,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1177 px (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1600 px.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target.\n• CPLX-01: 15 tiles plus header and footer, the most blocks on this canvas; each tile adds to perceived complexity (GRP-C3)."
+  },
+  "Ptitle": {
+   "x": 0,
+   "y": 47066,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option P · Ruler spine (CONV-04 leading rail: the scroll ruler, ticks are the years · moodboard \"Scroll ruler as the timeline spine\")"
+  },
+  "P-320-task": {
+   "x": 400,
+   "y": 47306,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption P (new): at 1440 a thin ruler pins to the leading edge, one tick per year 2026 → 2021, tracking your place; one column of content with visuals trailing each project. At 320 the ruler becomes a strip that pins under the header once History starts (A11Y-03: reserve scroll padding).\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "P-320-ledger": {
+   "x": 400,
+   "y": 47946,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nH2 Home · decision first · single column, master order · SCAN-03, HIER-01, SCAN-01, PRIO-01, RESP-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · single column, master order · SCAN-01, PRIO-02, GRP-02, RESP-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nHV Home · visual slot beside the decision · single column, master order · HIER-03, HIER-01, CPLX-01, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · single column, master order · HIER-02, SCAN-05, RESP-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nP1 Project case study · iZone rebuild · single column, master order · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV1 Project case study · visual slot for iZone rebuild · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP2 Project case study · Digital Form · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV2 Project case study · visual slot for Digital Form · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP3 Project case study · MyInsights · single column, master order · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, RESP-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nV3 Project case study · visual slot for MyInsights · single column, master order · HIER-02, SCAN-12, HIER-03, RESP-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nFR History · scroll ruler, ticks are the years (pinned) · single column, master order · CONV-04, A11Y-03, INT-16, Asked Q4, RESP-01 · \"Scroll ruler as the timeline spine · On a page-as-timeline, its ticks are the years.\" (moodboard, Fun that fits 14 KB)\nX2f About/Experience · timeline, full-row hover · single column, master order · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nM1f Projects list · Minor Projects, full-row hover · single column, master order · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, RESP-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · single column, master order · HIER-03, SCAN-01, CONV-05, RESP-01 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "P-320-fail": {
+   "x": 400,
+   "y": 49586,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1691 px (fold 568).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2426 px.\n• SCAN-01: the visual slot above About pushes it to 860 px, screen 2.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+  },
+  "P-1440-task": {
+   "x": 2600,
+   "y": 47306,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone. Goal-directed, so SCAN-01, -03, -07, -08 strict.\nOption P (new): at 1440 a thin ruler pins to the leading edge, one tick per year 2026 → 2021, tracking your place; one column of content with visuals trailing each project. At 320 the ruler becomes a strip that pins under the header once History starts (A11Y-03: reserve scroll padding).\nAnswered: Q1 one page, your 5 pages = sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 key controls · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 3: type-only options F, G, H, J dropped; slots added: fun (moodboard \"Fun that fits 14 KB\") and generic visuals (never photos or screenshots, Rule 10); I, K, L, M kept with slots, N, O, P new."
+  },
+  "P-1440-ledger": {
+   "x": 2600,
+   "y": 47946,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nFR History · scroll ruler, ticks are the years (pinned) · leading ruler, pinned (CSS-positioned independent region, A11Y-C1) · CONV-04, A11Y-03, A11Y-C1, Asked Q4 · \"Scroll ruler as the timeline spine · On a page-as-timeline, its ticks are the years.\" (moodboard, Fun that fits 14 KB)\nH2 Home · decision first · content column, cols 2–8; each visual straight after its project · SCAN-03, HIER-01, SCAN-01, PRIO-01, TYPE-01 · \"So the site describes his decisions first, such as row locking under enrolment load, and names the platform second.\" (proposal, intro)\nH3 Home · title · content column, cols 2–8; each visual straight after its project · SCAN-01, PRIO-02, GRP-02, TYPE-01 · \"The site uses 'OutSystems Technical Lead' throughout.\" (details, Rule 4); recruiter drop-off \"Arrive, if the title is not obvious\" (journey, Key moments)\nH4 Home · About · content column, cols 2–8; each visual straight after its project · SCAN-03, PRIO-01, TYPE-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · content column, cols 2–8; each visual straight after its project · PRIO-04, A11Y-01, GRP-02, Asked Q4, TYPE-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0f Project case study · heading, projects rise in as they enter view · content column, cols 2–8; each visual straight after its project · HIER-02, SCAN-05, TYPE-01 · \"Staged scroll reveals · sections fade and rise in. CSS view() timeline\" (moodboard, Fun that fits 14 KB)\nP1 Project case study · iZone rebuild · content column, cols 2–8; each visual straight after its project · SCAN-10, SCAN-03, HIER-02, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV1 Project case study · visual slot for iZone rebuild · content column, cols 2–8; each visual straight after its project · HIER-02, SCAN-12, HIER-03, TYPE-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP2 Project case study · Digital Form · content column, cols 2–8; each visual straight after its project · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"Each gets a semi-detailed explanation: problem, decision, trade-off, role and team, outcome and tools.\" (proposal); Asked Q5 order\nV2 Project case study · visual slot for Digital Form · content column, cols 2–8; each visual straight after its project · HIER-02, SCAN-12, HIER-03, TYPE-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nP3 Project case study · MyInsights · content column, cols 2–8; each visual straight after its project · SCAN-10, SCAN-03, GRP-02, A11Y-04, Asked Q5, TYPE-01 · \"The technical lead notes that he was not the lead on MyInsights.\" (journey, Technical lead stage 2); Asked Q5 order\nV3 Project case study · visual slot for MyInsights · content column, cols 2–8; each visual straight after its project · HIER-02, SCAN-12, HIER-03, TYPE-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nX1 About/Experience · How I work · content column, cols 2–8; each visual straight after its project · PRIO-01, SCAN-05, TYPE-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nX2f About/Experience · timeline, full-row hover · content column, cols 2–8; each visual straight after its project · SCAN-10, GRP-05, GRP-02, A11Y-04, Asked Q2, Asked Q6, TYPE-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nM1f Projects list · Minor Projects, full-row hover · content column, cols 2–8; each visual straight after its project · PRIO-01, SCAN-04, CPLX-04, GRP-02, TYPE-03, Asked Q6, TYPE-01 · \"Full-row hover highlight · Emil: a soft fill slides behind the whole row. For the Minor Projects and timeline rows\" (moodboard, Fun that fits 14 KB)\nHV Home · visual slot beside the decision · trailing, beside the decision · HIER-03, HIER-01, CPLX-01 · \"add more placeholders for content which helps with rhythm or fun\" (your message); \"the page carries no image of Wan Zayd or of his work\" (details, Rule 10)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · closing band, full width · HIER-03, SCAN-01, CONV-05 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1f Contact · email copies on click, \"Copied\" shows beside it · footer, cols 2–8 · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Rauno's click-to-copy email with a \\\"Copied\\\" confirmation\" (references, Digest of your picks)"
+  },
+  "P-1440-fail": {
+   "x": 2600,
+   "y": 49586,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1022 px (fold 765).\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1445 px.\n• Proposal: \"Marks are the only images.\" Visual slots break this unless drawn in code (markup, not image files), and each adds bytes to the 14 KB target."
+  }
+ },
+ "designSystems": []
+}
