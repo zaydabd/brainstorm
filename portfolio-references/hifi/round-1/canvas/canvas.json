@@ -74,6 +74,24 @@
       "x": 4320,
       "y": 0
     },
+    "F-Desktop.dc.html": {
+      "h": 7200,
+      "is_interactive": true,
+      "page": "book",
+      "title": "F \u00b7 Desktop 1440",
+      "w": 1440,
+      "x": 400,
+      "y": 0
+    },
+    "F-Phone.dc.html": {
+      "h": 6400,
+      "is_interactive": true,
+      "page": "book",
+      "title": "F \u00b7 Phone 320",
+      "w": 320,
+      "x": 0,
+      "y": 0
+    },
     "Main.dc.html": {
       "h": 6700,
       "page": "round1",
@@ -82,21 +100,21 @@
       "x": 0,
       "y": 0
     },
-    "F-Phone.dc.html": {
-      "x": 0,
+    "G-Phone.dc.html": {
+      "x": 2160,
       "y": 0,
       "w": 320,
-      "h": 6400,
-      "title": "F \u00b7 Phone 320",
+      "h": 6800,
+      "title": "G \u00b7 Phone 320",
       "page": "book",
       "is_interactive": true
     },
-    "F-Desktop.dc.html": {
-      "x": 400,
+    "G-Desktop.dc.html": {
+      "x": 2560,
       "y": 0,
       "w": 1440,
-      "h": 7200,
-      "title": "F \u00b7 Desktop 1440",
+      "h": 7000,
+      "title": "G \u00b7 Desktop 1440",
       "page": "book",
       "is_interactive": true
     }
@@ -107,8 +125,8 @@
   },
   "designSystems": [],
   "launch": {
-    "view": "canvas",
-    "page": "book"
+    "page": "book",
+    "view": "canvas"
   },
   "notes": {
     "t1": {
@@ -157,9 +175,18 @@
       "y": -300
     },
     "tF": {
-      "x": 0,
-      "y": -300,
+      "kind": "title1",
+      "maxW": 1840,
+      "page": "book",
       "text": "F \u00b7 The book, white (video, photos, short projects)",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "tG": {
+      "x": 2160,
+      "y": -300,
+      "text": "G \u00b7 Round-10 layout in the white book theme (blended video and photos, logos)",
       "kind": "title1",
       "maxW": 1840,
       "page": "book"
@@ -177,7 +204,9 @@
     "E-Phone.dc.html",
     "E-Desktop.dc.html",
     "F-Phone.dc.html",
-    "F-Desktop.dc.html"
+    "F-Desktop.dc.html",
+    "G-Phone.dc.html",
+    "G-Desktop.dc.html"
   ],
   "pages": [
     {
@@ -190,7 +219,7 @@
     },
     {
       "id": "book",
-      "name": "F \u00b7 The book, white"
+      "name": "Book: F and G"
     }
   ],
   "title": "Portfolio hi-fi"
