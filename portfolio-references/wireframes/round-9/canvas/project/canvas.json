@@ -1,0 +1,96 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-09-24T11:11:01Z"
+ },
+ "title": "Portfolio block-out · round 9",
+ "launch": {
+  "view": "canvas"
+ },
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 260,
+   "w": 320,
+   "h": 6672,
+   "title": "PS · R3 · poster shelf, round 9 · 320"
+  },
+  "PS-1440.dc.html": {
+   "x": 1080,
+   "y": 260,
+   "w": 1440,
+   "h": 4706,
+   "title": "PS · R3 · poster shelf, round 9 · 1440"
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "PS-1440.dc.html"
+ ],
+ "notes": {
+  "PStitle": {
+   "x": 0,
+   "y": 20,
+   "kind": "title1",
+   "maxW": 3200,
+   "text": "Option PS · R3 · poster shelf, round 9 (Round-8 PS with a minimal moving history strip on phones)"
+  },
+  "PS-320-task": {
+   "x": 400,
+   "y": 260,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone.\nOption PS, round 9. Same as round 8 except the phone history: one strip, 96 px tall like Worked with, drifting left to right (the other way from Worked with). Each period shows only its dates, employer (mark where one exists) and role, with the client after ↳. Nothing to tap; Pause stops it. The desktop keeps the clickable bar and the panel under it.\nAnswered: Q1 one page, 5 sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 9 feedback: on a phone the history is one minimal component like Worked with, moving left to right."
+  },
+  "PS-320-ledger": {
+   "x": 400,
+   "y": 900,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top, full width · CONV-01, INT-16, RESP-02, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nF0h Home · title card: the iZone decision in his own words, then years and title · single column, master order · HIER-01, HIER-04, SCAN-03, PRIO-02, PRIO-01, RESP-01 · \"Once the site exists, Wan Zayd owns a document that describes him in his own voice.\" (details); \"Change them to something bit more humble less slop\" (your feedback, round 6)\nGLh Home · At a glance, plain counts · single column, master order · SCAN-01, CPLX-03, GRP-02, CPLX-01, RESP-01 · \"Once the site exists, Wan Zayd owns a document that describes him in his own voice.\" (details); \"Change them to something bit more humble less slop\" (your feedback, round 6)\nKCm Home · Worked with, a fixed-height strip drifting right to left, with Pause · single column, master order · GRP-01, A11Y-04, INT-15, RESP-04, SCAN-10, RESP-01 · \"the worked with should be a animated carousel like where by it goes from right to left showcaing all the companies i worked with so on mobile it is also the fixed height\" (your feedback, round 6); WCAG 2.2.2 Pause, Stop, Hide: moving content that starts on its own and lasts over 5 seconds needs a way to pause it\nH4 Home · About · single column, master order · SCAN-03, PRIO-01, RESP-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · single column, master order · PRIO-04, A11Y-01, GRP-02, Asked Q4, RESP-01 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0h Project case study · heading with one plain line on what each project covers · single column, master order · HIER-02, SCAN-03, SCAN-05, RESP-01 · \"Once the site exists, Wan Zayd owns a document that describes him in his own voice.\" (details); \"Change them to something bit more humble less slop\" (your feedback, round 6)\nPS7 Project case study · the three Main Projects as a poster shelf; sideways on a phone, the next poster peeking in · single column, master order · SCAN-10, SCAN-02, CPLX-03, HIER-01, RESP-04, Asked Q4, Asked Q5, RESP-01 · \"for mobile the project section is weird\" (your feedback, round 6); RESP-06 \"List–detail shows two panes when wide and one at a time when narrow\"\nPSD7_1 Project case study · iZone rebuild notes, opened under the shelf · single column, master order · A11Y-01, PRIO-04, RESP-06, TYPE-01, Asked Q5, RESP-01 · \"Once the site exists, Wan Zayd owns a document that describes him in his own voice.\" (details); \"Change them to something bit more humble less slop\" (your feedback, round 6)\nPSX7 Project case study · where the other notes open, at every width · single column, master order · PRIO-04, RESP-06, A11Y-01, RESP-01 · \"for mobile the project section is weird\" (your feedback, round 6); RESP-06 \"List–detail shows two panes when wide and one at a time when narrow\"\nX1 About/Experience · How I work · single column, master order · PRIO-01, SCAN-05, RESP-01 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nHBs History · on a phone, one minimal strip drifting left to right, newest first, with Pause · single column, master order · GRP-01, A11Y-04, INT-15, RESP-04, RESP-08, SCAN-10, Asked Q2, RESP-01 · \"regarding the mobile for timeline make it more minimal make the rntire thing just one compnent like the worked at companent moving from left to right\" (your feedback, round 8); WCAG 2.2.2 Pause, Stop, Hide: moving content that starts on its own and lasts over 5 seconds needs a way to pause it\nMB3 Projects list · Minor Projects bento, pictures spread across rows and set beside their projects · single column, master order · GRP-01, GRID-01, CPLX-04, SCAN-04, Asked Q6, RESP-01 · \"for the minor projects youspread the picture placehodler bit more\" (your feedback, round 7)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · single column, master order · HIER-03, SCAN-01, CONV-05, RESP-01 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1h Contact · one plain line, email copies on click · last, footer · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04, RESP-02 · \"Once the site exists, Wan Zayd owns a document that describes him in his own voice.\" (details); \"Change them to something bit more humble less slop\" (your feedback, round 6)"
+  },
+  "PS-320-fail": {
+   "x": 400,
+   "y": 2540,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 2310 px (fold 568); the hero states the iZone decision in words.\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 2414 px.\n• HIER-03: two strips move on this page (Worked with and History), and motion pulls the eye. They drift in opposite directions, slowly, each with Pause.\n• Spec \"Follow his career\" / Rule 7: the phone history drops each period's tools and months to stay minimal; tools still show on every project.\n• Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Marks that loop past keep that risk (his call).\n• GRID-03: the bento mixes tile sizes on purpose, so density is uneven; CPLX-01: 13 tiles in one section.\n• Proposal: \"Marks are the only images.\" Poster art breaks this unless drawn in code; Rule 10 bars \"an image of his work\" (your call).\n• Details: \"describes him in his own voice\". The first-person lines are drafts reworded from his facts, not his words; he approves or rewrites each."
+  },
+  "PS-1440-task": {
+   "x": 2600,
+   "y": 260,
+   "w": 560,
+   "maxH": 600,
+   "fill": "blue",
+   "size": "s",
+   "text": "Dominant task (SCAN-14): judge his engineering from the decisions, then decide to interview or contact (hiring manager, tech lead; desktop). Recruiter scans title, tools, tenure; designer peer browses on a phone.\nOption PS, round 9. Same as round 8 except the phone history: one strip, 96 px tall like Worked with, drifting left to right (the other way from Worked with). Each period shows only its dates, employer (mark where one exists) and role, with the client after ↳. Nothing to tap; Pause stops it. The desktop keeps the clickable bar and the panel under it.\nAnswered: Q1 one page, 5 sections · Q2 LinkedIn dates, CV roles · Q3 fold 765 / 568 · Q4 44×44 · Q5 iZone, Digital Form, MyInsights · Q6 timeline, then Minor. Round 9 feedback: on a phone the history is one minimal component like Worked with, moving left to right."
+  },
+  "PS-1440-ledger": {
+   "x": 2600,
+   "y": 900,
+   "w": 560,
+   "maxH": 1600,
+   "fill": "gray",
+   "size": "s",
+   "text": "Placement · block · position · rules · doc line\nH1 Header · skip link, identity, nav · top bar · CONV-01, CONV-04, INT-16, A11Y-02, Asked Q4 · \"Italic-serif side nav … work … history … contact\" (moodboard, Patterns); name \"Wan Zayd Abdullah\" (LinkedIn)\nF0h Home · title card: the iZone decision in his own words, then years and title · hero, 8 columns · HIER-01, HIER-04, SCAN-03, PRIO-02, PRIO-01, HIER-01 · \"Once the site exists, Wan Zayd owns a document that describes him in his own voice.\" (details); \"Change them to something bit more humble less slop\" (your feedback, round 6)\nGLh Home · At a glance, plain counts · beside the hero, after it in reading order · SCAN-01, CPLX-03, GRP-02, CPLX-01 · \"Once the site exists, Wan Zayd owns a document that describes him in his own voice.\" (details); \"Change them to something bit more humble less slop\" (your feedback, round 6)\nKCm Home · Worked with, a fixed-height strip drifting right to left, with Pause · Worked with strip, full width · GRP-01, A11Y-04, INT-15, RESP-04, SCAN-10 · \"the worked with should be a animated carousel like where by it goes from right to left showcaing all the companies i worked with so on mobile it is also the fixed height\" (your feedback, round 6); WCAG 2.2.2 Pause, Stop, Hide: moving content that starts on its own and lasts over 5 seconds needs a way to pause it\nH4 Home · About · left half · SCAN-03, PRIO-01 · \"The hiring manager reads the About text and the title 'OutSystems Technical Lead'.\" (journey, Hiring manager stage 2)\nH5 Home · Qualifications (detail on tap) · right half · PRIO-04, A11Y-01, GRP-02, Asked Q4 · \"shows the five qualifications as minor items near the About text. It gives the detail of each one on demand.\" (details, Specs)\nP0h Project case study · heading with one plain line on what each project covers · full-width heading · HIER-02, SCAN-03, SCAN-05 · \"Once the site exists, Wan Zayd owns a document that describes him in his own voice.\" (details); \"Change them to something bit more humble less slop\" (your feedback, round 6)\nPS7 Project case study · the three Main Projects as a poster shelf; sideways on a phone, the next poster peeking in · full-width shelf · SCAN-10, SCAN-02, CPLX-03, HIER-01, RESP-04, Asked Q4, Asked Q5 · \"for mobile the project section is weird\" (your feedback, round 6); RESP-06 \"List–detail shows two panes when wide and one at a time when narrow\"\nPSD7_1 Project case study · iZone rebuild notes, opened under the shelf · notes, under the shelf · A11Y-01, PRIO-04, RESP-06, TYPE-01, Asked Q5 · \"Once the site exists, Wan Zayd owns a document that describes him in his own voice.\" (details); \"Change them to something bit more humble less slop\" (your feedback, round 6)\nPSX7 Project case study · where the other notes open, at every width · notes, under the shelf · PRIO-04, RESP-06, A11Y-01 · \"for mobile the project section is weird\" (your feedback, round 6); RESP-06 \"List–detail shows two panes when wide and one at a time when narrow\"\nX1 About/Experience · How I work · cols 3–10 · PRIO-01, SCAN-05 · \"How I work: one short paragraph, in his words, on architecture calls and running a team.\" (proposal)\nHB9 History · the clickable bar, desktop only (a phone gets the moving strip) · full-width history bar · SCAN-10, GRP-03, INT-12, RESP-05, RESP-08, Asked Q2, Asked Q4 · \"regarding the mobile for timeline make it more minimal make the rntire thing just one compnent like the worked at companent moving from left to right\" (your feedback, round 8); WCAG 2.2.2 Pause, Stop, Hide: moving content that starts on its own and lasts over 5 seconds needs a way to pause it\nHP7 History · the chosen period, opened under the bar (AvePoint by default) · the chosen period, directly under the bar · A11Y-01, A11Y-04, GRP-05, PRIO-04, RESP-06, Asked Q2 · \"for mobile the history needs work..\" (your feedback, round 6); \"Sep 2024 - Jan 2026 · 1 yr 5 mos\" (LinkedIn)\nMB3 Projects list · Minor Projects bento, pictures spread across rows and set beside their projects · full-width bento · GRP-01, GRID-01, CPLX-04, SCAN-04, Asked Q6 · \"for the minor projects youspread the picture placehodler bit more\" (your feedback, round 7)\nFM Closing · the name as a marquee (loops, pauses on hover, still under reduced motion) · closing band · HIER-03, SCAN-01, CONV-05 · \"The name as a marquee · a huge looping headline, paused on hover.\" (moodboard, Fun that fits 14 KB)\nC1h Contact · one plain line, email copies on click · footer, cols 3–10 · CONV-05, INT-11, A11Y-05, Asked Q4, INT-12, A11Y-04 · \"Once the site exists, Wan Zayd owns a document that describes him in his own voice.\" (details); \"Change them to something bit more humble less slop\" (your feedback, round 6)"
+  },
+  "PS-1440-fail": {
+   "x": 2600,
+   "y": 2540,
+   "w": 560,
+   "maxH": 900,
+   "fill": "red",
+   "size": "s",
+   "text": "Self-check · still failing\n• SCAN-01 / PRIO-02: the first Main Project decision starts at 1895 px (fold 765); the hero states the iZone decision in words.\n• Journey, Recruiter stage 1 \"Title and tools, right there\": first Tools line at 1962 px.\n• HIER-03: the Worked with strip moves right under the hero, and motion pulls the eye from it. A slow drift, grey marks and Pause soften this.\n• Proposal, Decisions on record: \"a displayed mark can imply the client endorses him\". Marks that loop past keep that risk (his call).\n• Spec \"Follow his career\": the bar shows every period, employer, role and client; tools and projects show for one period at a time.\n• GRID-03: the bento mixes tile sizes on purpose, so density is uneven; CPLX-01: 13 tiles in one section.\n• Proposal: \"Marks are the only images.\" Poster art breaks this unless drawn in code; Rule 10 bars \"an image of his work\" (your call).\n• Details: \"describes him in his own voice\". The first-person lines are drafts reworded from his facts, not his words; he approves or rewrites each."
+  }
+ },
+ "designSystems": []
+}
